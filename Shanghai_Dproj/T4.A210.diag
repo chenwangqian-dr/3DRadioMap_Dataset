@@ -1,0 +1,3153 @@
+
+
+wibatch version 3.3.5.3 - r68292
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2022.10.06 10:28:05.551 Hostname: wiselab-4
+2022.10.06 10:28:05.551 Set working directory: C:/Users/Administrator/Desktop/Project_WQ/P4
+2022.10.06 10:28:05.561 Thu Oct 6 10:28:05 2022
+
+2022.10.06 10:28:05.572 OptiX Runtime version = 40100
+2022.10.06 10:28:05.572 CUDA runtime unable to retrieve version information. (no CUDA-capable device is detected)
+2022.10.06 10:28:05.572 CUDA Runtime version = 0.0
+2022.10.06 10:28:05.573 CUDA Driver version  = 11.0
+2022.10.06 10:28:05.573 No X3D compatible CUDA cards detected - using CPU ray tracing.
+2022.10.06 10:28:05.573 Please see Appendix I.3 of the Reference Manual to troubleshoot this problem
+
+2022.10.06 10:28:06.382 Initializing X3D model
+
+2022.10.06 10:28:06.382 ============ GEOMETRY ============
+
+2022.10.06 10:28:06.382 Processing geometry (16 CPU threads)
+2022.10.06 10:28:06.382 X3D's CPU ray tracing mode does not currently support cached geometry. The geometry will be processed normally.
+2022.10.06 10:28:06.389 Loaded geometry: ./Shai1(2)(2).city
+2022.10.06 10:28:06.395 Loaded geometry: ./Shai2(2)(2).city
+2022.10.06 10:28:06.396 Loaded geometry: ./newTerrain.ter
+2022.10.06 10:28:06.399   Lowering structures to terrain
+2022.10.06 10:28:06.400     Done lowering structures to terrain
+2022.10.06 10:28:06.504   Creating candidate facets for edge creation
+2022.10.06 10:28:06.532     Done creating candidate facets for edge creation
+2022.10.06 10:28:06.535   Creating scene edges
+2022.10.06 10:28:06.542     Done creating scene edges
+2022.10.06 10:28:06.546   Finishing scene edges
+2022.10.06 10:28:06.550     Done finishing scene edges
+2022.10.06 10:28:08.102   Finishing scene edges
+2022.10.06 10:28:08.144     Done finishing scene edges
+
+2022.10.06 10:28:08.235  ============ TRANSMITTER/RECEIVER SETS ============
+
+2022.10.06 10:28:08.235 Generating transmitter and receiver sets
+2022.10.06 10:28:08.241 TxRx set: Tx  Set number: 2  Type: GridSet  Number of points: 64  APG Accelerated: no  Fit to terrain: yes
+2022.10.06 10:28:08.241   Transmitter:
+2022.10.06 10:28:08.241     Input power (dBm): 30
+2022.10.06 10:28:08.241     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 5900  Phase (degrees): 0
+2022.10.06 10:28:08.241     Antenna: Isotropic  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2022.10.06 10:28:08.241   Length (x) [m]: 630  Length (y) [m]: 630  Planar rotation (degrees): 0  Spacing (m): 80
+
+2022.10.06 10:28:08.241 TxRx set: Rx  Set number: 1  Type: GridSet  Number of points: 4096  APG Accelerated: no  Fit to terrain: yes
+2022.10.06 10:28:08.241   Receiver:
+2022.10.06 10:28:08.241     Collection radius (m): auto
+2022.10.06 10:28:08.241     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 5900  Phase (degrees): 0
+2022.10.06 10:28:08.241     Antenna: Isotropic  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2022.10.06 10:28:08.241   Length (x) [m]: 630  Length (y) [m]: 630  Planar rotation (degrees): 0  Spacing (m): 10
+
+2022.10.06 10:28:08.242   Auto Collection Radius = 5.9773m
+
+2022.10.06 10:28:08.248 ============ SCENE ============
+
+2022.10.06 10:28:08.248 Scene information: 
+                          Number of original facets: 1762
+                          Number of fragmented facets: 48847
+                          Number of spheres: 4096
+
+                          Maximum BSP depth: 42
+                          Maximum Scene Distance: 2739.79
+                          Bounding box: 
+                            Minimum: (-500, -500, -1.74844e-05)
+                            Maximum: (411.258, 500, 48)
+
+                          Number of superedges: 1261
+                          Number of subedges: 44833
+
+2022.10.06 10:28:08.248 ============ MATERIALS ============
+
+2022.10.06 10:28:08.248 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2022.10.06 10:28:08.248   Layer 0: 
+2022.10.06 10:28:08.248     Relative permittivity: 15  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2022.10.06 10:28:08.249 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2022.10.06 10:28:08.249   Layer 0: 
+2022.10.06 10:28:08.249     Relative permittivity: 15  Conductivity (S/m): 0.015  Thickness (m): 0.3  Roughness (m): 0
+
+2022.10.06 10:28:08.249 Material number: 0  Type: DielectricHalfspace  Thickness (m): 0
+2022.10.06 10:28:08.249   Layer 0: 
+2022.10.06 10:28:08.249     Relative permittivity: 25  Conductivity (S/m): 0.02  Thickness (m): 0  Roughness (m): 0
+
+2022.10.06 10:28:08.249 ============ ATMOSPHERE ============
+
+2022.10.06 10:28:08.249 Pressure = 1013.25
+2022.10.06 10:28:08.249 Temperature = 22.2
+2022.10.06 10:28:08.249 Humidity = 50
+
+2022.10.06 10:28:08.391 ============ MODEL ============
+
+2022.10.06 10:28:10.277 Starting X3D ray tracing for Tx set 2, point 1 (point 1 of 64 total)
+2022.10.06 10:28:10.278   Diffraction cone ray angle = 0.25
+2022.10.06 10:28:10.278   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:28:10.416   Ray tracing ranges: 
+2022.10.06 10:28:10.416     Minimum phi: 0
+2022.10.06 10:28:10.416     Maximum phi: 360
+2022.10.06 10:28:10.416     Minimum theta: 0
+2022.10.06 10:28:10.416     Maximum theta: 180
+2022.10.06 10:28:10.416   Model parameters: 
+2022.10.06 10:28:10.416     Reflections:         6
+2022.10.06 10:28:10.416     Transmissions:       0
+2022.10.06 10:28:10.416     Diffractions:        1
+2022.10.06 10:28:10.416     Ray spacing (degrees): 0.25
+
+2022.10.06 10:28:10.418   Advanced model parameters:
+2022.10.06 10:28:10.418     Maximum reflections before first diffraction: 3
+2022.10.06 10:28:10.418     Maximum reflections between two diffractions: 0
+2022.10.06 10:28:10.418     Maximum reflections after last diffraction: 3
+2022.10.06 10:28:18.932   CPU ray tracing (917504 active): 11% complete
+
+2022.10.06 10:28:19.000   Beginning next round of queued diffractions
+
+2022.10.06 10:31:19.904   CPU ray tracing (19857408 active): 5% complete
+2022.10.06 10:31:21.559   CPU ray tracing (20316160 active): 10% complete
+2022.10.06 10:31:22.719   CPU ray tracing (20774912 active): 15% complete
+2022.10.06 10:31:23.596   Total Number of Rays shot: 22085632
+2022.10.06 10:31:23.597   Total Number of active rays shot: 19764330
+2022.10.06 10:31:23.597   Total Initial Rays shot: 663228
+2022.10.06 10:31:23.597   983101 unique paths found.
+
+2022.10.06 10:31:23.597   Calculating E-fields and generating output
+
+2022.10.06 10:31:24.052     ============ ATMOSPHERE ============
+2022.10.06 10:31:24.052     Frequency = 5.9e+09
+2022.10.06 10:31:24.052     Attenuation (db/km) = 0.00960705
+2022.10.06 10:31:25.058     Paths   Channels  Database   Output 
+2022.10.06 10:31:25.059     46.83% -  43.38% -  15.79% - 15.79% 
+2022.10.06 10:31:26.061     87.18% -  79.17%    29.93% - 29.93% 
+2022.10.06 10:31:27.877    100.00% - 100.00%    29.93% - 29.93% 
+2022.10.06 10:31:29.744    100.00% - 100.00%    59.08% - 59.08% 
+2022.10.06 10:31:29.744    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:31:30.214     Original interaction chains:        983101
+2022.10.06 10:31:30.214     Interaction chains eliminated:      916273
+2022.10.06 10:31:30.214     Physical paths generated:            66828
+2022.10.06 10:31:30.214     High power paths retained:           66828
+2022.10.06 10:31:30.214     Low power paths eliminated:              0
+
+
+2022.10.06 10:31:30.215 Starting X3D ray tracing for Tx set 2, point 2 (point 2 of 64 total)
+2022.10.06 10:31:30.634   Diffraction cone ray angle = 0.25
+2022.10.06 10:31:30.634   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:31:30.660   Ray tracing ranges: 
+2022.10.06 10:31:30.660     Minimum phi: 0
+2022.10.06 10:31:30.660     Maximum phi: 360
+2022.10.06 10:31:30.660     Minimum theta: 0
+2022.10.06 10:31:30.661     Maximum theta: 180
+2022.10.06 10:31:30.661   Model parameters: 
+2022.10.06 10:31:30.661     Reflections:         6
+2022.10.06 10:31:30.661     Transmissions:       0
+2022.10.06 10:31:30.661     Diffractions:        1
+2022.10.06 10:31:30.661     Ray spacing (degrees): 0.25
+
+2022.10.06 10:31:30.663   Advanced model parameters:
+2022.10.06 10:31:30.663     Maximum reflections before first diffraction: 3
+2022.10.06 10:31:30.663     Maximum reflections between two diffractions: 0
+2022.10.06 10:31:30.663     Maximum reflections after last diffraction: 3
+2022.10.06 10:31:40.869   CPU ray tracing (983040 active): 5% complete
+
+2022.10.06 10:31:40.974   Beginning next round of queued diffractions
+
+2022.10.06 10:35:48.821   CPU ray tracing (22806528 active): 5% complete
+2022.10.06 10:35:50.554   CPU ray tracing (23199744 active): 10% complete
+2022.10.06 10:35:51.645   CPU ray tracing (23592960 active): 16% complete
+2022.10.06 10:35:52.666   CPU ray tracing (24707072 active): 90% complete
+2022.10.06 10:35:52.782   Total Number of Rays shot: 25100288
+2022.10.06 10:35:52.782   Total Number of active rays shot: 22593530
+2022.10.06 10:35:52.782   Total Initial Rays shot: 663228
+2022.10.06 10:35:52.782   1012101 unique paths found.
+
+2022.10.06 10:35:52.782   Calculating E-fields and generating output
+
+2022.10.06 10:35:53.253     ============ ATMOSPHERE ============
+2022.10.06 10:35:53.253     Frequency = 5.9e+09
+2022.10.06 10:35:53.253     Attenuation (db/km) = 0.00960705
+2022.10.06 10:35:54.286     Paths   Channels  Database   Output 
+2022.10.06 10:35:54.286     48.81% -  44.82% -  17.77% - 17.77% 
+2022.10.06 10:35:55.298     94.40% -  84.59%    34.25% - 34.25% 
+2022.10.06 10:35:58.012    100.00% - 100.00%    34.25% - 34.25% 
+2022.10.06 10:35:58.889    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:35:59.945     Original interaction chains:       1012101
+2022.10.06 10:35:59.945     Interaction chains eliminated:      946375
+2022.10.06 10:35:59.945     Physical paths generated:            65726
+2022.10.06 10:35:59.945     High power paths retained:           65726
+2022.10.06 10:35:59.945     Low power paths eliminated:              0
+
+
+2022.10.06 10:35:59.946 Starting X3D ray tracing for Tx set 2, point 3 (point 3 of 64 total)
+2022.10.06 10:36:00.379   Diffraction cone ray angle = 0.25
+2022.10.06 10:36:00.379   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:36:00.407   Ray tracing ranges: 
+2022.10.06 10:36:00.407     Minimum phi: 0
+2022.10.06 10:36:00.407     Maximum phi: 360
+2022.10.06 10:36:00.407     Minimum theta: 0
+2022.10.06 10:36:00.407     Maximum theta: 180
+2022.10.06 10:36:00.407   Model parameters: 
+2022.10.06 10:36:00.407     Reflections:         6
+2022.10.06 10:36:00.407     Transmissions:       0
+2022.10.06 10:36:00.407     Diffractions:        1
+2022.10.06 10:36:00.407     Ray spacing (degrees): 0.25
+
+2022.10.06 10:36:00.409   Advanced model parameters:
+2022.10.06 10:36:00.409     Maximum reflections before first diffraction: 3
+2022.10.06 10:36:00.409     Maximum reflections between two diffractions: 0
+2022.10.06 10:36:00.409     Maximum reflections after last diffraction: 3
+2022.10.06 10:36:10.335   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 10:36:10.443   Beginning next round of queued diffractions
+
+2022.10.06 10:40:13.081   CPU ray tracing (24117248 active): 5% complete
+2022.10.06 10:40:19.912   CPU ray tracing (25362432 active): 10% complete
+2022.10.06 10:40:21.493   CPU ray tracing (25886720 active): 16% complete
+2022.10.06 10:40:22.292   Total Number of Rays shot: 26935296
+2022.10.06 10:40:22.292   Total Number of active rays shot: 24541261
+2022.10.06 10:40:22.292   Total Initial Rays shot: 663228
+2022.10.06 10:40:22.292   1028824 unique paths found.
+
+2022.10.06 10:40:22.292   Calculating E-fields and generating output
+
+2022.10.06 10:40:22.773     ============ ATMOSPHERE ============
+2022.10.06 10:40:22.773     Frequency = 5.9e+09
+2022.10.06 10:40:22.773     Attenuation (db/km) = 0.00960705
+2022.10.06 10:40:23.822     Paths   Channels  Database   Output 
+2022.10.06 10:40:23.822     44.80% -  40.99% -  14.28% - 14.28% 
+2022.10.06 10:40:24.855     86.46%    76.80%    27.24% - 27.24% 
+2022.10.06 10:40:28.203    100.00% - 100.00%    43.79% - 43.79% 
+2022.10.06 10:40:28.203    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:40:30.073     Original interaction chains:       1028824
+2022.10.06 10:40:30.073     Interaction chains eliminated:      963855
+2022.10.06 10:40:30.073     Physical paths generated:            64969
+2022.10.06 10:40:30.073     High power paths retained:           64969
+2022.10.06 10:40:30.073     Low power paths eliminated:              0
+
+
+2022.10.06 10:40:30.082 Starting X3D ray tracing for Tx set 2, point 4 (point 4 of 64 total)
+2022.10.06 10:40:30.552   Diffraction cone ray angle = 0.25
+2022.10.06 10:40:30.552   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:40:30.579   Ray tracing ranges: 
+2022.10.06 10:40:30.579     Minimum phi: 0
+2022.10.06 10:40:30.579     Maximum phi: 360
+2022.10.06 10:40:30.579     Minimum theta: 0
+2022.10.06 10:40:30.579     Maximum theta: 180
+2022.10.06 10:40:30.579   Model parameters: 
+2022.10.06 10:40:30.579     Reflections:         6
+2022.10.06 10:40:30.579     Transmissions:       0
+2022.10.06 10:40:30.579     Diffractions:        1
+2022.10.06 10:40:30.579     Ray spacing (degrees): 0.25
+
+2022.10.06 10:40:30.581   Advanced model parameters:
+2022.10.06 10:40:30.582     Maximum reflections before first diffraction: 3
+2022.10.06 10:40:30.582     Maximum reflections between two diffractions: 0
+2022.10.06 10:40:30.582     Maximum reflections after last diffraction: 3
+2022.10.06 10:40:39.888   CPU ray tracing (983040 active): 6% complete
+
+2022.10.06 10:40:39.983   Beginning next round of queued diffractions
+
+2022.10.06 10:44:36.012   CPU ray tracing (25165824 active): 5% complete
+2022.10.06 10:44:37.895   CPU ray tracing (25559040 active): 10% complete
+2022.10.06 10:44:39.593   CPU ray tracing (26083328 active): 15% complete
+2022.10.06 10:44:40.608   Total Number of Rays shot: 27525120
+2022.10.06 10:44:40.608   Total Number of active rays shot: 25173067
+2022.10.06 10:44:40.608   Total Initial Rays shot: 663228
+2022.10.06 10:44:40.608   1031715 unique paths found.
+
+2022.10.06 10:44:40.608   Calculating E-fields and generating output
+
+2022.10.06 10:44:41.110     ============ ATMOSPHERE ============
+2022.10.06 10:44:41.110     Frequency = 5.9e+09
+2022.10.06 10:44:41.110     Attenuation (db/km) = 0.00960705
+2022.10.06 10:44:42.139     Paths   Channels  Database   Output 
+2022.10.06 10:44:42.140     44.69% -  38.79% -  16.72% - 16.72% 
+2022.10.06 10:44:43.149     89.41%    76.92%    36.45% - 36.45% 
+2022.10.06 10:44:44.616    100.00% - 100.00%    36.45% - 36.45% 
+2022.10.06 10:44:46.061    100.00% - 100.00%    62.71% - 62.71% 
+2022.10.06 10:44:46.061    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:44:48.528     Original interaction chains:       1031715
+2022.10.06 10:44:48.528     Interaction chains eliminated:      967372
+2022.10.06 10:44:48.528     Physical paths generated:            64343
+2022.10.06 10:44:48.528     High power paths retained:           64343
+2022.10.06 10:44:48.528     Low power paths eliminated:              0
+
+
+2022.10.06 10:44:48.530 Starting X3D ray tracing for Tx set 2, point 5 (point 5 of 64 total)
+2022.10.06 10:44:48.961   Diffraction cone ray angle = 0.25
+2022.10.06 10:44:48.961   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:44:48.989   Ray tracing ranges: 
+2022.10.06 10:44:48.989     Minimum phi: 0
+2022.10.06 10:44:48.989     Maximum phi: 360
+2022.10.06 10:44:48.989     Minimum theta: 0
+2022.10.06 10:44:48.989     Maximum theta: 180
+2022.10.06 10:44:48.989   Model parameters: 
+2022.10.06 10:44:48.989     Reflections:         6
+2022.10.06 10:44:48.989     Transmissions:       0
+2022.10.06 10:44:48.989     Diffractions:        1
+2022.10.06 10:44:48.989     Ray spacing (degrees): 0.25
+
+2022.10.06 10:44:48.992   Advanced model parameters:
+2022.10.06 10:44:48.992     Maximum reflections before first diffraction: 3
+2022.10.06 10:44:48.992     Maximum reflections between two diffractions: 0
+2022.10.06 10:44:48.992     Maximum reflections after last diffraction: 3
+2022.10.06 10:44:58.781   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 10:44:58.915   Beginning next round of queued diffractions
+
+2022.10.06 10:49:20.664   CPU ray tracing (24772608 active): 5% complete
+2022.10.06 10:49:26.589   CPU ray tracing (25559040 active): 10% complete
+2022.10.06 10:49:27.610   CPU ray tracing (26345472 active): 80% complete
+2022.10.06 10:49:27.689   Total Number of Rays shot: 26607616
+2022.10.06 10:49:27.689   Total Number of active rays shot: 24716720
+2022.10.06 10:49:27.689   Total Initial Rays shot: 663228
+2022.10.06 10:49:27.690   998757 unique paths found.
+
+2022.10.06 10:49:27.690   Calculating E-fields and generating output
+
+2022.10.06 10:49:28.263     ============ ATMOSPHERE ============
+2022.10.06 10:49:28.264     Frequency = 5.9e+09
+2022.10.06 10:49:28.264     Attenuation (db/km) = 0.00960705
+2022.10.06 10:49:29.372     Paths   Channels  Database   Output 
+2022.10.06 10:49:29.372     36.29% -  33.91% -  13.69% - 13.69% 
+2022.10.06 10:49:30.384     72.55% -  61.86%    25.53% - 25.53% 
+2022.10.06 10:49:32.871    100.00% - 100.00%    42.72% - 42.72% 
+2022.10.06 10:49:33.998    100.00% - 100.00%    70.60% - 70.60% 
+2022.10.06 10:49:33.998    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:49:37.496     Original interaction chains:        998757
+2022.10.06 10:49:37.496     Interaction chains eliminated:      935463
+2022.10.06 10:49:37.496     Physical paths generated:            63294
+2022.10.06 10:49:37.496     High power paths retained:           63294
+2022.10.06 10:49:37.497     Low power paths eliminated:              0
+
+
+2022.10.06 10:49:37.498 Starting X3D ray tracing for Tx set 2, point 6 (point 6 of 64 total)
+2022.10.06 10:49:37.984   Diffraction cone ray angle = 0.25
+2022.10.06 10:49:37.984   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:49:38.013   Ray tracing ranges: 
+2022.10.06 10:49:38.013     Minimum phi: 0
+2022.10.06 10:49:38.013     Maximum phi: 360
+2022.10.06 10:49:38.013     Minimum theta: 0
+2022.10.06 10:49:38.013     Maximum theta: 180
+2022.10.06 10:49:38.013   Model parameters: 
+2022.10.06 10:49:38.013     Reflections:         6
+2022.10.06 10:49:38.013     Transmissions:       0
+2022.10.06 10:49:38.013     Diffractions:        1
+2022.10.06 10:49:38.013     Ray spacing (degrees): 0.25
+
+2022.10.06 10:49:38.016   Advanced model parameters:
+2022.10.06 10:49:38.016     Maximum reflections before first diffraction: 3
+2022.10.06 10:49:38.016     Maximum reflections between two diffractions: 0
+2022.10.06 10:49:38.016     Maximum reflections after last diffraction: 3
+2022.10.06 10:49:48.398   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 10:49:48.537   Beginning next round of queued diffractions
+
+2022.10.06 10:53:48.303   CPU ray tracing (24051712 active): 5% complete
+2022.10.06 10:53:50.848   CPU ray tracing (24576000 active): 11% complete
+2022.10.06 10:53:51.814   Total Number of Rays shot: 26017792
+2022.10.06 10:53:51.814   Total Number of active rays shot: 23783889
+2022.10.06 10:53:51.814   Total Initial Rays shot: 663228
+2022.10.06 10:53:51.814   969180 unique paths found.
+
+2022.10.06 10:53:51.814   Calculating E-fields and generating output
+
+2022.10.06 10:53:52.275     ============ ATMOSPHERE ============
+2022.10.06 10:53:52.275     Frequency = 5.9e+09
+2022.10.06 10:53:52.275     Attenuation (db/km) = 0.00960705
+2022.10.06 10:53:53.290     Paths   Channels  Database   Output 
+2022.10.06 10:53:53.290     44.24% -  37.98% -   6.27% -  6.27% 
+2022.10.06 10:53:54.315     88.46% -  78.46%    20.84% - 35.37% 
+2022.10.06 10:53:56.280    100.00% - 100.00%    40.11% - 40.11% 
+2022.10.06 10:53:56.776    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:54:00.668     Original interaction chains:        969180
+2022.10.06 10:54:00.668     Interaction chains eliminated:      903407
+2022.10.06 10:54:00.668     Physical paths generated:            65773
+2022.10.06 10:54:00.668     High power paths retained:           65773
+2022.10.06 10:54:00.668     Low power paths eliminated:              0
+
+
+2022.10.06 10:54:00.669 Starting X3D ray tracing for Tx set 2, point 7 (point 7 of 64 total)
+2022.10.06 10:54:01.088   Diffraction cone ray angle = 0.25
+2022.10.06 10:54:01.088   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:54:01.114   Ray tracing ranges: 
+2022.10.06 10:54:01.114     Minimum phi: 0
+2022.10.06 10:54:01.114     Maximum phi: 360
+2022.10.06 10:54:01.114     Minimum theta: 0
+2022.10.06 10:54:01.114     Maximum theta: 180
+2022.10.06 10:54:01.114   Model parameters: 
+2022.10.06 10:54:01.114     Reflections:         6
+2022.10.06 10:54:01.114     Transmissions:       0
+2022.10.06 10:54:01.114     Diffractions:        1
+2022.10.06 10:54:01.114     Ray spacing (degrees): 0.25
+
+2022.10.06 10:54:01.117   Advanced model parameters:
+2022.10.06 10:54:01.117     Maximum reflections before first diffraction: 3
+2022.10.06 10:54:01.117     Maximum reflections between two diffractions: 0
+2022.10.06 10:54:01.117     Maximum reflections after last diffraction: 3
+2022.10.06 10:54:10.120   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 10:54:10.221   Beginning next round of queued diffractions
+
+2022.10.06 10:57:17.338   CPU ray tracing (21561344 active): 5% complete
+2022.10.06 10:57:20.178   CPU ray tracing (22282240 active): 10% complete
+2022.10.06 10:57:21.205   CPU ray tracing (22872064 active): 28% complete
+2022.10.06 10:57:21.555   Total Number of Rays shot: 23658496
+2022.10.06 10:57:21.555   Total Number of active rays shot: 21544462
+2022.10.06 10:57:21.555   Total Initial Rays shot: 663228
+2022.10.06 10:57:21.555   959802 unique paths found.
+
+2022.10.06 10:57:21.555   Calculating E-fields and generating output
+
+2022.10.06 10:57:22.010     ============ ATMOSPHERE ============
+2022.10.06 10:57:22.010     Frequency = 5.9e+09
+2022.10.06 10:57:22.010     Attenuation (db/km) = 0.00960705
+2022.10.06 10:57:23.033     Paths   Channels  Database   Output 
+2022.10.06 10:57:23.033     48.05% -  39.79% -  17.77% - 17.77% 
+2022.10.06 10:57:24.070     92.59% -  82.27%    34.88% - 34.88% 
+2022.10.06 10:57:26.471    100.00% - 100.00%    62.98% - 62.98% 
+2022.10.06 10:57:26.471    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 10:57:31.129     Original interaction chains:        959802
+2022.10.06 10:57:31.129     Interaction chains eliminated:      892317
+2022.10.06 10:57:31.129     Physical paths generated:            67485
+2022.10.06 10:57:31.129     High power paths retained:           67485
+2022.10.06 10:57:31.129     Low power paths eliminated:              0
+
+
+2022.10.06 10:57:31.131 Starting X3D ray tracing for Tx set 2, point 8 (point 8 of 64 total)
+2022.10.06 10:57:31.549   Diffraction cone ray angle = 0.25
+2022.10.06 10:57:31.549   Using CPU ray tracer (16 CPU threads)
+2022.10.06 10:57:31.575   Ray tracing ranges: 
+2022.10.06 10:57:31.575     Minimum phi: 0
+2022.10.06 10:57:31.575     Maximum phi: 360
+2022.10.06 10:57:31.575     Minimum theta: 0
+2022.10.06 10:57:31.575     Maximum theta: 180
+2022.10.06 10:57:31.575   Model parameters: 
+2022.10.06 10:57:31.575     Reflections:         6
+2022.10.06 10:57:31.575     Transmissions:       0
+2022.10.06 10:57:31.575     Diffractions:        1
+2022.10.06 10:57:31.575     Ray spacing (degrees): 0.25
+
+2022.10.06 10:57:31.577   Advanced model parameters:
+2022.10.06 10:57:31.577     Maximum reflections before first diffraction: 3
+2022.10.06 10:57:31.577     Maximum reflections between two diffractions: 0
+2022.10.06 10:57:31.577     Maximum reflections after last diffraction: 3
+2022.10.06 10:57:40.725   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 10:57:40.828   Beginning next round of queued diffractions
+
+2022.10.06 11:00:49.541   CPU ray tracing (19857408 active): 5% complete
+2022.10.06 11:00:51.263   CPU ray tracing (20316160 active): 10% complete
+2022.10.06 11:00:52.893   CPU ray tracing (20971520 active): 15% complete
+2022.10.06 11:00:53.641   Total Number of Rays shot: 22151168
+2022.10.06 11:00:53.641   Total Number of active rays shot: 19638789
+2022.10.06 11:00:53.641   Total Initial Rays shot: 663228
+2022.10.06 11:00:53.641   999676 unique paths found.
+
+2022.10.06 11:00:53.641   Calculating E-fields and generating output
+
+2022.10.06 11:00:54.129     ============ ATMOSPHERE ============
+2022.10.06 11:00:54.129     Frequency = 5.9e+09
+2022.10.06 11:00:54.129     Attenuation (db/km) = 0.00960705
+2022.10.06 11:00:55.154     Paths   Channels  Database   Output 
+2022.10.06 11:00:55.154     46.33% -  39.08% -   6.66% -  6.66% 
+2022.10.06 11:00:56.177     89.10%    74.04%    20.84% - 20.84% 
+2022.10.06 11:00:58.492    100.00% - 100.00%    41.35% - 41.35% 
+2022.10.06 11:00:58.774    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:01:04.591     Original interaction chains:        999676
+2022.10.06 11:01:04.592     Interaction chains eliminated:      924590
+2022.10.06 11:01:04.592     Physical paths generated:            75086
+2022.10.06 11:01:04.592     High power paths retained:           75086
+2022.10.06 11:01:04.592     Low power paths eliminated:              0
+
+
+2022.10.06 11:01:04.593 Starting X3D ray tracing for Tx set 2, point 9 (point 9 of 64 total)
+2022.10.06 11:01:05.048   Diffraction cone ray angle = 0.25
+2022.10.06 11:01:05.048   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:01:05.075   Ray tracing ranges: 
+2022.10.06 11:01:05.075     Minimum phi: 0
+2022.10.06 11:01:05.075     Maximum phi: 360
+2022.10.06 11:01:05.075     Minimum theta: 0
+2022.10.06 11:01:05.075     Maximum theta: 180
+2022.10.06 11:01:05.075   Model parameters: 
+2022.10.06 11:01:05.075     Reflections:         6
+2022.10.06 11:01:05.076     Transmissions:       0
+2022.10.06 11:01:05.076     Diffractions:        1
+2022.10.06 11:01:05.076     Ray spacing (degrees): 0.25
+
+2022.10.06 11:01:05.078   Advanced model parameters:
+2022.10.06 11:01:05.078     Maximum reflections before first diffraction: 3
+2022.10.06 11:01:05.078     Maximum reflections between two diffractions: 0
+2022.10.06 11:01:05.078     Maximum reflections after last diffraction: 3
+2022.10.06 11:01:14.145   CPU ray tracing (983040 active): 12% complete
+
+2022.10.06 11:01:14.265   Beginning next round of queued diffractions
+
+2022.10.06 11:04:43.798   CPU ray tracing (23003136 active): 5% complete
+2022.10.06 11:04:45.196   CPU ray tracing (23330816 active): 10% complete
+2022.10.06 11:04:46.206   CPU ray tracing (23855104 active): 26% complete
+2022.10.06 11:04:46.949   Total Number of Rays shot: 25296896
+2022.10.06 11:04:46.949   Total Number of active rays shot: 22657839
+2022.10.06 11:04:46.949   Total Initial Rays shot: 663228
+2022.10.06 11:04:46.949   1017597 unique paths found.
+
+2022.10.06 11:04:46.949   Calculating E-fields and generating output
+
+2022.10.06 11:04:47.455     ============ ATMOSPHERE ============
+2022.10.06 11:04:47.455     Frequency = 5.9e+09
+2022.10.06 11:04:47.455     Attenuation (db/km) = 0.00960705
+2022.10.06 11:04:48.487     Paths   Channels  Database   Output 
+2022.10.06 11:04:48.487     45.35% -  41.50% -  20.89% - 20.89% 
+2022.10.06 11:04:49.509     87.50%    76.22%    38.50% - 38.50% 
+2022.10.06 11:04:51.302    100.00% - 100.00%    62.71% - 62.71% 
+2022.10.06 11:04:51.302    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:04:57.733     Original interaction chains:       1017597
+2022.10.06 11:04:57.733     Interaction chains eliminated:      951048
+2022.10.06 11:04:57.733     Physical paths generated:            66549
+2022.10.06 11:04:57.733     High power paths retained:           66549
+2022.10.06 11:04:57.733     Low power paths eliminated:              0
+
+
+2022.10.06 11:04:57.734 Starting X3D ray tracing for Tx set 2, point 10 (point 10 of 64 total)
+2022.10.06 11:04:58.175   Diffraction cone ray angle = 0.25
+2022.10.06 11:04:58.175   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:04:58.202   Ray tracing ranges: 
+2022.10.06 11:04:58.202     Minimum phi: 0
+2022.10.06 11:04:58.202     Maximum phi: 360
+2022.10.06 11:04:58.202     Minimum theta: 0
+2022.10.06 11:04:58.202     Maximum theta: 180
+2022.10.06 11:04:58.202   Model parameters: 
+2022.10.06 11:04:58.202     Reflections:         6
+2022.10.06 11:04:58.202     Transmissions:       0
+2022.10.06 11:04:58.202     Diffractions:        1
+2022.10.06 11:04:58.202     Ray spacing (degrees): 0.25
+
+2022.10.06 11:04:58.204   Advanced model parameters:
+2022.10.06 11:04:58.204     Maximum reflections before first diffraction: 3
+2022.10.06 11:04:58.204     Maximum reflections between two diffractions: 0
+2022.10.06 11:04:58.204     Maximum reflections after last diffraction: 3
+2022.10.06 11:05:08.461   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 11:05:08.554   Beginning next round of queued diffractions
+
+2022.10.06 11:08:58.129   CPU ray tracing (25427968 active): 5% complete
+2022.10.06 11:08:59.674   CPU ray tracing (25755648 active): 10% complete
+2022.10.06 11:09:00.936   CPU ray tracing (26345472 active): 26% complete
+2022.10.06 11:09:01.770   Total Number of Rays shot: 27852800
+2022.10.06 11:09:01.770   Total Number of active rays shot: 25323555
+2022.10.06 11:09:01.770   Total Initial Rays shot: 663228
+2022.10.06 11:09:01.770   1043445 unique paths found.
+
+2022.10.06 11:09:01.770   Calculating E-fields and generating output
+
+2022.10.06 11:09:02.259     ============ ATMOSPHERE ============
+2022.10.06 11:09:02.259     Frequency = 5.9e+09
+2022.10.06 11:09:02.259     Attenuation (db/km) = 0.00960705
+2022.10.06 11:09:03.286     Paths   Channels  Database   Output 
+2022.10.06 11:09:03.286     47.34% -  42.70% -  17.55% - 17.55% 
+2022.10.06 11:09:04.293     88.41% -  80.81%    32.51% - 32.51% 
+2022.10.06 11:09:05.872    100.00% - 100.00%    53.66% - 53.66% 
+2022.10.06 11:09:05.873    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:09:13.102     Original interaction chains:       1043445
+2022.10.06 11:09:13.102     Interaction chains eliminated:      979072
+2022.10.06 11:09:13.102     Physical paths generated:            64373
+2022.10.06 11:09:13.102     High power paths retained:           64373
+2022.10.06 11:09:13.102     Low power paths eliminated:              0
+
+
+2022.10.06 11:09:13.103 Starting X3D ray tracing for Tx set 2, point 11 (point 11 of 64 total)
+2022.10.06 11:09:13.547   Diffraction cone ray angle = 0.25
+2022.10.06 11:09:13.547   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:09:13.574   Ray tracing ranges: 
+2022.10.06 11:09:13.574     Minimum phi: 0
+2022.10.06 11:09:13.574     Maximum phi: 360
+2022.10.06 11:09:13.574     Minimum theta: 0
+2022.10.06 11:09:13.574     Maximum theta: 180
+2022.10.06 11:09:13.574   Model parameters: 
+2022.10.06 11:09:13.574     Reflections:         6
+2022.10.06 11:09:13.574     Transmissions:       0
+2022.10.06 11:09:13.574     Diffractions:        1
+2022.10.06 11:09:13.574     Ray spacing (degrees): 0.25
+
+2022.10.06 11:09:13.576   Advanced model parameters:
+2022.10.06 11:09:13.576     Maximum reflections before first diffraction: 3
+2022.10.06 11:09:13.576     Maximum reflections between two diffractions: 0
+2022.10.06 11:09:13.576     Maximum reflections after last diffraction: 3
+2022.10.06 11:09:24.068   CPU ray tracing (983040 active): 5% complete
+
+2022.10.06 11:09:24.162   Beginning next round of queued diffractions
+
+2022.10.06 11:13:37.846   CPU ray tracing (27394048 active): 5% complete
+2022.10.06 11:13:40.119   CPU ray tracing (27852800 active): 10% complete
+2022.10.06 11:13:41.448   CPU ray tracing (28377088 active): 21% complete
+2022.10.06 11:13:42.222   Total Number of Rays shot: 29687808
+2022.10.06 11:13:42.222   Total Number of active rays shot: 27444246
+2022.10.06 11:13:42.222   Total Initial Rays shot: 663228
+2022.10.06 11:13:42.222   1065005 unique paths found.
+
+2022.10.06 11:13:42.222   Calculating E-fields and generating output
+
+2022.10.06 11:13:42.748     ============ ATMOSPHERE ============
+2022.10.06 11:13:42.748     Frequency = 5.9e+09
+2022.10.06 11:13:42.748     Attenuation (db/km) = 0.00960705
+2022.10.06 11:13:43.779     Paths   Channels  Database   Output 
+2022.10.06 11:13:43.779     46.40% -  40.84% -   6.27% - 12.57% 
+2022.10.06 11:13:44.803     89.72% -  79.41%    40.84% - 40.84% 
+2022.10.06 11:13:46.608    100.00% - 100.00%    67.38% - 67.38% 
+2022.10.06 11:13:46.609    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:13:54.288     Original interaction chains:       1065005
+2022.10.06 11:13:54.288     Interaction chains eliminated:     1001463
+2022.10.06 11:13:54.288     Physical paths generated:            63542
+2022.10.06 11:13:54.288     High power paths retained:           63542
+2022.10.06 11:13:54.288     Low power paths eliminated:              0
+
+
+2022.10.06 11:13:54.289 Starting X3D ray tracing for Tx set 2, point 12 (point 12 of 64 total)
+2022.10.06 11:13:54.730   Diffraction cone ray angle = 0.25
+2022.10.06 11:13:54.731   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:13:54.757   Ray tracing ranges: 
+2022.10.06 11:13:54.757     Minimum phi: 0
+2022.10.06 11:13:54.757     Maximum phi: 360
+2022.10.06 11:13:54.757     Minimum theta: 0
+2022.10.06 11:13:54.757     Maximum theta: 180
+2022.10.06 11:13:54.757   Model parameters: 
+2022.10.06 11:13:54.757     Reflections:         6
+2022.10.06 11:13:54.757     Transmissions:       0
+2022.10.06 11:13:54.757     Diffractions:        1
+2022.10.06 11:13:54.757     Ray spacing (degrees): 0.25
+
+2022.10.06 11:13:54.760   Advanced model parameters:
+2022.10.06 11:13:54.760     Maximum reflections before first diffraction: 3
+2022.10.06 11:13:54.760     Maximum reflections between two diffractions: 0
+2022.10.06 11:13:54.760     Maximum reflections after last diffraction: 3
+2022.10.06 11:14:05.333   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 11:14:05.407   Beginning next round of queued diffractions
+
+2022.10.06 11:18:08.847   CPU ray tracing (27656192 active): 5% complete
+2022.10.06 11:18:11.349   CPU ray tracing (28114944 active): 11% complete
+2022.10.06 11:18:12.668   CPU ray tracing (28508160 active): 15% complete
+2022.10.06 11:18:13.696   CPU ray tracing (29163520 active): 37% complete
+2022.10.06 11:18:14.122   Total Number of Rays shot: 30081024
+2022.10.06 11:18:14.123   Total Number of active rays shot: 27853679
+2022.10.06 11:18:14.123   Total Initial Rays shot: 663228
+2022.10.06 11:18:14.123   1072549 unique paths found.
+
+2022.10.06 11:18:14.123   Calculating E-fields and generating output
+
+2022.10.06 11:18:14.661     ============ ATMOSPHERE ============
+2022.10.06 11:18:14.661     Frequency = 5.9e+09
+2022.10.06 11:18:14.661     Attenuation (db/km) = 0.00960705
+2022.10.06 11:18:15.702     Paths   Channels  Database   Output 
+2022.10.06 11:18:15.702     39.99% -  36.49% -  16.38% - 16.38% 
+2022.10.06 11:18:16.706     79.89%    67.65%    31.78% - 31.78% 
+2022.10.06 11:18:17.814    100.00% - 100.00%    31.78% - 31.78% 
+2022.10.06 11:18:19.076    100.00% - 100.00%    59.71% - 59.71% 
+2022.10.06 11:18:19.077    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:18:28.155     Original interaction chains:       1072549
+2022.10.06 11:18:28.155     Interaction chains eliminated:     1009404
+2022.10.06 11:18:28.155     Physical paths generated:            63145
+2022.10.06 11:18:28.155     High power paths retained:           63145
+2022.10.06 11:18:28.155     Low power paths eliminated:              0
+
+
+2022.10.06 11:18:28.157 Starting X3D ray tracing for Tx set 2, point 13 (point 13 of 64 total)
+2022.10.06 11:18:28.657   Diffraction cone ray angle = 0.25
+2022.10.06 11:18:28.657   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:18:28.683   Ray tracing ranges: 
+2022.10.06 11:18:28.683     Minimum phi: 0
+2022.10.06 11:18:28.683     Maximum phi: 360
+2022.10.06 11:18:28.683     Minimum theta: 0
+2022.10.06 11:18:28.683     Maximum theta: 180
+2022.10.06 11:18:28.683   Model parameters: 
+2022.10.06 11:18:28.683     Reflections:         6
+2022.10.06 11:18:28.683     Transmissions:       0
+2022.10.06 11:18:28.683     Diffractions:        1
+2022.10.06 11:18:28.683     Ray spacing (degrees): 0.25
+
+2022.10.06 11:18:28.685   Advanced model parameters:
+2022.10.06 11:18:28.685     Maximum reflections before first diffraction: 3
+2022.10.06 11:18:28.687     Maximum reflections between two diffractions: 0
+2022.10.06 11:18:28.687     Maximum reflections after last diffraction: 3
+2022.10.06 11:18:41.125   CPU ray tracing (983040 active): 10% complete
+
+2022.10.06 11:18:41.266   Beginning next round of queued diffractions
+
+2022.10.06 11:23:09.890   CPU ray tracing (28377088 active): 5% complete
+2022.10.06 11:23:13.426   CPU ray tracing (28901376 active): 10% complete
+2022.10.06 11:23:15.254   CPU ray tracing (29360128 active): 16% complete
+2022.10.06 11:23:16.277   CPU ray tracing (30277632 active): 67% complete
+2022.10.06 11:23:16.454   Total Number of Rays shot: 30801920
+2022.10.06 11:23:16.454   Total Number of active rays shot: 28519504
+2022.10.06 11:23:16.454   Total Initial Rays shot: 663228
+2022.10.06 11:23:16.454   1049841 unique paths found.
+
+2022.10.06 11:23:16.454   Calculating E-fields and generating output
+
+2022.10.06 11:23:17.019     ============ ATMOSPHERE ============
+2022.10.06 11:23:17.019     Frequency = 5.9e+09
+2022.10.06 11:23:17.019     Attenuation (db/km) = 0.00960705
+2022.10.06 11:23:18.034     Paths   Channels  Database   Output 
+2022.10.06 11:23:18.034     37.63% -  36.30% -  16.18% - 16.18% 
+2022.10.06 11:23:19.080     78.40% -  68.43%    33.59% - 33.59% 
+2022.10.06 11:23:20.103    100.00% - 100.00%    33.59% - 33.59% 
+2022.10.06 11:23:21.189    100.00% - 100.00%    59.91% - 59.91% 
+2022.10.06 11:23:21.190    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:23:31.080     Original interaction chains:       1049841
+2022.10.06 11:23:31.080     Interaction chains eliminated:      988051
+2022.10.06 11:23:31.080     Physical paths generated:            61790
+2022.10.06 11:23:31.080     High power paths retained:           61790
+2022.10.06 11:23:31.080     Low power paths eliminated:              0
+
+
+2022.10.06 11:23:31.081 Starting X3D ray tracing for Tx set 2, point 14 (point 14 of 64 total)
+2022.10.06 11:23:31.542   Diffraction cone ray angle = 0.25
+2022.10.06 11:23:31.542   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:23:31.569   Ray tracing ranges: 
+2022.10.06 11:23:31.569     Minimum phi: 0
+2022.10.06 11:23:31.569     Maximum phi: 360
+2022.10.06 11:23:31.569     Minimum theta: 0
+2022.10.06 11:23:31.569     Maximum theta: 180
+2022.10.06 11:23:31.569   Model parameters: 
+2022.10.06 11:23:31.569     Reflections:         6
+2022.10.06 11:23:31.569     Transmissions:       0
+2022.10.06 11:23:31.569     Diffractions:        1
+2022.10.06 11:23:31.569     Ray spacing (degrees): 0.25
+
+2022.10.06 11:23:31.572   Advanced model parameters:
+2022.10.06 11:23:31.572     Maximum reflections before first diffraction: 3
+2022.10.06 11:23:31.572     Maximum reflections between two diffractions: 0
+2022.10.06 11:23:31.572     Maximum reflections after last diffraction: 3
+2022.10.06 11:23:43.374   CPU ray tracing (983040 active): 12% complete
+
+2022.10.06 11:23:43.450   Beginning next round of queued diffractions
+
+2022.10.06 11:27:53.784   CPU ray tracing (26476544 active): 5% complete
+2022.10.06 11:28:01.534   CPU ray tracing (27590656 active): 10% complete
+2022.10.06 11:28:03.034   CPU ray tracing (28049408 active): 15% complete
+2022.10.06 11:28:04.068   CPU ray tracing (28770304 active): 43% complete
+2022.10.06 11:28:04.301   Total Number of Rays shot: 29360128
+2022.10.06 11:28:04.301   Total Number of active rays shot: 27106518
+2022.10.06 11:28:04.301   Total Initial Rays shot: 663228
+2022.10.06 11:28:04.301   1025739 unique paths found.
+
+2022.10.06 11:28:04.301   Calculating E-fields and generating output
+
+2022.10.06 11:28:04.813     ============ ATMOSPHERE ============
+2022.10.06 11:28:04.813     Frequency = 5.9e+09
+2022.10.06 11:28:04.813     Attenuation (db/km) = 0.00960705
+2022.10.06 11:28:05.820     Paths   Channels  Database   Output 
+2022.10.06 11:28:05.820     28.81% -  27.19% -   6.05% -  6.05% 
+2022.10.06 11:28:06.823     60.99% -  56.42%    17.30% - 17.30% 
+2022.10.06 11:28:07.861     86.59% -  76.31%    32.39% - 32.39% 
+2022.10.06 11:28:09.780    100.00% - 100.00%    58.91% - 58.91% 
+2022.10.06 11:28:09.780    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:28:21.110     Original interaction chains:       1025739
+2022.10.06 11:28:21.110     Interaction chains eliminated:      961008
+2022.10.06 11:28:21.110     Physical paths generated:            64731
+2022.10.06 11:28:21.110     High power paths retained:           64731
+2022.10.06 11:28:21.110     Low power paths eliminated:              0
+
+
+2022.10.06 11:28:21.112 Starting X3D ray tracing for Tx set 2, point 15 (point 15 of 64 total)
+2022.10.06 11:28:21.645   Diffraction cone ray angle = 0.25
+2022.10.06 11:28:21.645   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:28:21.673   Ray tracing ranges: 
+2022.10.06 11:28:21.673     Minimum phi: 0
+2022.10.06 11:28:21.673     Maximum phi: 360
+2022.10.06 11:28:21.673     Minimum theta: 0
+2022.10.06 11:28:21.673     Maximum theta: 180
+2022.10.06 11:28:21.673   Model parameters: 
+2022.10.06 11:28:21.673     Reflections:         6
+2022.10.06 11:28:21.673     Transmissions:       0
+2022.10.06 11:28:21.673     Diffractions:        1
+2022.10.06 11:28:21.673     Ray spacing (degrees): 0.25
+
+2022.10.06 11:28:21.676   Advanced model parameters:
+2022.10.06 11:28:21.676     Maximum reflections before first diffraction: 3
+2022.10.06 11:28:21.676     Maximum reflections between two diffractions: 0
+2022.10.06 11:28:21.676     Maximum reflections after last diffraction: 3
+2022.10.06 11:28:36.682   CPU ray tracing (983040 active): 11% complete
+
+2022.10.06 11:28:36.803   Beginning next round of queued diffractions
+
+2022.10.06 11:32:54.672   CPU ray tracing (24641536 active): 5% complete
+2022.10.06 11:32:56.165   CPU ray tracing (25034752 active): 10% complete
+2022.10.06 11:32:57.398   CPU ray tracing (25427968 active): 15% complete
+2022.10.06 11:32:58.409   CPU ray tracing (26148864 active): 47% complete
+2022.10.06 11:32:58.682   Total Number of Rays shot: 26935296
+2022.10.06 11:32:58.682   Total Number of active rays shot: 24577655
+2022.10.06 11:32:58.682   Total Initial Rays shot: 663228
+2022.10.06 11:32:58.682   995902 unique paths found.
+
+2022.10.06 11:32:58.682   Calculating E-fields and generating output
+
+2022.10.06 11:32:59.168     ============ ATMOSPHERE ============
+2022.10.06 11:32:59.169     Frequency = 5.9e+09
+2022.10.06 11:32:59.169     Attenuation (db/km) = 0.00960705
+2022.10.06 11:33:00.195     Paths   Channels  Database   Output 
+2022.10.06 11:33:00.195     53.08% -  46.06% -  19.75% - 19.75% 
+2022.10.06 11:33:01.353    100.00% - 100.00%    19.75% - 19.75% 
+2022.10.06 11:33:02.868    100.00% - 100.00%    46.06% - 46.06% 
+2022.10.06 11:33:02.868    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:33:13.374     Original interaction chains:        995902
+2022.10.06 11:33:13.374     Interaction chains eliminated:      929138
+2022.10.06 11:33:13.375     Physical paths generated:            66764
+2022.10.06 11:33:13.375     High power paths retained:           66764
+2022.10.06 11:33:13.375     Low power paths eliminated:              0
+
+
+2022.10.06 11:33:13.376 Starting X3D ray tracing for Tx set 2, point 16 (point 16 of 64 total)
+2022.10.06 11:33:13.790   Diffraction cone ray angle = 0.25
+2022.10.06 11:33:13.790   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:33:13.816   Ray tracing ranges: 
+2022.10.06 11:33:13.816     Minimum phi: 0
+2022.10.06 11:33:13.816     Maximum phi: 360
+2022.10.06 11:33:13.816     Minimum theta: 0
+2022.10.06 11:33:13.816     Maximum theta: 180
+2022.10.06 11:33:13.816   Model parameters: 
+2022.10.06 11:33:13.818     Reflections:         6
+2022.10.06 11:33:13.818     Transmissions:       0
+2022.10.06 11:33:13.818     Diffractions:        1
+2022.10.06 11:33:13.818     Ray spacing (degrees): 0.25
+
+2022.10.06 11:33:13.819   Advanced model parameters:
+2022.10.06 11:33:13.819     Maximum reflections before first diffraction: 3
+2022.10.06 11:33:13.819     Maximum reflections between two diffractions: 0
+2022.10.06 11:33:13.819     Maximum reflections after last diffraction: 3
+2022.10.06 11:33:23.711   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 11:33:23.816   Beginning next round of queued diffractions
+
+2022.10.06 11:36:45.009   CPU ray tracing (21823488 active): 5% complete
+2022.10.06 11:36:46.981   CPU ray tracing (22282240 active): 10% complete
+2022.10.06 11:36:48.394   CPU ray tracing (22937600 active): 20% complete
+2022.10.06 11:36:49.087   Total Number of Rays shot: 24182784
+2022.10.06 11:36:49.087   Total Number of active rays shot: 21637026
+2022.10.06 11:36:49.087   Total Initial Rays shot: 663228
+2022.10.06 11:36:49.087   990720 unique paths found.
+
+2022.10.06 11:36:49.087   Calculating E-fields and generating output
+
+2022.10.06 11:36:49.571     ============ ATMOSPHERE ============
+2022.10.06 11:36:49.571     Frequency = 5.9e+09
+2022.10.06 11:36:49.571     Attenuation (db/km) = 0.00960705
+2022.10.06 11:36:50.578     Paths   Channels  Database   Output 
+2022.10.06 11:36:50.578     53.31% -  42.45% -  19.62% - 19.62% 
+2022.10.06 11:36:53.154    100.00% - 100.00%    42.45% - 42.45% 
+2022.10.06 11:36:53.298    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:37:04.355     Original interaction chains:        990720
+2022.10.06 11:37:04.355     Interaction chains eliminated:      921460
+2022.10.06 11:37:04.355     Physical paths generated:            69260
+2022.10.06 11:37:04.355     High power paths retained:           69260
+2022.10.06 11:37:04.355     Low power paths eliminated:              0
+
+
+2022.10.06 11:37:04.357 Starting X3D ray tracing for Tx set 2, point 17 (point 17 of 64 total)
+2022.10.06 11:37:04.789   Diffraction cone ray angle = 0.25
+2022.10.06 11:37:04.789   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:37:04.815   Ray tracing ranges: 
+2022.10.06 11:37:04.815     Minimum phi: 0
+2022.10.06 11:37:04.815     Maximum phi: 360
+2022.10.06 11:37:04.815     Minimum theta: 0
+2022.10.06 11:37:04.815     Maximum theta: 180
+2022.10.06 11:37:04.815   Model parameters: 
+2022.10.06 11:37:04.815     Reflections:         6
+2022.10.06 11:37:04.815     Transmissions:       0
+2022.10.06 11:37:04.815     Diffractions:        1
+2022.10.06 11:37:04.815     Ray spacing (degrees): 0.25
+
+2022.10.06 11:37:04.818   Advanced model parameters:
+2022.10.06 11:37:04.818     Maximum reflections before first diffraction: 3
+2022.10.06 11:37:04.818     Maximum reflections between two diffractions: 0
+2022.10.06 11:37:04.818     Maximum reflections after last diffraction: 3
+2022.10.06 11:37:16.046   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 11:37:16.136   Beginning next round of queued diffractions
+
+2022.10.06 11:40:57.057   CPU ray tracing (23920640 active): 5% complete
+2022.10.06 11:40:59.348   CPU ray tracing (24379392 active): 10% complete
+2022.10.06 11:41:00.700   CPU ray tracing (24903680 active): 20% complete
+2022.10.06 11:41:01.450   Total Number of Rays shot: 26214400
+2022.10.06 11:41:01.450   Total Number of active rays shot: 23816270
+2022.10.06 11:41:01.450   Total Initial Rays shot: 663228
+2022.10.06 11:41:01.450   991256 unique paths found.
+
+2022.10.06 11:41:01.450   Calculating E-fields and generating output
+
+2022.10.06 11:41:01.924     ============ ATMOSPHERE ============
+2022.10.06 11:41:01.924     Frequency = 5.9e+09
+2022.10.06 11:41:01.924     Attenuation (db/km) = 0.00960705
+2022.10.06 11:41:02.930     Paths   Channels  Database   Output 
+2022.10.06 11:41:02.930     49.86% -  45.26% -  20.87% - 20.87% 
+2022.10.06 11:41:03.940     96.36% -  86.15%    41.99% - 41.99% 
+2022.10.06 11:41:05.130    100.00% - 100.00%    41.99% - 41.99% 
+2022.10.06 11:41:05.545    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:41:17.255     Original interaction chains:        991256
+2022.10.06 11:41:17.255     Interaction chains eliminated:      927958
+2022.10.06 11:41:17.255     Physical paths generated:            63298
+2022.10.06 11:41:17.255     High power paths retained:           63298
+2022.10.06 11:41:17.255     Low power paths eliminated:              0
+
+
+2022.10.06 11:41:17.256 Starting X3D ray tracing for Tx set 2, point 18 (point 18 of 64 total)
+2022.10.06 11:41:17.667   Diffraction cone ray angle = 0.25
+2022.10.06 11:41:17.668   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:41:17.694   Ray tracing ranges: 
+2022.10.06 11:41:17.694     Minimum phi: 0
+2022.10.06 11:41:17.694     Maximum phi: 360
+2022.10.06 11:41:17.694     Minimum theta: 0
+2022.10.06 11:41:17.694     Maximum theta: 180
+2022.10.06 11:41:17.694   Model parameters: 
+2022.10.06 11:41:17.694     Reflections:         6
+2022.10.06 11:41:17.694     Transmissions:       0
+2022.10.06 11:41:17.694     Diffractions:        1
+2022.10.06 11:41:17.694     Ray spacing (degrees): 0.25
+
+2022.10.06 11:41:17.697   Advanced model parameters:
+2022.10.06 11:41:17.697     Maximum reflections before first diffraction: 3
+2022.10.06 11:41:17.697     Maximum reflections between two diffractions: 0
+2022.10.06 11:41:17.697     Maximum reflections after last diffraction: 3
+2022.10.06 11:41:29.724   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 11:41:29.835   Beginning next round of queued diffractions
+
+2022.10.06 11:45:54.218   CPU ray tracing (27918336 active): 5% complete
+2022.10.06 11:45:56.503   CPU ray tracing (28311552 active): 10% complete
+2022.10.06 11:45:58.270   CPU ray tracing (28704768 active): 15% complete
+2022.10.06 11:45:59.323   CPU ray tracing (29294592 active): 37% complete
+2022.10.06 11:45:59.726   Total Number of Rays shot: 30277632
+2022.10.06 11:45:59.726   Total Number of active rays shot: 27922014
+2022.10.06 11:45:59.726   Total Initial Rays shot: 663228
+2022.10.06 11:45:59.726   1068689 unique paths found.
+
+2022.10.06 11:45:59.726   Calculating E-fields and generating output
+
+2022.10.06 11:46:00.246     ============ ATMOSPHERE ============
+2022.10.06 11:46:00.246     Frequency = 5.9e+09
+2022.10.06 11:46:00.246     Attenuation (db/km) = 0.00960705
+2022.10.06 11:46:01.249     Paths   Channels  Database   Output 
+2022.10.06 11:46:01.249     46.26% -  40.64% -  13.72% - 13.72% 
+2022.10.06 11:46:02.274     86.29% -  75.14%    26.34% - 34.69% 
+2022.10.06 11:46:03.554    100.00% - 100.00%    46.24% - 46.24% 
+2022.10.06 11:46:04.046    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:46:16.910     Original interaction chains:       1068689
+2022.10.06 11:46:16.910     Interaction chains eliminated:     1005724
+2022.10.06 11:46:16.910     Physical paths generated:            62965
+2022.10.06 11:46:16.910     High power paths retained:           62965
+2022.10.06 11:46:16.910     Low power paths eliminated:              0
+
+
+2022.10.06 11:46:16.911 Starting X3D ray tracing for Tx set 2, point 19 (point 19 of 64 total)
+2022.10.06 11:46:17.349   Diffraction cone ray angle = 0.25
+2022.10.06 11:46:17.349   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:46:17.377   Ray tracing ranges: 
+2022.10.06 11:46:17.377     Minimum phi: 0
+2022.10.06 11:46:17.377     Maximum phi: 360
+2022.10.06 11:46:17.377     Minimum theta: 0
+2022.10.06 11:46:17.377     Maximum theta: 180
+2022.10.06 11:46:17.377   Model parameters: 
+2022.10.06 11:46:17.377     Reflections:         6
+2022.10.06 11:46:17.377     Transmissions:       0
+2022.10.06 11:46:17.378     Diffractions:        1
+2022.10.06 11:46:17.378     Ray spacing (degrees): 0.25
+
+2022.10.06 11:46:17.380   Advanced model parameters:
+2022.10.06 11:46:17.380     Maximum reflections before first diffraction: 3
+2022.10.06 11:46:17.380     Maximum reflections between two diffractions: 0
+2022.10.06 11:46:17.380     Maximum reflections after last diffraction: 3
+2022.10.06 11:46:30.335   CPU ray tracing (983040 active): 10% complete
+
+2022.10.06 11:46:30.452   Beginning next round of queued diffractions
+
+2022.10.06 11:51:10.993   CPU ray tracing (29818880 active): 5% complete
+2022.10.06 11:51:13.001   CPU ray tracing (30212096 active): 10% complete
+2022.10.06 11:51:14.388   CPU ray tracing (30605312 active): 15% complete
+2022.10.06 11:51:15.395   CPU ray tracing (31195136 active): 35% complete
+2022.10.06 11:51:15.928   Total Number of Rays shot: 32374784
+2022.10.06 11:51:15.928   Total Number of active rays shot: 29918845
+2022.10.06 11:51:15.928   Total Initial Rays shot: 663228
+2022.10.06 11:51:15.928   1092319 unique paths found.
+
+2022.10.06 11:51:15.928   Calculating E-fields and generating output
+
+2022.10.06 11:51:16.461     ============ ATMOSPHERE ============
+2022.10.06 11:51:16.461     Frequency = 5.9e+09
+2022.10.06 11:51:16.461     Attenuation (db/km) = 0.00960705
+2022.10.06 11:51:17.489     Paths   Channels  Database   Output 
+2022.10.06 11:51:17.489     45.30% -  38.64% -  16.35% - 16.35% 
+2022.10.06 11:51:18.490     87.56%    76.63%    30.12% - 30.12% 
+2022.10.06 11:51:20.033    100.00% - 100.00%    49.51% - 49.51% 
+2022.10.06 11:51:20.034    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:51:32.863     Original interaction chains:       1092319
+2022.10.06 11:51:32.863     Interaction chains eliminated:     1029578
+2022.10.06 11:51:32.863     Physical paths generated:            62741
+2022.10.06 11:51:32.864     High power paths retained:           62741
+2022.10.06 11:51:32.864     Low power paths eliminated:              0
+
+
+2022.10.06 11:51:32.866 Starting X3D ray tracing for Tx set 2, point 20 (point 20 of 64 total)
+2022.10.06 11:51:33.317   Diffraction cone ray angle = 0.25
+2022.10.06 11:51:33.317   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:51:33.345   Ray tracing ranges: 
+2022.10.06 11:51:33.345     Minimum phi: 0
+2022.10.06 11:51:33.345     Maximum phi: 360
+2022.10.06 11:51:33.345     Minimum theta: 0
+2022.10.06 11:51:33.345     Maximum theta: 180
+2022.10.06 11:51:33.345   Model parameters: 
+2022.10.06 11:51:33.345     Reflections:         6
+2022.10.06 11:51:33.345     Transmissions:       0
+2022.10.06 11:51:33.345     Diffractions:        1
+2022.10.06 11:51:33.345     Ray spacing (degrees): 0.25
+
+2022.10.06 11:51:33.347   Advanced model parameters:
+2022.10.06 11:51:33.347     Maximum reflections before first diffraction: 3
+2022.10.06 11:51:33.347     Maximum reflections between two diffractions: 0
+2022.10.06 11:51:33.347     Maximum reflections after last diffraction: 3
+2022.10.06 11:51:46.296   CPU ray tracing (1048576 active): 10% complete
+
+2022.10.06 11:51:46.430   Beginning next round of queued diffractions
+
+2022.10.06 11:56:06.969   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 11:56:13.439   CPU ray tracing (30932992 active): 11% complete
+2022.10.06 11:56:15.608   CPU ray tracing (31522816 active): 16% complete
+2022.10.06 11:56:16.834   CPU ray tracing (32178176 active): 26% complete
+2022.10.06 11:56:17.391   Total Number of Rays shot: 33095680
+2022.10.06 11:56:17.391   Total Number of active rays shot: 30629636
+2022.10.06 11:56:17.391   Total Initial Rays shot: 663228
+2022.10.06 11:56:17.391   1091763 unique paths found.
+
+2022.10.06 11:56:17.391   Calculating E-fields and generating output
+
+2022.10.06 11:56:17.931     ============ ATMOSPHERE ============
+2022.10.06 11:56:17.931     Frequency = 5.9e+09
+2022.10.06 11:56:17.931     Attenuation (db/km) = 0.00960705
+2022.10.06 11:56:18.944     Paths   Channels  Database   Output 
+2022.10.06 11:56:18.944     42.24% -  35.03% -  13.96% - 13.96% 
+2022.10.06 11:56:19.981     81.45% -  71.38%    26.56% - 26.56% 
+2022.10.06 11:56:21.432    100.00% - 100.00%    44.79% - 44.79% 
+2022.10.06 11:56:21.747    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 11:56:35.489     Original interaction chains:       1091763
+2022.10.06 11:56:35.489     Interaction chains eliminated:     1029065
+2022.10.06 11:56:35.489     Physical paths generated:            62698
+2022.10.06 11:56:35.489     High power paths retained:           62698
+2022.10.06 11:56:35.489     Low power paths eliminated:              0
+
+
+2022.10.06 11:56:35.490 Starting X3D ray tracing for Tx set 2, point 21 (point 21 of 64 total)
+2022.10.06 11:56:35.926   Diffraction cone ray angle = 0.25
+2022.10.06 11:56:35.926   Using CPU ray tracer (16 CPU threads)
+2022.10.06 11:56:35.954   Ray tracing ranges: 
+2022.10.06 11:56:35.954     Minimum phi: 0
+2022.10.06 11:56:35.954     Maximum phi: 360
+2022.10.06 11:56:35.954     Minimum theta: 0
+2022.10.06 11:56:35.954     Maximum theta: 180
+2022.10.06 11:56:35.954   Model parameters: 
+2022.10.06 11:56:35.954     Reflections:         6
+2022.10.06 11:56:35.954     Transmissions:       0
+2022.10.06 11:56:35.954     Diffractions:        1
+2022.10.06 11:56:35.954     Ray spacing (degrees): 0.25
+
+2022.10.06 11:56:35.957   Advanced model parameters:
+2022.10.06 11:56:35.957     Maximum reflections before first diffraction: 3
+2022.10.06 11:56:35.957     Maximum reflections between two diffractions: 0
+2022.10.06 11:56:35.957     Maximum reflections after last diffraction: 3
+2022.10.06 11:56:48.971   CPU ray tracing (1048576 active): 9% complete
+
+2022.10.06 11:56:49.072   Beginning next round of queued diffractions
+
+2022.10.06 12:01:11.189   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 12:01:18.546   CPU ray tracing (30998528 active): 10% complete
+2022.10.06 12:01:20.961   CPU ray tracing (31588352 active): 15% complete
+2022.10.06 12:01:22.055   CPU ray tracing (32178176 active): 26% complete
+2022.10.06 12:01:22.614   Total Number of Rays shot: 33095680
+2022.10.06 12:01:22.614   Total Number of active rays shot: 30746819
+2022.10.06 12:01:22.614   Total Initial Rays shot: 663228
+2022.10.06 12:01:22.614   1070775 unique paths found.
+
+2022.10.06 12:01:22.615   Calculating E-fields and generating output
+
+2022.10.06 12:01:23.172     ============ ATMOSPHERE ============
+2022.10.06 12:01:23.172     Frequency = 5.9e+09
+2022.10.06 12:01:23.172     Attenuation (db/km) = 0.00960705
+2022.10.06 12:01:24.194     Paths   Channels  Database   Output 
+2022.10.06 12:01:24.194     43.10% -  36.86% -  13.45% - 13.45% 
+2022.10.06 12:01:25.208     86.34%    75.80%    26.07% - 26.07% 
+2022.10.06 12:01:26.742    100.00% - 100.00%    44.62% - 44.62% 
+2022.10.06 12:01:27.002    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:01:41.355     Original interaction chains:       1070775
+2022.10.06 12:01:41.355     Interaction chains eliminated:     1008660
+2022.10.06 12:01:41.355     Physical paths generated:            62115
+2022.10.06 12:01:41.355     High power paths retained:           62115
+2022.10.06 12:01:41.355     Low power paths eliminated:              0
+
+
+2022.10.06 12:01:41.356 Starting X3D ray tracing for Tx set 2, point 22 (point 22 of 64 total)
+2022.10.06 12:01:41.775   Diffraction cone ray angle = 0.25
+2022.10.06 12:01:41.775   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:01:41.804   Ray tracing ranges: 
+2022.10.06 12:01:41.804     Minimum phi: 0
+2022.10.06 12:01:41.804     Maximum phi: 360
+2022.10.06 12:01:41.804     Minimum theta: 0
+2022.10.06 12:01:41.804     Maximum theta: 180
+2022.10.06 12:01:41.804   Model parameters: 
+2022.10.06 12:01:41.804     Reflections:         6
+2022.10.06 12:01:41.804     Transmissions:       0
+2022.10.06 12:01:41.804     Diffractions:        1
+2022.10.06 12:01:41.804     Ray spacing (degrees): 0.25
+
+2022.10.06 12:01:41.807   Advanced model parameters:
+2022.10.06 12:01:41.807     Maximum reflections before first diffraction: 3
+2022.10.06 12:01:41.807     Maximum reflections between two diffractions: 0
+2022.10.06 12:01:41.807     Maximum reflections after last diffraction: 3
+2022.10.06 12:01:54.090   CPU ray tracing (1048576 active): 11% complete
+
+2022.10.06 12:01:54.164   Beginning next round of queued diffractions
+
+2022.10.06 12:06:12.945   CPU ray tracing (29622272 active): 5% complete
+2022.10.06 12:06:15.692   CPU ray tracing (30146560 active): 10% complete
+2022.10.06 12:06:16.718   CPU ray tracing (30670848 active): 31% complete
+2022.10.06 12:06:17.382   Total Number of Rays shot: 32112640
+2022.10.06 12:06:17.382   Total Number of active rays shot: 29767323
+2022.10.06 12:06:17.382   Total Initial Rays shot: 663228
+2022.10.06 12:06:17.382   1063708 unique paths found.
+
+2022.10.06 12:06:17.382   Calculating E-fields and generating output
+
+2022.10.06 12:06:17.892     ============ ATMOSPHERE ============
+2022.10.06 12:06:17.892     Frequency = 5.9e+09
+2022.10.06 12:06:17.892     Attenuation (db/km) = 0.00960705
+2022.10.06 12:06:18.914     Paths   Channels  Database   Output 
+2022.10.06 12:06:18.914     40.29% -  37.81% -  16.99% - 16.99% 
+2022.10.06 12:06:19.939     77.53% -  67.35%    31.03% - 31.03% 
+2022.10.06 12:06:21.676    100.00% - 100.00%    53.71% - 53.71% 
+2022.10.06 12:06:21.676    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:06:36.717     Original interaction chains:       1063708
+2022.10.06 12:06:36.717     Interaction chains eliminated:      999521
+2022.10.06 12:06:36.717     Physical paths generated:            64187
+2022.10.06 12:06:36.717     High power paths retained:           64187
+2022.10.06 12:06:36.717     Low power paths eliminated:              0
+
+
+2022.10.06 12:06:36.719 Starting X3D ray tracing for Tx set 2, point 23 (point 23 of 64 total)
+2022.10.06 12:06:37.145   Diffraction cone ray angle = 0.25
+2022.10.06 12:06:37.145   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:06:37.175   Ray tracing ranges: 
+2022.10.06 12:06:37.175     Minimum phi: 0
+2022.10.06 12:06:37.175     Maximum phi: 360
+2022.10.06 12:06:37.175     Minimum theta: 0
+2022.10.06 12:06:37.175     Maximum theta: 180
+2022.10.06 12:06:37.175   Model parameters: 
+2022.10.06 12:06:37.175     Reflections:         6
+2022.10.06 12:06:37.175     Transmissions:       0
+2022.10.06 12:06:37.175     Diffractions:        1
+2022.10.06 12:06:37.175     Ray spacing (degrees): 0.25
+
+2022.10.06 12:06:37.178   Advanced model parameters:
+2022.10.06 12:06:37.178     Maximum reflections before first diffraction: 3
+2022.10.06 12:06:37.178     Maximum reflections between two diffractions: 0
+2022.10.06 12:06:37.178     Maximum reflections after last diffraction: 3
+2022.10.06 12:06:48.603   CPU ray tracing (983040 active): 11% complete
+
+2022.10.06 12:06:48.733   Beginning next round of queued diffractions
+
+2022.10.06 12:11:06.786   CPU ray tracing (26869760 active): 5% complete
+2022.10.06 12:11:08.774   CPU ray tracing (27262976 active): 11% complete
+2022.10.06 12:11:09.918   CPU ray tracing (28049408 active): 45% complete
+2022.10.06 12:11:10.400   Total Number of Rays shot: 29229056
+2022.10.06 12:11:10.400   Total Number of active rays shot: 26662699
+2022.10.06 12:11:10.400   Total Initial Rays shot: 663228
+2022.10.06 12:11:10.400   1008537 unique paths found.
+
+2022.10.06 12:11:10.400   Calculating E-fields and generating output
+
+2022.10.06 12:11:10.877     ============ ATMOSPHERE ============
+2022.10.06 12:11:10.877     Frequency = 5.9e+09
+2022.10.06 12:11:10.877     Attenuation (db/km) = 0.00960705
+2022.10.06 12:11:11.891     Paths   Channels  Database   Output 
+2022.10.06 12:11:11.891     49.13% -  38.84% -  19.72% - 19.72% 
+2022.10.06 12:11:12.916     94.76%    84.52%    38.84% - 38.84% 
+2022.10.06 12:11:14.216    100.00% - 100.00%    38.84% - 38.84% 
+2022.10.06 12:11:14.617    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:11:30.082     Original interaction chains:       1008537
+2022.10.06 12:11:30.083     Interaction chains eliminated:      944854
+2022.10.06 12:11:30.083     Physical paths generated:            63683
+2022.10.06 12:11:30.083     High power paths retained:           63683
+2022.10.06 12:11:30.083     Low power paths eliminated:              0
+
+
+2022.10.06 12:11:30.084 Starting X3D ray tracing for Tx set 2, point 24 (point 24 of 64 total)
+2022.10.06 12:11:30.486   Diffraction cone ray angle = 0.25
+2022.10.06 12:11:30.486   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:11:30.517   Ray tracing ranges: 
+2022.10.06 12:11:30.517     Minimum phi: 0
+2022.10.06 12:11:30.517     Maximum phi: 360
+2022.10.06 12:11:30.517     Minimum theta: 0
+2022.10.06 12:11:30.517     Maximum theta: 180
+2022.10.06 12:11:30.517   Model parameters: 
+2022.10.06 12:11:30.517     Reflections:         6
+2022.10.06 12:11:30.517     Transmissions:       0
+2022.10.06 12:11:30.517     Diffractions:        1
+2022.10.06 12:11:30.517     Ray spacing (degrees): 0.25
+
+2022.10.06 12:11:30.519   Advanced model parameters:
+2022.10.06 12:11:30.519     Maximum reflections before first diffraction: 3
+2022.10.06 12:11:30.519     Maximum reflections between two diffractions: 0
+2022.10.06 12:11:30.519     Maximum reflections after last diffraction: 3
+2022.10.06 12:11:40.164   CPU ray tracing (983040 active): 12% complete
+
+2022.10.06 12:11:40.230   Beginning next round of queued diffractions
+
+2022.10.06 12:15:00.309   CPU ray tracing (23199744 active): 5% complete
+2022.10.06 12:15:03.922   CPU ray tracing (23920640 active): 10% complete
+2022.10.06 12:15:04.652   Total Number of Rays shot: 24707072
+2022.10.06 12:15:04.652   Total Number of active rays shot: 23166382
+2022.10.06 12:15:04.652   Total Initial Rays shot: 663228
+2022.10.06 12:15:04.652   980532 unique paths found.
+
+2022.10.06 12:15:04.653   Calculating E-fields and generating output
+
+2022.10.06 12:15:05.124     ============ ATMOSPHERE ============
+2022.10.06 12:15:05.124     Frequency = 5.9e+09
+2022.10.06 12:15:05.124     Attenuation (db/km) = 0.00960705
+2022.10.06 12:15:06.146     Paths   Channels  Database   Output 
+2022.10.06 12:15:06.146     50.49% -  41.55% -  19.92% - 19.92% 
+2022.10.06 12:15:07.154     97.51%    82.25%    39.13% - 39.13% 
+2022.10.06 12:15:08.457    100.00% - 100.00%    39.13% - 39.13% 
+2022.10.06 12:15:08.822    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:15:25.329     Original interaction chains:        980532
+2022.10.06 12:15:25.329     Interaction chains eliminated:      914466
+2022.10.06 12:15:25.329     Physical paths generated:            66066
+2022.10.06 12:15:25.329     High power paths retained:           66066
+2022.10.06 12:15:25.329     Low power paths eliminated:              0
+
+
+2022.10.06 12:15:25.331 Starting X3D ray tracing for Tx set 2, point 25 (point 25 of 64 total)
+2022.10.06 12:15:25.735   Diffraction cone ray angle = 0.25
+2022.10.06 12:15:25.735   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:15:25.764   Ray tracing ranges: 
+2022.10.06 12:15:25.764     Minimum phi: 0
+2022.10.06 12:15:25.764     Maximum phi: 360
+2022.10.06 12:15:25.764     Minimum theta: 0
+2022.10.06 12:15:25.764     Maximum theta: 180
+2022.10.06 12:15:25.764   Model parameters: 
+2022.10.06 12:15:25.764     Reflections:         6
+2022.10.06 12:15:25.764     Transmissions:       0
+2022.10.06 12:15:25.764     Diffractions:        1
+2022.10.06 12:15:25.764     Ray spacing (degrees): 0.25
+
+2022.10.06 12:15:25.767   Advanced model parameters:
+2022.10.06 12:15:25.767     Maximum reflections before first diffraction: 3
+2022.10.06 12:15:25.767     Maximum reflections between two diffractions: 0
+2022.10.06 12:15:25.767     Maximum reflections after last diffraction: 3
+2022.10.06 12:15:36.381   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 12:15:36.453   Beginning next round of queued diffractions
+
+2022.10.06 12:19:31.010   CPU ray tracing (25034752 active): 5% complete
+2022.10.06 12:19:33.930   CPU ray tracing (25559040 active): 10% complete
+2022.10.06 12:19:35.018   CPU ray tracing (25952256 active): 20% complete
+2022.10.06 12:19:35.867   Total Number of Rays shot: 27328512
+2022.10.06 12:19:35.867   Total Number of active rays shot: 25064801
+2022.10.06 12:19:35.867   Total Initial Rays shot: 663228
+2022.10.06 12:19:35.867   1009895 unique paths found.
+
+2022.10.06 12:19:35.867   Calculating E-fields and generating output
+
+2022.10.06 12:19:36.351     ============ ATMOSPHERE ============
+2022.10.06 12:19:36.351     Frequency = 5.9e+09
+2022.10.06 12:19:36.351     Attenuation (db/km) = 0.00960705
+2022.10.06 12:19:37.377     Paths   Channels  Database   Output 
+2022.10.06 12:19:37.377     48.92% -  43.65% -  19.79% - 19.79% 
+2022.10.06 12:19:38.392     97.87% -  84.00%    37.98% - 37.98% 
+2022.10.06 12:19:39.906    100.00% - 100.00%    67.67% - 67.67% 
+2022.10.06 12:19:39.906    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:19:56.413     Original interaction chains:       1009895
+2022.10.06 12:19:56.413     Interaction chains eliminated:      949433
+2022.10.06 12:19:56.413     Physical paths generated:            60462
+2022.10.06 12:19:56.413     High power paths retained:           60462
+2022.10.06 12:19:56.413     Low power paths eliminated:              0
+
+
+2022.10.06 12:19:56.415 Starting X3D ray tracing for Tx set 2, point 26 (point 26 of 64 total)
+2022.10.06 12:19:56.823   Diffraction cone ray angle = 0.25
+2022.10.06 12:19:56.823   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:19:56.853   Ray tracing ranges: 
+2022.10.06 12:19:56.853     Minimum phi: 0
+2022.10.06 12:19:56.853     Maximum phi: 360
+2022.10.06 12:19:56.853     Minimum theta: 0
+2022.10.06 12:19:56.853     Maximum theta: 180
+2022.10.06 12:19:56.853   Model parameters: 
+2022.10.06 12:19:56.853     Reflections:         6
+2022.10.06 12:19:56.853     Transmissions:       0
+2022.10.06 12:19:56.853     Diffractions:        1
+2022.10.06 12:19:56.853     Ray spacing (degrees): 0.25
+
+2022.10.06 12:19:56.856   Advanced model parameters:
+2022.10.06 12:19:56.856     Maximum reflections before first diffraction: 3
+2022.10.06 12:19:56.856     Maximum reflections between two diffractions: 0
+2022.10.06 12:19:56.856     Maximum reflections after last diffraction: 3
+2022.10.06 12:20:08.706   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 12:20:08.800   Beginning next round of queued diffractions
+
+2022.10.06 12:24:20.428   CPU ray tracing (27787264 active): 5% complete
+2022.10.06 12:24:28.552   CPU ray tracing (29097984 active): 10% complete
+2022.10.06 12:24:30.466   CPU ray tracing (29687808 active): 16% complete
+2022.10.06 12:24:31.313   Total Number of Rays shot: 30670848
+2022.10.06 12:24:31.313   Total Number of active rays shot: 28560001
+2022.10.06 12:24:31.313   Total Initial Rays shot: 663228
+2022.10.06 12:24:31.313   1081683 unique paths found.
+
+2022.10.06 12:24:31.313   Calculating E-fields and generating output
+
+2022.10.06 12:24:31.830     ============ ATMOSPHERE ============
+2022.10.06 12:24:31.830     Frequency = 5.9e+09
+2022.10.06 12:24:31.830     Attenuation (db/km) = 0.00960705
+2022.10.06 12:24:32.876     Paths   Channels  Database   Output 
+2022.10.06 12:24:32.876     42.63% -  38.06% -  13.15% - 13.15% 
+2022.10.06 12:24:33.910     82.24% -  71.11%    40.60% - 40.60% 
+2022.10.06 12:24:35.440    100.00% - 100.00%    60.32% - 60.32% 
+2022.10.06 12:24:35.441    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:24:52.706     Original interaction chains:       1081683
+2022.10.06 12:24:52.706     Interaction chains eliminated:     1021675
+2022.10.06 12:24:52.706     Physical paths generated:            60008
+2022.10.06 12:24:52.707     High power paths retained:           60008
+2022.10.06 12:24:52.707     Low power paths eliminated:              0
+
+
+2022.10.06 12:24:52.709 Starting X3D ray tracing for Tx set 2, point 27 (point 27 of 64 total)
+2022.10.06 12:24:53.145   Diffraction cone ray angle = 0.25
+2022.10.06 12:24:53.145   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:24:53.176   Ray tracing ranges: 
+2022.10.06 12:24:53.176     Minimum phi: 0
+2022.10.06 12:24:53.176     Maximum phi: 360
+2022.10.06 12:24:53.176     Minimum theta: 0
+2022.10.06 12:24:53.176     Maximum theta: 180
+2022.10.06 12:24:53.176   Model parameters: 
+2022.10.06 12:24:53.176     Reflections:         6
+2022.10.06 12:24:53.176     Transmissions:       0
+2022.10.06 12:24:53.176     Diffractions:        1
+2022.10.06 12:24:53.176     Ray spacing (degrees): 0.25
+
+2022.10.06 12:24:53.178   Advanced model parameters:
+2022.10.06 12:24:53.178     Maximum reflections before first diffraction: 3
+2022.10.06 12:24:53.179     Maximum reflections between two diffractions: 0
+2022.10.06 12:24:53.179     Maximum reflections after last diffraction: 3
+2022.10.06 12:25:07.023   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 12:25:07.155   Beginning next round of queued diffractions
+
+2022.10.06 12:30:00.090   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 12:30:13.569   CPU ray tracing (31522816 active): 10% complete
+2022.10.06 12:30:15.125   CPU ray tracing (32047104 active): 21% complete
+2022.10.06 12:30:16.147   CPU ray tracing (32833536 active): 49% complete
+2022.10.06 12:30:16.461   Total Number of Rays shot: 33619968
+2022.10.06 12:30:16.461   Total Number of active rays shot: 31169787
+2022.10.06 12:30:16.461   Total Initial Rays shot: 663228
+2022.10.06 12:30:16.461   1117256 unique paths found.
+
+2022.10.06 12:30:16.461   Calculating E-fields and generating output
+
+2022.10.06 12:30:17.000     ============ ATMOSPHERE ============
+2022.10.06 12:30:17.000     Frequency = 5.9e+09
+2022.10.06 12:30:17.000     Attenuation (db/km) = 0.00960705
+2022.10.06 12:30:18.031     Paths   Channels  Database   Output 
+2022.10.06 12:30:18.032     41.42% -  36.62% -  16.16% - 16.16% 
+2022.10.06 12:30:19.080     82.82% -  72.41%    29.32% - 29.32% 
+2022.10.06 12:30:20.712    100.00% - 100.00%    54.00% - 54.00% 
+2022.10.06 12:30:20.712    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:30:38.934     Original interaction chains:       1117256
+2022.10.06 12:30:38.934     Interaction chains eliminated:     1056036
+2022.10.06 12:30:38.934     Physical paths generated:            61220
+2022.10.06 12:30:38.934     High power paths retained:           61220
+2022.10.06 12:30:38.934     Low power paths eliminated:              0
+
+
+2022.10.06 12:30:38.936 Starting X3D ray tracing for Tx set 2, point 28 (point 28 of 64 total)
+2022.10.06 12:30:39.351   Diffraction cone ray angle = 0.25
+2022.10.06 12:30:39.351   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:30:39.381   Ray tracing ranges: 
+2022.10.06 12:30:39.382     Minimum phi: 0
+2022.10.06 12:30:39.382     Maximum phi: 360
+2022.10.06 12:30:39.382     Minimum theta: 0
+2022.10.06 12:30:39.382     Maximum theta: 180
+2022.10.06 12:30:39.382   Model parameters: 
+2022.10.06 12:30:39.382     Reflections:         6
+2022.10.06 12:30:39.382     Transmissions:       0
+2022.10.06 12:30:39.382     Diffractions:        1
+2022.10.06 12:30:39.382     Ray spacing (degrees): 0.25
+
+2022.10.06 12:30:39.384   Advanced model parameters:
+2022.10.06 12:30:39.384     Maximum reflections before first diffraction: 3
+2022.10.06 12:30:39.384     Maximum reflections between two diffractions: 0
+2022.10.06 12:30:39.384     Maximum reflections after last diffraction: 3
+2022.10.06 12:30:52.460   CPU ray tracing (1048576 active): 7% complete
+
+2022.10.06 12:30:52.555   Beginning next round of queued diffractions
+
+2022.10.06 12:35:01.344   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 12:35:16.469   CPU ray tracing (32112640 active): 11% complete
+2022.10.06 12:35:18.053   CPU ray tracing (32571392 active): 16% complete
+2022.10.06 12:35:19.070   CPU ray tracing (33226752 active): 37% complete
+2022.10.06 12:35:19.468   Total Number of Rays shot: 34078720
+2022.10.06 12:35:19.468   Total Number of active rays shot: 31871274
+2022.10.06 12:35:19.468   Total Initial Rays shot: 663228
+2022.10.06 12:35:19.468   1115800 unique paths found.
+
+2022.10.06 12:35:19.468   Calculating E-fields and generating output
+
+2022.10.06 12:35:20.008     ============ ATMOSPHERE ============
+2022.10.06 12:35:20.008     Frequency = 5.9e+09
+2022.10.06 12:35:20.008     Attenuation (db/km) = 0.00960705
+2022.10.06 12:35:21.013     Paths   Channels  Database   Output 
+2022.10.06 12:35:21.013     38.42% -  31.44% -  13.01% - 13.01% 
+2022.10.06 12:35:22.018     76.81% -  69.38%    41.30% - 41.30% 
+2022.10.06 12:35:23.064    100.00% - 100.00%    41.30% - 41.30% 
+2022.10.06 12:35:23.649    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:35:42.011     Original interaction chains:       1115800
+2022.10.06 12:35:42.011     Interaction chains eliminated:     1055310
+2022.10.06 12:35:42.011     Physical paths generated:            60490
+2022.10.06 12:35:42.011     High power paths retained:           60490
+2022.10.06 12:35:42.011     Low power paths eliminated:              0
+
+
+2022.10.06 12:35:42.013 Starting X3D ray tracing for Tx set 2, point 29 (point 29 of 64 total)
+2022.10.06 12:35:42.423   Diffraction cone ray angle = 0.25
+2022.10.06 12:35:42.423   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:35:42.450   Ray tracing ranges: 
+2022.10.06 12:35:42.450     Minimum phi: 0
+2022.10.06 12:35:42.450     Maximum phi: 360
+2022.10.06 12:35:42.450     Minimum theta: 0
+2022.10.06 12:35:42.450     Maximum theta: 180
+2022.10.06 12:35:42.450   Model parameters: 
+2022.10.06 12:35:42.450     Reflections:         6
+2022.10.06 12:35:42.450     Transmissions:       0
+2022.10.06 12:35:42.450     Diffractions:        1
+2022.10.06 12:35:42.450     Ray spacing (degrees): 0.25
+
+2022.10.06 12:35:42.452   Advanced model parameters:
+2022.10.06 12:35:42.452     Maximum reflections before first diffraction: 3
+2022.10.06 12:35:42.452     Maximum reflections between two diffractions: 0
+2022.10.06 12:35:42.452     Maximum reflections after last diffraction: 3
+2022.10.06 12:35:56.425   CPU ray tracing (1048576 active): 9% complete
+
+2022.10.06 12:35:56.522   Beginning next round of queued diffractions
+
+2022.10.06 12:40:30.022   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 12:40:53.498   CPU ray tracing (32833536 active): 10% complete
+2022.10.06 12:40:55.252   CPU ray tracing (33292288 active): 15% complete
+2022.10.06 12:40:56.294   CPU ray tracing (33685504 active): 20% complete
+2022.10.06 12:40:57.288   Total Number of Rays shot: 34930688
+2022.10.06 12:40:57.288   Total Number of active rays shot: 32665563
+2022.10.06 12:40:57.288   Total Initial Rays shot: 663228
+2022.10.06 12:40:57.288   1124929 unique paths found.
+
+2022.10.06 12:40:57.288   Calculating E-fields and generating output
+
+2022.10.06 12:40:57.817     ============ ATMOSPHERE ============
+2022.10.06 12:40:57.818     Frequency = 5.9e+09
+2022.10.06 12:40:57.818     Attenuation (db/km) = 0.00960705
+2022.10.06 12:40:58.830     Paths   Channels  Database   Output 
+2022.10.06 12:40:58.830     41.05% -  33.34% -  16.13% - 16.13% 
+2022.10.06 12:40:59.844     73.34% -  65.99%    30.93% - 30.93% 
+2022.10.06 12:41:01.209    100.00% - 100.00%    50.63% - 50.63% 
+2022.10.06 12:41:01.558    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:41:21.031     Original interaction chains:       1124929
+2022.10.06 12:41:21.031     Interaction chains eliminated:     1064969
+2022.10.06 12:41:21.031     Physical paths generated:            59960
+2022.10.06 12:41:21.031     High power paths retained:           59960
+2022.10.06 12:41:21.031     Low power paths eliminated:              0
+
+
+2022.10.06 12:41:21.034 Starting X3D ray tracing for Tx set 2, point 30 (point 30 of 64 total)
+2022.10.06 12:41:21.459   Diffraction cone ray angle = 0.25
+2022.10.06 12:41:21.459   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:41:21.486   Ray tracing ranges: 
+2022.10.06 12:41:21.486     Minimum phi: 0
+2022.10.06 12:41:21.486     Maximum phi: 360
+2022.10.06 12:41:21.486     Minimum theta: 0
+2022.10.06 12:41:21.486     Maximum theta: 180
+2022.10.06 12:41:21.486   Model parameters: 
+2022.10.06 12:41:21.487     Reflections:         6
+2022.10.06 12:41:21.487     Transmissions:       0
+2022.10.06 12:41:21.487     Diffractions:        1
+2022.10.06 12:41:21.487     Ray spacing (degrees): 0.25
+
+2022.10.06 12:41:21.489   Advanced model parameters:
+2022.10.06 12:41:21.489     Maximum reflections before first diffraction: 3
+2022.10.06 12:41:21.489     Maximum reflections between two diffractions: 0
+2022.10.06 12:41:21.489     Maximum reflections after last diffraction: 3
+2022.10.06 12:41:32.816   CPU ray tracing (1048576 active): 8% complete
+
+2022.10.06 12:41:32.951   Beginning next round of queued diffractions
+
+2022.10.06 12:45:24.858   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 12:45:39.538   CPU ray tracing (31916032 active): 10% complete
+2022.10.06 12:45:41.167   CPU ray tracing (32243712 active): 15% complete
+2022.10.06 12:45:42.241   CPU ray tracing (32702464 active): 26% complete
+2022.10.06 12:45:42.850   Total Number of Rays shot: 33554432
+2022.10.06 12:45:42.850   Total Number of active rays shot: 31197588
+2022.10.06 12:45:42.850   Total Initial Rays shot: 663228
+2022.10.06 12:45:42.850   1083110 unique paths found.
+
+2022.10.06 12:45:42.850   Calculating E-fields and generating output
+
+2022.10.06 12:45:43.400     ============ ATMOSPHERE ============
+2022.10.06 12:45:43.401     Frequency = 5.9e+09
+2022.10.06 12:45:43.401     Attenuation (db/km) = 0.00960705
+2022.10.06 12:45:44.433     Paths   Channels  Database   Output 
+2022.10.06 12:45:44.433     30.42% -  27.63% -   5.71% -  5.71% 
+2022.10.06 12:45:45.435     70.07% -  57.56%    27.63% - 27.63% 
+2022.10.06 12:45:46.615    100.00% - 100.00%    38.57% - 38.57% 
+2022.10.06 12:45:47.365    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:46:07.089     Original interaction chains:       1083110
+2022.10.06 12:46:07.089     Interaction chains eliminated:     1021899
+2022.10.06 12:46:07.089     Physical paths generated:            61211
+2022.10.06 12:46:07.089     High power paths retained:           61211
+2022.10.06 12:46:07.089     Low power paths eliminated:              0
+
+
+2022.10.06 12:46:07.091 Starting X3D ray tracing for Tx set 2, point 31 (point 31 of 64 total)
+2022.10.06 12:46:07.516   Diffraction cone ray angle = 0.25
+2022.10.06 12:46:07.516   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:46:07.543   Ray tracing ranges: 
+2022.10.06 12:46:07.543     Minimum phi: 0
+2022.10.06 12:46:07.543     Maximum phi: 360
+2022.10.06 12:46:07.543     Minimum theta: 0
+2022.10.06 12:46:07.543     Maximum theta: 180
+2022.10.06 12:46:07.543   Model parameters: 
+2022.10.06 12:46:07.543     Reflections:         6
+2022.10.06 12:46:07.543     Transmissions:       0
+2022.10.06 12:46:07.543     Diffractions:        1
+2022.10.06 12:46:07.543     Ray spacing (degrees): 0.25
+
+2022.10.06 12:46:07.546   Advanced model parameters:
+2022.10.06 12:46:07.546     Maximum reflections before first diffraction: 3
+2022.10.06 12:46:07.546     Maximum reflections between two diffractions: 0
+2022.10.06 12:46:07.546     Maximum reflections after last diffraction: 3
+2022.10.06 12:46:21.166   CPU ray tracing (1048576 active): 9% complete
+
+2022.10.06 12:46:21.303   Beginning next round of queued diffractions
+
+2022.10.06 12:50:54.318   CPU ray tracing (28442624 active): 5% complete
+2022.10.06 12:50:58.401   CPU ray tracing (29097984 active): 10% complete
+2022.10.06 12:50:59.448   CPU ray tracing (29360128 active): 15% complete
+2022.10.06 12:51:00.460   CPU ray tracing (29818880 active): 27% complete
+2022.10.06 12:51:01.102   Total Number of Rays shot: 30998528
+2022.10.06 12:51:01.102   Total Number of active rays shot: 28470230
+2022.10.06 12:51:01.102   Total Initial Rays shot: 663228
+2022.10.06 12:51:01.102   1025931 unique paths found.
+
+2022.10.06 12:51:01.103   Calculating E-fields and generating output
+
+2022.10.06 12:51:01.589     ============ ATMOSPHERE ============
+2022.10.06 12:51:01.589     Frequency = 5.9e+09
+2022.10.06 12:51:01.589     Attenuation (db/km) = 0.00960705
+2022.10.06 12:51:02.598     Paths   Channels  Database   Output 
+2022.10.06 12:51:02.599     32.22% -  30.85% -   6.37% -  6.37% 
+2022.10.06 12:51:03.647     73.99%    63.01%    19.79% - 19.79% 
+2022.10.06 12:51:05.115    100.00% - 100.00%    33.32% - 33.32% 
+2022.10.06 12:51:05.962    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:51:26.814     Original interaction chains:       1025931
+2022.10.06 12:51:26.814     Interaction chains eliminated:      963621
+2022.10.06 12:51:26.814     Physical paths generated:            62310
+2022.10.06 12:51:26.814     High power paths retained:           62310
+2022.10.06 12:51:26.814     Low power paths eliminated:              0
+
+
+2022.10.06 12:51:26.816 Starting X3D ray tracing for Tx set 2, point 32 (point 32 of 64 total)
+2022.10.06 12:51:27.239   Diffraction cone ray angle = 0.25
+2022.10.06 12:51:27.239   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:51:27.265   Ray tracing ranges: 
+2022.10.06 12:51:27.266     Minimum phi: 0
+2022.10.06 12:51:27.266     Maximum phi: 360
+2022.10.06 12:51:27.266     Minimum theta: 0
+2022.10.06 12:51:27.266     Maximum theta: 180
+2022.10.06 12:51:27.266   Model parameters: 
+2022.10.06 12:51:27.266     Reflections:         6
+2022.10.06 12:51:27.266     Transmissions:       0
+2022.10.06 12:51:27.266     Diffractions:        1
+2022.10.06 12:51:27.266     Ray spacing (degrees): 0.25
+
+2022.10.06 12:51:27.268   Advanced model parameters:
+2022.10.06 12:51:27.268     Maximum reflections before first diffraction: 3
+2022.10.06 12:51:27.268     Maximum reflections between two diffractions: 0
+2022.10.06 12:51:27.268     Maximum reflections after last diffraction: 3
+2022.10.06 12:51:40.845   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 12:51:40.976   Beginning next round of queued diffractions
+
+2022.10.06 12:56:23.465   CPU ray tracing (24903680 active): 5% complete
+2022.10.06 12:56:26.316   CPU ray tracing (25296896 active): 10% complete
+2022.10.06 12:56:27.802   CPU ray tracing (25624576 active): 16% complete
+2022.10.06 12:56:29.062   CPU ray tracing (26083328 active): 25% complete
+2022.10.06 12:56:29.959   Total Number of Rays shot: 27262976
+2022.10.06 12:56:29.959   Total Number of active rays shot: 24747996
+2022.10.06 12:56:29.959   Total Initial Rays shot: 663228
+2022.10.06 12:56:29.959   994798 unique paths found.
+
+2022.10.06 12:56:29.960   Calculating E-fields and generating output
+
+2022.10.06 12:56:30.536     ============ ATMOSPHERE ============
+2022.10.06 12:56:30.536     Frequency = 5.9e+09
+2022.10.06 12:56:30.536     Attenuation (db/km) = 0.00960705
+2022.10.06 12:56:31.545     Paths   Channels  Database   Output 
+2022.10.06 12:56:31.545     36.37% -  31.59% -   6.78% -  6.78% 
+2022.10.06 12:56:32.546     69.47% -  60.49%    20.53% - 20.53% 
+2022.10.06 12:56:33.604    100.00% - 100.00%    20.53% - 20.53% 
+2022.10.06 12:56:35.371    100.00% - 100.00%    40.82% - 40.82% 
+2022.10.06 12:56:35.372    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 12:56:59.182     Original interaction chains:        994798
+2022.10.06 12:56:59.182     Interaction chains eliminated:      929905
+2022.10.06 12:56:59.182     Physical paths generated:            64893
+2022.10.06 12:56:59.182     High power paths retained:           64893
+2022.10.06 12:56:59.182     Low power paths eliminated:              0
+
+
+2022.10.06 12:56:59.185 Starting X3D ray tracing for Tx set 2, point 33 (point 33 of 64 total)
+2022.10.06 12:56:59.701   Diffraction cone ray angle = 0.25
+2022.10.06 12:56:59.701   Using CPU ray tracer (16 CPU threads)
+2022.10.06 12:56:59.729   Ray tracing ranges: 
+2022.10.06 12:56:59.730     Minimum phi: 0
+2022.10.06 12:56:59.730     Maximum phi: 360
+2022.10.06 12:56:59.730     Minimum theta: 0
+2022.10.06 12:56:59.730     Maximum theta: 180
+2022.10.06 12:56:59.730   Model parameters: 
+2022.10.06 12:56:59.730     Reflections:         6
+2022.10.06 12:56:59.730     Transmissions:       0
+2022.10.06 12:56:59.730     Diffractions:        1
+2022.10.06 12:56:59.730     Ray spacing (degrees): 0.25
+
+2022.10.06 12:56:59.732   Advanced model parameters:
+2022.10.06 12:56:59.732     Maximum reflections before first diffraction: 3
+2022.10.06 12:56:59.732     Maximum reflections between two diffractions: 0
+2022.10.06 12:56:59.732     Maximum reflections after last diffraction: 3
+2022.10.06 12:57:17.115   CPU ray tracing (983040 active): 16% complete
+
+2022.10.06 12:57:17.208   Beginning next round of queued diffractions
+
+2022.10.06 13:02:04.296   CPU ray tracing (24969216 active): 5% complete
+2022.10.06 13:02:08.161   CPU ray tracing (25493504 active): 10% complete
+2022.10.06 13:02:09.556   CPU ray tracing (25821184 active): 15% complete
+2022.10.06 13:02:10.621   CPU ray tracing (26476544 active): 43% complete
+2022.10.06 13:02:10.926   Total Number of Rays shot: 27197440
+2022.10.06 13:02:10.926   Total Number of active rays shot: 24939095
+2022.10.06 13:02:10.926   Total Initial Rays shot: 663228
+2022.10.06 13:02:10.926   977624 unique paths found.
+
+2022.10.06 13:02:10.926   Calculating E-fields and generating output
+
+2022.10.06 13:02:11.567     ============ ATMOSPHERE ============
+2022.10.06 13:02:11.567     Frequency = 5.9e+09
+2022.10.06 13:02:11.567     Attenuation (db/km) = 0.00960705
+2022.10.06 13:02:12.586     Paths   Channels  Database   Output 
+2022.10.06 13:02:12.586     36.97% -  30.90% -  17.26% - 17.26% 
+2022.10.06 13:02:13.599     67.31%    59.08%    28.41% - 32.98% 
+2022.10.06 13:02:14.670    100.00% - 100.00%    42.89% - 42.89% 
+2022.10.06 13:02:16.308    100.00% - 100.00%    59.08% - 59.08% 
+2022.10.06 13:02:16.308    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:02:41.551     Original interaction chains:        977624
+2022.10.06 13:02:41.551     Interaction chains eliminated:      918015
+2022.10.06 13:02:41.551     Physical paths generated:            59609
+2022.10.06 13:02:41.551     High power paths retained:           59609
+2022.10.06 13:02:41.551     Low power paths eliminated:              0
+
+
+2022.10.06 13:02:41.554 Starting X3D ray tracing for Tx set 2, point 34 (point 34 of 64 total)
+2022.10.06 13:02:41.996   Diffraction cone ray angle = 0.25
+2022.10.06 13:02:41.996   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:02:42.023   Ray tracing ranges: 
+2022.10.06 13:02:42.023     Minimum phi: 0
+2022.10.06 13:02:42.023     Maximum phi: 360
+2022.10.06 13:02:42.023     Minimum theta: 0
+2022.10.06 13:02:42.023     Maximum theta: 180
+2022.10.06 13:02:42.023   Model parameters: 
+2022.10.06 13:02:42.023     Reflections:         6
+2022.10.06 13:02:42.023     Transmissions:       0
+2022.10.06 13:02:42.023     Diffractions:        1
+2022.10.06 13:02:42.023     Ray spacing (degrees): 0.25
+
+2022.10.06 13:02:42.026   Advanced model parameters:
+2022.10.06 13:02:42.026     Maximum reflections before first diffraction: 3
+2022.10.06 13:02:42.026     Maximum reflections between two diffractions: 0
+2022.10.06 13:02:42.026     Maximum reflections after last diffraction: 3
+2022.10.06 13:03:00.676   CPU ray tracing (983040 active): 6% complete
+
+2022.10.06 13:03:00.785   Beginning next round of queued diffractions
+
+2022.10.06 13:08:22.969   CPU ray tracing (28311552 active): 5% complete
+2022.10.06 13:08:26.050   CPU ray tracing (28770304 active): 10% complete
+2022.10.06 13:08:27.083   CPU ray tracing (29032448 active): 15% complete
+2022.10.06 13:08:28.126   CPU ray tracing (29884416 active): 60% complete
+2022.10.06 13:08:28.371   Total Number of Rays shot: 30605312
+2022.10.06 13:08:28.372   Total Number of active rays shot: 28382679
+2022.10.06 13:08:28.372   Total Initial Rays shot: 663228
+2022.10.06 13:08:28.372   1032205 unique paths found.
+
+2022.10.06 13:08:28.372   Calculating E-fields and generating output
+
+2022.10.06 13:08:28.909     ============ ATMOSPHERE ============
+2022.10.06 13:08:28.909     Frequency = 5.9e+09
+2022.10.06 13:08:28.909     Attenuation (db/km) = 0.00960705
+2022.10.06 13:08:29.961     Paths   Channels  Database   Output 
+2022.10.06 13:08:29.961     44.69% -  36.84% -  16.16% - 16.16% 
+2022.10.06 13:08:30.992     92.51% -  82.54%    31.73% - 31.73% 
+2022.10.06 13:08:32.449    100.00% - 100.00%    53.41% - 53.41% 
+2022.10.06 13:08:32.449    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:08:55.758     Original interaction chains:       1032205
+2022.10.06 13:08:55.758     Interaction chains eliminated:      973313
+2022.10.06 13:08:55.758     Physical paths generated:            58892
+2022.10.06 13:08:55.758     High power paths retained:           58892
+2022.10.06 13:08:55.758     Low power paths eliminated:              0
+
+
+2022.10.06 13:08:55.761 Starting X3D ray tracing for Tx set 2, point 35 (point 35 of 64 total)
+2022.10.06 13:08:56.155   Diffraction cone ray angle = 0.25
+2022.10.06 13:08:56.155   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:08:56.181   Ray tracing ranges: 
+2022.10.06 13:08:56.181     Minimum phi: 0
+2022.10.06 13:08:56.181     Maximum phi: 360
+2022.10.06 13:08:56.181     Minimum theta: 0
+2022.10.06 13:08:56.181     Maximum theta: 180
+2022.10.06 13:08:56.181   Model parameters: 
+2022.10.06 13:08:56.181     Reflections:         6
+2022.10.06 13:08:56.181     Transmissions:       0
+2022.10.06 13:08:56.181     Diffractions:        1
+2022.10.06 13:08:56.181     Ray spacing (degrees): 0.25
+
+2022.10.06 13:08:56.183   Advanced model parameters:
+2022.10.06 13:08:56.183     Maximum reflections before first diffraction: 3
+2022.10.06 13:08:56.183     Maximum reflections between two diffractions: 0
+2022.10.06 13:08:56.183     Maximum reflections after last diffraction: 3
+2022.10.06 13:09:10.127   CPU ray tracing (983040 active): 11% complete
+
+2022.10.06 13:09:10.254   Beginning next round of queued diffractions
+
+2022.10.06 13:13:16.202   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 13:13:24.768   CPU ray tracing (31260672 active): 11% complete
+2022.10.06 13:13:27.687   CPU ray tracing (32178176 active): 15% complete
+2022.10.06 13:13:28.719   CPU ray tracing (32768000 active): 30% complete
+2022.10.06 13:13:29.079   Total Number of Rays shot: 33488896
+2022.10.06 13:13:29.079   Total Number of active rays shot: 31081691
+2022.10.06 13:13:29.079   Total Initial Rays shot: 663228
+2022.10.06 13:13:29.079   1118190 unique paths found.
+
+2022.10.06 13:13:29.079   Calculating E-fields and generating output
+
+2022.10.06 13:13:29.620     ============ ATMOSPHERE ============
+2022.10.06 13:13:29.620     Frequency = 5.9e+09
+2022.10.06 13:13:29.620     Attenuation (db/km) = 0.00960705
+2022.10.06 13:13:30.636     Paths   Channels  Database   Output 
+2022.10.06 13:13:30.636     38.27% -  34.74% -  22.55% - 22.55% 
+2022.10.06 13:13:31.700     79.59% -  69.77%    34.74% - 34.74% 
+2022.10.06 13:13:33.429    100.00% - 100.00%    56.66% - 56.66% 
+2022.10.06 13:13:33.429    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:13:55.570     Original interaction chains:       1118190
+2022.10.06 13:13:55.570     Interaction chains eliminated:     1056857
+2022.10.06 13:13:55.570     Physical paths generated:            61333
+2022.10.06 13:13:55.570     High power paths retained:           61333
+2022.10.06 13:13:55.570     Low power paths eliminated:              0
+
+
+2022.10.06 13:13:55.572 Starting X3D ray tracing for Tx set 2, point 36 (point 36 of 64 total)
+2022.10.06 13:13:55.986   Diffraction cone ray angle = 0.25
+2022.10.06 13:13:55.986   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:13:56.012   Ray tracing ranges: 
+2022.10.06 13:13:56.012     Minimum phi: 0
+2022.10.06 13:13:56.012     Maximum phi: 360
+2022.10.06 13:13:56.012     Minimum theta: 0
+2022.10.06 13:13:56.012     Maximum theta: 180
+2022.10.06 13:13:56.012   Model parameters: 
+2022.10.06 13:13:56.012     Reflections:         6
+2022.10.06 13:13:56.012     Transmissions:       0
+2022.10.06 13:13:56.012     Diffractions:        1
+2022.10.06 13:13:56.012     Ray spacing (degrees): 0.25
+
+2022.10.06 13:13:56.015   Advanced model parameters:
+2022.10.06 13:13:56.015     Maximum reflections before first diffraction: 3
+2022.10.06 13:13:56.015     Maximum reflections between two diffractions: 0
+2022.10.06 13:13:56.015     Maximum reflections after last diffraction: 3
+2022.10.06 13:14:11.365   CPU ray tracing (1048576 active): 10% complete
+
+2022.10.06 13:14:11.498   Beginning next round of queued diffractions
+
+2022.10.06 13:18:24.424   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 13:18:42.107   CPU ray tracing (32243712 active): 10% complete
+2022.10.06 13:18:43.249   CPU ray tracing (32571392 active): 15% complete
+2022.10.06 13:18:44.341   CPU ray tracing (33161216 active): 31% complete
+2022.10.06 13:18:44.925   Total Number of Rays shot: 34340864
+2022.10.06 13:18:44.925   Total Number of active rays shot: 31842798
+2022.10.06 13:18:44.925   Total Initial Rays shot: 663228
+2022.10.06 13:18:44.925   1109912 unique paths found.
+
+2022.10.06 13:18:44.925   Calculating E-fields and generating output
+
+2022.10.06 13:18:45.460     ============ ATMOSPHERE ============
+2022.10.06 13:18:45.461     Frequency = 5.9e+09
+2022.10.06 13:18:45.461     Attenuation (db/km) = 0.00960705
+2022.10.06 13:18:46.471     Paths   Channels  Database   Output 
+2022.10.06 13:18:46.471     38.61% -  34.32% -  14.89% - 14.89% 
+2022.10.06 13:18:47.488     80.19% -  69.28%    27.17% - 27.17% 
+2022.10.06 13:18:49.117    100.00% - 100.00%    47.29% - 47.29% 
+2022.10.06 13:18:49.275    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:19:12.188     Original interaction chains:       1109912
+2022.10.06 13:19:12.188     Interaction chains eliminated:     1049421
+2022.10.06 13:19:12.188     Physical paths generated:            60491
+2022.10.06 13:19:12.188     High power paths retained:           60491
+2022.10.06 13:19:12.188     Low power paths eliminated:              0
+
+
+2022.10.06 13:19:12.190 Starting X3D ray tracing for Tx set 2, point 37 (point 37 of 64 total)
+2022.10.06 13:19:12.616   Diffraction cone ray angle = 0.25
+2022.10.06 13:19:12.617   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:19:12.643   Ray tracing ranges: 
+2022.10.06 13:19:12.644     Minimum phi: 0
+2022.10.06 13:19:12.644     Maximum phi: 360
+2022.10.06 13:19:12.644     Minimum theta: 0
+2022.10.06 13:19:12.644     Maximum theta: 180
+2022.10.06 13:19:12.644   Model parameters: 
+2022.10.06 13:19:12.644     Reflections:         6
+2022.10.06 13:19:12.644     Transmissions:       0
+2022.10.06 13:19:12.644     Diffractions:        1
+2022.10.06 13:19:12.644     Ray spacing (degrees): 0.25
+
+2022.10.06 13:19:12.646   Advanced model parameters:
+2022.10.06 13:19:12.646     Maximum reflections before first diffraction: 3
+2022.10.06 13:19:12.646     Maximum reflections between two diffractions: 0
+2022.10.06 13:19:12.646     Maximum reflections after last diffraction: 3
+2022.10.06 13:19:28.453   CPU ray tracing (1048576 active): 7% complete
+
+2022.10.06 13:19:28.596   Beginning next round of queued diffractions
+
+2022.10.06 13:23:59.982   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 13:24:26.325   CPU ray tracing (33095680 active): 10% complete
+2022.10.06 13:24:27.995   CPU ray tracing (33554432 active): 15% complete
+2022.10.06 13:24:29.204   CPU ray tracing (34078720 active): 25% complete
+2022.10.06 13:24:30.143   Total Number of Rays shot: 35323904
+2022.10.06 13:24:30.143   Total Number of active rays shot: 32784936
+2022.10.06 13:24:30.143   Total Initial Rays shot: 663228
+2022.10.06 13:24:30.143   1117133 unique paths found.
+
+2022.10.06 13:24:30.143   Calculating E-fields and generating output
+
+2022.10.06 13:24:30.688     ============ ATMOSPHERE ============
+2022.10.06 13:24:30.689     Frequency = 5.9e+09
+2022.10.06 13:24:30.689     Attenuation (db/km) = 0.00960705
+2022.10.06 13:24:31.712     Paths   Channels  Database   Output 
+2022.10.06 13:24:31.712     38.29% -  33.81% -  15.33% - 15.33% 
+2022.10.06 13:24:32.723     79.59% -  66.13%    27.27% - 27.27% 
+2022.10.06 13:24:33.884    100.00% - 100.00%    44.33% - 44.33% 
+2022.10.06 13:24:34.478    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:24:58.112     Original interaction chains:       1117133
+2022.10.06 13:24:58.112     Interaction chains eliminated:     1055990
+2022.10.06 13:24:58.112     Physical paths generated:            61143
+2022.10.06 13:24:58.112     High power paths retained:           61143
+2022.10.06 13:24:58.112     Low power paths eliminated:              0
+
+
+2022.10.06 13:24:58.114 Starting X3D ray tracing for Tx set 2, point 38 (point 38 of 64 total)
+2022.10.06 13:24:58.534   Diffraction cone ray angle = 0.25
+2022.10.06 13:24:58.534   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:24:58.560   Ray tracing ranges: 
+2022.10.06 13:24:58.560     Minimum phi: 0
+2022.10.06 13:24:58.560     Maximum phi: 360
+2022.10.06 13:24:58.560     Minimum theta: 0
+2022.10.06 13:24:58.560     Maximum theta: 180
+2022.10.06 13:24:58.560   Model parameters: 
+2022.10.06 13:24:58.560     Reflections:         6
+2022.10.06 13:24:58.560     Transmissions:       0
+2022.10.06 13:24:58.560     Diffractions:        1
+2022.10.06 13:24:58.560     Ray spacing (degrees): 0.25
+
+2022.10.06 13:24:58.563   Advanced model parameters:
+2022.10.06 13:24:58.563     Maximum reflections before first diffraction: 3
+2022.10.06 13:24:58.563     Maximum reflections between two diffractions: 0
+2022.10.06 13:24:58.563     Maximum reflections after last diffraction: 3
+2022.10.06 13:25:14.190   CPU ray tracing (1048576 active): 9% complete
+
+2022.10.06 13:25:14.325   Beginning next round of queued diffractions
+
+2022.10.06 13:29:49.019   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 13:30:08.810   CPU ray tracing (32374784 active): 10% complete
+2022.10.06 13:30:10.082   CPU ray tracing (32636928 active): 15% complete
+2022.10.06 13:30:11.274   CPU ray tracing (33226752 active): 33% complete
+2022.10.06 13:30:11.765   Total Number of Rays shot: 34144256
+2022.10.06 13:30:11.766   Total Number of active rays shot: 31696781
+2022.10.06 13:30:11.766   Total Initial Rays shot: 663228
+2022.10.06 13:30:11.766   1109768 unique paths found.
+
+2022.10.06 13:30:11.766   Calculating E-fields and generating output
+
+2022.10.06 13:30:12.302     ============ ATMOSPHERE ============
+2022.10.06 13:30:12.302     Frequency = 5.9e+09
+2022.10.06 13:30:12.302     Attenuation (db/km) = 0.00960705
+2022.10.06 13:30:13.316     Paths   Channels  Database   Output 
+2022.10.06 13:30:13.316     38.61% -  34.17% -  16.06% - 16.06% 
+2022.10.06 13:30:14.317     77.24% -  66.38%    27.36% - 27.36% 
+2022.10.06 13:30:15.672    100.00% - 100.00%    47.21% - 47.21% 
+2022.10.06 13:30:16.197    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:30:40.307     Original interaction chains:       1109768
+2022.10.06 13:30:40.307     Interaction chains eliminated:     1049328
+2022.10.06 13:30:40.307     Physical paths generated:            60440
+2022.10.06 13:30:40.307     High power paths retained:           60440
+2022.10.06 13:30:40.307     Low power paths eliminated:              0
+
+
+2022.10.06 13:30:40.310 Starting X3D ray tracing for Tx set 2, point 39 (point 39 of 64 total)
+2022.10.06 13:30:40.739   Diffraction cone ray angle = 0.25
+2022.10.06 13:30:40.739   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:30:40.766   Ray tracing ranges: 
+2022.10.06 13:30:40.766     Minimum phi: 0
+2022.10.06 13:30:40.766     Maximum phi: 360
+2022.10.06 13:30:40.766     Minimum theta: 0
+2022.10.06 13:30:40.766     Maximum theta: 180
+2022.10.06 13:30:40.766   Model parameters: 
+2022.10.06 13:30:40.766     Reflections:         6
+2022.10.06 13:30:40.766     Transmissions:       0
+2022.10.06 13:30:40.766     Diffractions:        1
+2022.10.06 13:30:40.766     Ray spacing (degrees): 0.25
+
+2022.10.06 13:30:40.769   Advanced model parameters:
+2022.10.06 13:30:40.769     Maximum reflections before first diffraction: 3
+2022.10.06 13:30:40.769     Maximum reflections between two diffractions: 0
+2022.10.06 13:30:40.769     Maximum reflections after last diffraction: 3
+2022.10.06 13:30:53.038   CPU ray tracing (983040 active): 5% complete
+
+2022.10.06 13:30:53.197   Beginning next round of queued diffractions
+
+2022.10.06 13:34:44.062   CPU ray tracing (27459584 active): 5% complete
+2022.10.06 13:35:00.366   CPU ray tracing (29556736 active): 10% complete
+2022.10.06 13:35:01.440   CPU ray tracing (30015488 active): 31% complete
+2022.10.06 13:35:02.054   Total Number of Rays shot: 31522816
+2022.10.06 13:35:02.054   Total Number of active rays shot: 28929047
+2022.10.06 13:35:02.054   Total Initial Rays shot: 663228
+2022.10.06 13:35:02.054   1059679 unique paths found.
+
+2022.10.06 13:35:02.054   Calculating E-fields and generating output
+
+2022.10.06 13:35:02.577     ============ ATMOSPHERE ============
+2022.10.06 13:35:02.578     Frequency = 5.9e+09
+2022.10.06 13:35:02.578     Attenuation (db/km) = 0.00960705
+2022.10.06 13:35:03.615     Paths   Channels  Database   Output 
+2022.10.06 13:35:03.616     40.38% -  34.86% -  13.89% - 13.89% 
+2022.10.06 13:35:04.619     80.78% -  66.28%    37.06% - 37.06% 
+2022.10.06 13:35:06.362    100.00% - 100.00%    57.73% - 57.73% 
+2022.10.06 13:35:06.362    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:35:30.930     Original interaction chains:       1059679
+2022.10.06 13:35:30.930     Interaction chains eliminated:      997538
+2022.10.06 13:35:30.930     Physical paths generated:            62141
+2022.10.06 13:35:30.930     High power paths retained:           62141
+2022.10.06 13:35:30.930     Low power paths eliminated:              0
+
+
+2022.10.06 13:35:30.932 Starting X3D ray tracing for Tx set 2, point 40 (point 40 of 64 total)
+2022.10.06 13:35:31.349   Diffraction cone ray angle = 0.25
+2022.10.06 13:35:31.349   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:35:31.376   Ray tracing ranges: 
+2022.10.06 13:35:31.376     Minimum phi: 0
+2022.10.06 13:35:31.376     Maximum phi: 360
+2022.10.06 13:35:31.376     Minimum theta: 0
+2022.10.06 13:35:31.376     Maximum theta: 180
+2022.10.06 13:35:31.376   Model parameters: 
+2022.10.06 13:35:31.376     Reflections:         6
+2022.10.06 13:35:31.376     Transmissions:       0
+2022.10.06 13:35:31.376     Diffractions:        1
+2022.10.06 13:35:31.376     Ray spacing (degrees): 0.25
+
+2022.10.06 13:35:31.379   Advanced model parameters:
+2022.10.06 13:35:31.379     Maximum reflections before first diffraction: 3
+2022.10.06 13:35:31.379     Maximum reflections between two diffractions: 0
+2022.10.06 13:35:31.379     Maximum reflections after last diffraction: 3
+2022.10.06 13:35:43.735   CPU ray tracing (1048576 active): 21% complete
+
+2022.10.06 13:35:43.840   Beginning next round of queued diffractions
+
+2022.10.06 13:39:19.977   CPU ray tracing (24903680 active): 5% complete
+2022.10.06 13:39:25.670   CPU ray tracing (25886720 active): 10% complete
+2022.10.06 13:39:26.701   CPU ray tracing (26411008 active): 25% complete
+2022.10.06 13:39:26.989   Total Number of Rays shot: 27000832
+2022.10.06 13:39:26.989   Total Number of active rays shot: 25112388
+2022.10.06 13:39:26.989   Total Initial Rays shot: 663228
+2022.10.06 13:39:26.989   1002437 unique paths found.
+
+2022.10.06 13:39:26.989   Calculating E-fields and generating output
+
+2022.10.06 13:39:27.459     ============ ATMOSPHERE ============
+2022.10.06 13:39:27.459     Frequency = 5.9e+09
+2022.10.06 13:39:27.459     Attenuation (db/km) = 0.00960705
+2022.10.06 13:39:28.492     Paths   Channels  Database   Output 
+2022.10.06 13:39:28.492     49.34% -  40.69% -   6.76% -  6.76% 
+2022.10.06 13:39:29.507    100.00%    88.54%    20.55% - 20.55% 
+2022.10.06 13:39:31.236    100.00% - 100.00%    43.94% - 43.94% 
+2022.10.06 13:39:31.236    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:39:56.804     Original interaction chains:       1002437
+2022.10.06 13:39:56.804     Interaction chains eliminated:      936650
+2022.10.06 13:39:56.804     Physical paths generated:            65787
+2022.10.06 13:39:56.804     High power paths retained:           65787
+2022.10.06 13:39:56.804     Low power paths eliminated:              0
+
+
+2022.10.06 13:39:56.807 Starting X3D ray tracing for Tx set 2, point 41 (point 41 of 64 total)
+2022.10.06 13:39:57.220   Diffraction cone ray angle = 0.25
+2022.10.06 13:39:57.220   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:39:57.246   Ray tracing ranges: 
+2022.10.06 13:39:57.246     Minimum phi: 0
+2022.10.06 13:39:57.246     Maximum phi: 360
+2022.10.06 13:39:57.246     Minimum theta: 0
+2022.10.06 13:39:57.246     Maximum theta: 180
+2022.10.06 13:39:57.246   Model parameters: 
+2022.10.06 13:39:57.246     Reflections:         6
+2022.10.06 13:39:57.247     Transmissions:       0
+2022.10.06 13:39:57.247     Diffractions:        1
+2022.10.06 13:39:57.247     Ray spacing (degrees): 0.25
+
+2022.10.06 13:39:57.249   Advanced model parameters:
+2022.10.06 13:39:57.249     Maximum reflections before first diffraction: 3
+2022.10.06 13:39:57.249     Maximum reflections between two diffractions: 0
+2022.10.06 13:39:57.249     Maximum reflections after last diffraction: 3
+2022.10.06 13:40:09.497   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 13:40:09.586   Beginning next round of queued diffractions
+
+2022.10.06 13:43:50.536   CPU ray tracing (24772608 active): 5% complete
+2022.10.06 13:44:00.067   CPU ray tracing (26345472 active): 10% complete
+2022.10.06 13:44:01.238   CPU ray tracing (26804224 active): 21% complete
+2022.10.06 13:44:01.620   Total Number of Rays shot: 27394048
+2022.10.06 13:44:01.620   Total Number of active rays shot: 25424582
+2022.10.06 13:44:01.620   Total Initial Rays shot: 663228
+2022.10.06 13:44:01.620   971097 unique paths found.
+
+2022.10.06 13:44:01.620   Calculating E-fields and generating output
+
+2022.10.06 13:44:02.092     ============ ATMOSPHERE ============
+2022.10.06 13:44:02.093     Frequency = 5.9e+09
+2022.10.06 13:44:02.093     Attenuation (db/km) = 0.00960705
+2022.10.06 13:44:03.112     Paths   Channels  Database   Output 
+2022.10.06 13:44:03.112     44.15% -  41.35% -  17.82% - 17.82% 
+2022.10.06 13:44:04.112     91.59%    82.05%    32.86% - 32.86% 
+2022.10.06 13:44:05.602    100.00% - 100.00%    55.44% - 55.44% 
+2022.10.06 13:44:05.602    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:44:32.713     Original interaction chains:        971097
+2022.10.06 13:44:32.713     Interaction chains eliminated:      908636
+2022.10.06 13:44:32.713     Physical paths generated:            62461
+2022.10.06 13:44:32.713     High power paths retained:           62461
+2022.10.06 13:44:32.713     Low power paths eliminated:              0
+
+
+2022.10.06 13:44:32.715 Starting X3D ray tracing for Tx set 2, point 42 (point 42 of 64 total)
+2022.10.06 13:44:33.102   Diffraction cone ray angle = 0.25
+2022.10.06 13:44:33.102   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:44:33.129   Ray tracing ranges: 
+2022.10.06 13:44:33.129     Minimum phi: 0
+2022.10.06 13:44:33.129     Maximum phi: 360
+2022.10.06 13:44:33.129     Minimum theta: 0
+2022.10.06 13:44:33.129     Maximum theta: 180
+2022.10.06 13:44:33.129   Model parameters: 
+2022.10.06 13:44:33.129     Reflections:         6
+2022.10.06 13:44:33.129     Transmissions:       0
+2022.10.06 13:44:33.129     Diffractions:        1
+2022.10.06 13:44:33.129     Ray spacing (degrees): 0.25
+
+2022.10.06 13:44:33.131   Advanced model parameters:
+2022.10.06 13:44:33.131     Maximum reflections before first diffraction: 3
+2022.10.06 13:44:33.131     Maximum reflections between two diffractions: 0
+2022.10.06 13:44:33.131     Maximum reflections after last diffraction: 3
+2022.10.06 13:44:45.940   CPU ray tracing (983040 active): 6% complete
+
+2022.10.06 13:44:46.011   Beginning next round of queued diffractions
+
+2022.10.06 13:48:34.212   CPU ray tracing (27328512 active): 5% complete
+2022.10.06 13:48:38.787   CPU ray tracing (28114944 active): 10% complete
+2022.10.06 13:48:40.050   CPU ray tracing (28639232 active): 21% complete
+2022.10.06 13:48:40.564   Total Number of Rays shot: 29622272
+2022.10.06 13:48:40.564   Total Number of active rays shot: 27649696
+2022.10.06 13:48:40.564   Total Initial Rays shot: 663228
+2022.10.06 13:48:40.564   984716 unique paths found.
+
+2022.10.06 13:48:40.564   Calculating E-fields and generating output
+
+2022.10.06 13:48:41.034     ============ ATMOSPHERE ============
+2022.10.06 13:48:41.034     Frequency = 5.9e+09
+2022.10.06 13:48:41.034     Attenuation (db/km) = 0.00960705
+2022.10.06 13:48:42.101     Paths   Channels  Database   Output 
+2022.10.06 13:48:42.101     46.79% -  43.38% -  14.47% - 14.47% 
+2022.10.06 13:48:43.119     93.59% -  84.86%    26.19% - 33.49% 
+2022.10.06 13:48:44.438    100.00% - 100.00%    46.09% - 46.09% 
+2022.10.06 13:48:44.706    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:49:11.585     Original interaction chains:        984716
+2022.10.06 13:49:11.585     Interaction chains eliminated:      923332
+2022.10.06 13:49:11.585     Physical paths generated:            61384
+2022.10.06 13:49:11.585     High power paths retained:           61384
+2022.10.06 13:49:11.585     Low power paths eliminated:              0
+
+
+2022.10.06 13:49:11.587 Starting X3D ray tracing for Tx set 2, point 43 (point 43 of 64 total)
+2022.10.06 13:49:11.986   Diffraction cone ray angle = 0.25
+2022.10.06 13:49:11.986   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:49:12.013   Ray tracing ranges: 
+2022.10.06 13:49:12.013     Minimum phi: 0
+2022.10.06 13:49:12.013     Maximum phi: 360
+2022.10.06 13:49:12.013     Minimum theta: 0
+2022.10.06 13:49:12.013     Maximum theta: 180
+2022.10.06 13:49:12.013   Model parameters: 
+2022.10.06 13:49:12.013     Reflections:         6
+2022.10.06 13:49:12.013     Transmissions:       0
+2022.10.06 13:49:12.013     Diffractions:        1
+2022.10.06 13:49:12.013     Ray spacing (degrees): 0.25
+
+2022.10.06 13:49:12.015   Advanced model parameters:
+2022.10.06 13:49:12.015     Maximum reflections before first diffraction: 3
+2022.10.06 13:49:12.015     Maximum reflections between two diffractions: 0
+2022.10.06 13:49:12.015     Maximum reflections after last diffraction: 3
+2022.10.06 13:49:25.839   CPU ray tracing (983040 active): 15% complete
+
+2022.10.06 13:49:25.926   Beginning next round of queued diffractions
+
+2022.10.06 13:53:11.441   CPU ray tracing (27721728 active): 5% complete
+2022.10.06 13:53:22.636   CPU ray tracing (29229056 active): 10% complete
+2022.10.06 13:53:23.768   CPU ray tracing (29753344 active): 27% complete
+2022.10.06 13:53:24.085   Total Number of Rays shot: 30408704
+2022.10.06 13:53:24.085   Total Number of active rays shot: 28681180
+2022.10.06 13:53:24.085   Total Initial Rays shot: 663228
+2022.10.06 13:53:24.085   1055247 unique paths found.
+
+2022.10.06 13:53:24.085   Calculating E-fields and generating output
+
+2022.10.06 13:53:24.612     ============ ATMOSPHERE ============
+2022.10.06 13:53:24.612     Frequency = 5.9e+09
+2022.10.06 13:53:24.612     Attenuation (db/km) = 0.00960705
+2022.10.06 13:53:25.627     Paths   Channels  Database   Output 
+2022.10.06 13:53:25.627     43.78% -  39.59% -  12.89% - 12.89% 
+2022.10.06 13:53:26.633     90.54% -  78.00%    39.59% - 39.59% 
+2022.10.06 13:53:27.678    100.00% - 100.00%    39.59% - 39.59% 
+2022.10.06 13:53:28.468    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:53:56.427     Original interaction chains:       1055247
+2022.10.06 13:53:56.428     Interaction chains eliminated:      993898
+2022.10.06 13:53:56.428     Physical paths generated:            61349
+2022.10.06 13:53:56.428     High power paths retained:           61349
+2022.10.06 13:53:56.428     Low power paths eliminated:              0
+
+
+2022.10.06 13:53:56.430 Starting X3D ray tracing for Tx set 2, point 44 (point 44 of 64 total)
+2022.10.06 13:53:56.837   Diffraction cone ray angle = 0.25
+2022.10.06 13:53:56.837   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:53:56.864   Ray tracing ranges: 
+2022.10.06 13:53:56.864     Minimum phi: 0
+2022.10.06 13:53:56.864     Maximum phi: 360
+2022.10.06 13:53:56.864     Minimum theta: 0
+2022.10.06 13:53:56.864     Maximum theta: 180
+2022.10.06 13:53:56.864   Model parameters: 
+2022.10.06 13:53:56.864     Reflections:         6
+2022.10.06 13:53:56.864     Transmissions:       0
+2022.10.06 13:53:56.864     Diffractions:        1
+2022.10.06 13:53:56.864     Ray spacing (degrees): 0.25
+
+2022.10.06 13:53:56.866   Advanced model parameters:
+2022.10.06 13:53:56.866     Maximum reflections before first diffraction: 3
+2022.10.06 13:53:56.866     Maximum reflections between two diffractions: 0
+2022.10.06 13:53:56.866     Maximum reflections after last diffraction: 3
+2022.10.06 13:54:13.325   CPU ray tracing (983040 active): 6% complete
+
+2022.10.06 13:54:13.423   Beginning next round of queued diffractions
+
+2022.10.06 13:58:14.640   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 13:58:21.193   CPU ray tracing (30932992 active): 10% complete
+2022.10.06 13:58:22.327   CPU ray tracing (31457280 active): 21% complete
+2022.10.06 13:58:23.345   CPU ray tracing (32702464 active): 72% complete
+2022.10.06 13:58:23.475   Total Number of Rays shot: 33095680
+2022.10.06 13:58:23.476   Total Number of active rays shot: 30614951
+2022.10.06 13:58:23.476   Total Initial Rays shot: 663228
+2022.10.06 13:58:23.476   1046528 unique paths found.
+
+2022.10.06 13:58:23.476   Calculating E-fields and generating output
+
+2022.10.06 13:58:23.980     ============ ATMOSPHERE ============
+2022.10.06 13:58:23.980     Frequency = 5.9e+09
+2022.10.06 13:58:23.980     Attenuation (db/km) = 0.00960705
+2022.10.06 13:58:25.013     Paths   Channels  Database   Output 
+2022.10.06 13:58:25.014     37.86% -  31.59% -  16.08% - 16.08% 
+2022.10.06 13:58:26.029     75.65% -  63.37%    39.52% - 39.52% 
+2022.10.06 13:58:27.403    100.00% - 100.00%    54.73% - 54.73% 
+2022.10.06 13:58:27.645    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 13:58:55.923     Original interaction chains:       1046528
+2022.10.06 13:58:55.923     Interaction chains eliminated:      986332
+2022.10.06 13:58:55.923     Physical paths generated:            60196
+2022.10.06 13:58:55.923     High power paths retained:           60196
+2022.10.06 13:58:55.923     Low power paths eliminated:              0
+
+
+2022.10.06 13:58:55.925 Starting X3D ray tracing for Tx set 2, point 45 (point 45 of 64 total)
+2022.10.06 13:58:56.324   Diffraction cone ray angle = 0.25
+2022.10.06 13:58:56.324   Using CPU ray tracer (16 CPU threads)
+2022.10.06 13:58:56.351   Ray tracing ranges: 
+2022.10.06 13:58:56.351     Minimum phi: 0
+2022.10.06 13:58:56.351     Maximum phi: 360
+2022.10.06 13:58:56.351     Minimum theta: 0
+2022.10.06 13:58:56.351     Maximum theta: 180
+2022.10.06 13:58:56.351   Model parameters: 
+2022.10.06 13:58:56.351     Reflections:         6
+2022.10.06 13:58:56.351     Transmissions:       0
+2022.10.06 13:58:56.351     Diffractions:        1
+2022.10.06 13:58:56.351     Ray spacing (degrees): 0.25
+
+2022.10.06 13:58:56.354   Advanced model parameters:
+2022.10.06 13:58:56.354     Maximum reflections before first diffraction: 3
+2022.10.06 13:58:56.354     Maximum reflections between two diffractions: 0
+2022.10.06 13:58:56.354     Maximum reflections after last diffraction: 3
+2022.10.06 13:59:11.761   CPU ray tracing (1048576 active): 10% complete
+
+2022.10.06 13:59:11.893   Beginning next round of queued diffractions
+
+2022.10.06 14:03:30.168   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 14:03:49.002   CPU ray tracing (32243712 active): 10% complete
+2022.10.06 14:03:50.109   CPU ray tracing (32702464 active): 28% complete
+2022.10.06 14:03:50.762   Total Number of Rays shot: 34144256
+2022.10.06 14:03:50.762   Total Number of active rays shot: 31677928
+2022.10.06 14:03:50.762   Total Initial Rays shot: 663228
+2022.10.06 14:03:50.762   1059674 unique paths found.
+
+2022.10.06 14:03:50.762   Calculating E-fields and generating output
+
+2022.10.06 14:03:51.286     ============ ATMOSPHERE ============
+2022.10.06 14:03:51.286     Frequency = 5.9e+09
+2022.10.06 14:03:51.286     Attenuation (db/km) = 0.00960705
+2022.10.06 14:03:52.303     Paths   Channels  Database   Output 
+2022.10.06 14:03:52.303     40.45% -  36.57% -   5.32% -  5.32% 
+2022.10.06 14:03:53.320     80.87% -  71.53%    19.11% - 25.00% 
+2022.10.06 14:03:54.591    100.00% - 100.00%    39.28% - 39.28% 
+2022.10.06 14:03:55.233    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:04:23.855     Original interaction chains:       1059674
+2022.10.06 14:04:23.856     Interaction chains eliminated:      996947
+2022.10.06 14:04:23.856     Physical paths generated:            62727
+2022.10.06 14:04:23.856     High power paths retained:           62727
+2022.10.06 14:04:23.856     Low power paths eliminated:              0
+
+
+2022.10.06 14:04:23.859 Starting X3D ray tracing for Tx set 2, point 46 (point 46 of 64 total)
+2022.10.06 14:04:24.270   Diffraction cone ray angle = 0.25
+2022.10.06 14:04:24.270   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:04:24.298   Ray tracing ranges: 
+2022.10.06 14:04:24.298     Minimum phi: 0
+2022.10.06 14:04:24.298     Maximum phi: 360
+2022.10.06 14:04:24.298     Minimum theta: 0
+2022.10.06 14:04:24.298     Maximum theta: 180
+2022.10.06 14:04:24.298   Model parameters: 
+2022.10.06 14:04:24.298     Reflections:         6
+2022.10.06 14:04:24.298     Transmissions:       0
+2022.10.06 14:04:24.298     Diffractions:        1
+2022.10.06 14:04:24.298     Ray spacing (degrees): 0.25
+
+2022.10.06 14:04:24.300   Advanced model parameters:
+2022.10.06 14:04:24.300     Maximum reflections before first diffraction: 3
+2022.10.06 14:04:24.300     Maximum reflections between two diffractions: 0
+2022.10.06 14:04:24.300     Maximum reflections after last diffraction: 3
+2022.10.06 14:04:37.615   CPU ray tracing (1048576 active): 10% complete
+
+2022.10.06 14:04:37.749   Beginning next round of queued diffractions
+
+2022.10.06 14:08:39.169   CPU ray tracing (29884416 active): 5% complete
+2022.10.06 14:08:47.421   CPU ray tracing (31064064 active): 10% complete
+2022.10.06 14:08:48.923   CPU ray tracing (31457280 active): 15% complete
+2022.10.06 14:08:50.031   CPU ray tracing (32112640 active): 31% complete
+2022.10.06 14:08:50.529   Total Number of Rays shot: 33226752
+2022.10.06 14:08:50.529   Total Number of active rays shot: 30631127
+2022.10.06 14:08:50.529   Total Initial Rays shot: 663228
+2022.10.06 14:08:50.529   1076971 unique paths found.
+
+2022.10.06 14:08:50.529   Calculating E-fields and generating output
+
+2022.10.06 14:08:51.075     ============ ATMOSPHERE ============
+2022.10.06 14:08:51.075     Frequency = 5.9e+09
+2022.10.06 14:08:51.075     Attenuation (db/km) = 0.00960705
+2022.10.06 14:08:52.106     Paths   Channels  Database   Output 
+2022.10.06 14:08:52.106     42.87% -  41.13% -  13.08% - 13.08% 
+2022.10.06 14:08:53.115     88.80% -  75.61%    28.07% - 28.07% 
+2022.10.06 14:08:54.442    100.00% - 100.00%    46.19% - 46.19% 
+2022.10.06 14:08:54.781    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:09:24.801     Original interaction chains:       1076971
+2022.10.06 14:09:24.801     Interaction chains eliminated:     1014334
+2022.10.06 14:09:24.801     Physical paths generated:            62637
+2022.10.06 14:09:24.801     High power paths retained:           62637
+2022.10.06 14:09:24.801     Low power paths eliminated:              0
+
+
+2022.10.06 14:09:24.804 Starting X3D ray tracing for Tx set 2, point 47 (point 47 of 64 total)
+2022.10.06 14:09:25.221   Diffraction cone ray angle = 0.25
+2022.10.06 14:09:25.221   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:09:25.247   Ray tracing ranges: 
+2022.10.06 14:09:25.247     Minimum phi: 0
+2022.10.06 14:09:25.247     Maximum phi: 360
+2022.10.06 14:09:25.247     Minimum theta: 0
+2022.10.06 14:09:25.247     Maximum theta: 180
+2022.10.06 14:09:25.247   Model parameters: 
+2022.10.06 14:09:25.247     Reflections:         6
+2022.10.06 14:09:25.247     Transmissions:       0
+2022.10.06 14:09:25.247     Diffractions:        1
+2022.10.06 14:09:25.247     Ray spacing (degrees): 0.25
+
+2022.10.06 14:09:25.250   Advanced model parameters:
+2022.10.06 14:09:25.250     Maximum reflections before first diffraction: 3
+2022.10.06 14:09:25.250     Maximum reflections between two diffractions: 0
+2022.10.06 14:09:25.250     Maximum reflections after last diffraction: 3
+2022.10.06 14:09:38.155   CPU ray tracing (983040 active): 6% complete
+
+2022.10.06 14:09:38.261   Beginning next round of queued diffractions
+
+2022.10.06 14:13:26.477   CPU ray tracing (27131904 active): 5% complete
+2022.10.06 14:13:35.766   CPU ray tracing (28508160 active): 10% complete
+2022.10.06 14:13:36.894   CPU ray tracing (28901376 active): 16% complete
+2022.10.06 14:13:37.541   Total Number of Rays shot: 29753344
+2022.10.06 14:13:37.541   Total Number of active rays shot: 27961612
+2022.10.06 14:13:37.541   Total Initial Rays shot: 663228
+2022.10.06 14:13:37.541   1058540 unique paths found.
+
+2022.10.06 14:13:37.541   Calculating E-fields and generating output
+
+2022.10.06 14:13:38.076     ============ ATMOSPHERE ============
+2022.10.06 14:13:38.076     Frequency = 5.9e+09
+2022.10.06 14:13:38.076     Attenuation (db/km) = 0.00960705
+2022.10.06 14:13:39.109     Paths   Channels  Database   Output 
+2022.10.06 14:13:39.109     43.68% -  35.44% -  16.28% - 16.28% 
+2022.10.06 14:13:40.117     87.16%    72.94%    27.88% - 27.88% 
+2022.10.06 14:13:41.937    100.00% - 100.00%    49.07% - 49.07% 
+2022.10.06 14:13:41.939    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:14:13.166     Original interaction chains:       1058540
+2022.10.06 14:14:13.166     Interaction chains eliminated:      993974
+2022.10.06 14:14:13.166     Physical paths generated:            64566
+2022.10.06 14:14:13.166     High power paths retained:           64566
+2022.10.06 14:14:13.166     Low power paths eliminated:              0
+
+
+2022.10.06 14:14:13.168 Starting X3D ray tracing for Tx set 2, point 48 (point 48 of 64 total)
+2022.10.06 14:14:13.592   Diffraction cone ray angle = 0.25
+2022.10.06 14:14:13.592   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:14:13.618   Ray tracing ranges: 
+2022.10.06 14:14:13.618     Minimum phi: 0
+2022.10.06 14:14:13.618     Maximum phi: 360
+2022.10.06 14:14:13.618     Minimum theta: 0
+2022.10.06 14:14:13.618     Maximum theta: 180
+2022.10.06 14:14:13.618   Model parameters: 
+2022.10.06 14:14:13.618     Reflections:         6
+2022.10.06 14:14:13.618     Transmissions:       0
+2022.10.06 14:14:13.618     Diffractions:        1
+2022.10.06 14:14:13.618     Ray spacing (degrees): 0.25
+
+2022.10.06 14:14:13.620   Advanced model parameters:
+2022.10.06 14:14:13.620     Maximum reflections before first diffraction: 3
+2022.10.06 14:14:13.620     Maximum reflections between two diffractions: 0
+2022.10.06 14:14:13.620     Maximum reflections after last diffraction: 3
+2022.10.06 14:14:24.897   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 14:14:25.020   Beginning next round of queued diffractions
+
+2022.10.06 14:18:04.735   CPU ray tracing (24903680 active): 5% complete
+2022.10.06 14:18:06.593   CPU ray tracing (25296896 active): 11% complete
+2022.10.06 14:18:07.693   CPU ray tracing (25886720 active): 32% complete
+2022.10.06 14:18:08.321   Total Number of Rays shot: 27131904
+2022.10.06 14:18:08.321   Total Number of active rays shot: 24635909
+2022.10.06 14:18:08.321   Total Initial Rays shot: 663228
+2022.10.06 14:18:08.321   1041959 unique paths found.
+
+2022.10.06 14:18:08.321   Calculating E-fields and generating output
+
+2022.10.06 14:18:08.810     ============ ATMOSPHERE ============
+2022.10.06 14:18:08.810     Frequency = 5.9e+09
+2022.10.06 14:18:08.810     Attenuation (db/km) = 0.00960705
+2022.10.06 14:18:09.823     Paths   Channels  Database   Output 
+2022.10.06 14:18:09.823     47.53% -  36.93% -  19.31% - 19.31% 
+2022.10.06 14:18:10.852     91.79% -  79.44%    36.93% - 36.93% 
+2022.10.06 14:18:11.948    100.00% - 100.00%    36.93% - 36.93% 
+2022.10.06 14:18:12.610    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:18:44.812     Original interaction chains:       1041959
+2022.10.06 14:18:44.812     Interaction chains eliminated:      976460
+2022.10.06 14:18:44.812     Physical paths generated:            65499
+2022.10.06 14:18:44.812     High power paths retained:           65499
+2022.10.06 14:18:44.812     Low power paths eliminated:              0
+
+
+2022.10.06 14:18:44.815 Starting X3D ray tracing for Tx set 2, point 49 (point 49 of 64 total)
+2022.10.06 14:18:45.234   Diffraction cone ray angle = 0.25
+2022.10.06 14:18:45.234   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:18:45.261   Ray tracing ranges: 
+2022.10.06 14:18:45.261     Minimum phi: 0
+2022.10.06 14:18:45.261     Maximum phi: 360
+2022.10.06 14:18:45.261     Minimum theta: 0
+2022.10.06 14:18:45.261     Maximum theta: 180
+2022.10.06 14:18:45.261   Model parameters: 
+2022.10.06 14:18:45.261     Reflections:         6
+2022.10.06 14:18:45.261     Transmissions:       0
+2022.10.06 14:18:45.261     Diffractions:        1
+2022.10.06 14:18:45.261     Ray spacing (degrees): 0.25
+
+2022.10.06 14:18:45.264   Advanced model parameters:
+2022.10.06 14:18:45.264     Maximum reflections before first diffraction: 3
+2022.10.06 14:18:45.264     Maximum reflections between two diffractions: 0
+2022.10.06 14:18:45.264     Maximum reflections after last diffraction: 3
+2022.10.06 14:18:57.027   CPU ray tracing (983040 active): 15% complete
+
+2022.10.06 14:18:57.093   Beginning next round of queued diffractions
+
+2022.10.06 14:22:48.166   CPU ray tracing (23855104 active): 5% complete
+2022.10.06 14:22:49.872   CPU ray tracing (24248320 active): 10% complete
+2022.10.06 14:22:50.896   CPU ray tracing (24969216 active): 46% complete
+2022.10.06 14:22:51.303   Total Number of Rays shot: 26148864
+2022.10.06 14:22:51.303   Total Number of active rays shot: 23715083
+2022.10.06 14:22:51.303   Total Initial Rays shot: 663228
+2022.10.06 14:22:51.303   963689 unique paths found.
+
+2022.10.06 14:22:51.303   Calculating E-fields and generating output
+
+2022.10.06 14:22:51.777     ============ ATMOSPHERE ============
+2022.10.06 14:22:51.777     Frequency = 5.9e+09
+2022.10.06 14:22:51.777     Attenuation (db/km) = 0.00960705
+2022.10.06 14:22:52.780     Paths   Channels  Database   Output 
+2022.10.06 14:22:52.780     44.43% -  42.45% -  18.35% - 18.35% 
+2022.10.06 14:22:53.780     92.22% -  86.98%    33.37% - 33.37% 
+2022.10.06 14:22:55.551    100.00% - 100.00%    63.64% - 63.64% 
+2022.10.06 14:22:55.551    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:23:27.960     Original interaction chains:        963689
+2022.10.06 14:23:27.960     Interaction chains eliminated:      900031
+2022.10.06 14:23:27.960     Physical paths generated:            63658
+2022.10.06 14:23:27.960     High power paths retained:           63658
+2022.10.06 14:23:27.960     Low power paths eliminated:              0
+
+
+2022.10.06 14:23:27.963 Starting X3D ray tracing for Tx set 2, point 50 (point 50 of 64 total)
+2022.10.06 14:23:28.363   Diffraction cone ray angle = 0.25
+2022.10.06 14:23:28.363   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:23:28.390   Ray tracing ranges: 
+2022.10.06 14:23:28.390     Minimum phi: 0
+2022.10.06 14:23:28.390     Maximum phi: 360
+2022.10.06 14:23:28.390     Minimum theta: 0
+2022.10.06 14:23:28.390     Maximum theta: 180
+2022.10.06 14:23:28.390   Model parameters: 
+2022.10.06 14:23:28.390     Reflections:         6
+2022.10.06 14:23:28.390     Transmissions:       0
+2022.10.06 14:23:28.390     Diffractions:        1
+2022.10.06 14:23:28.390     Ray spacing (degrees): 0.25
+
+2022.10.06 14:23:28.393   Advanced model parameters:
+2022.10.06 14:23:28.393     Maximum reflections before first diffraction: 3
+2022.10.06 14:23:28.393     Maximum reflections between two diffractions: 0
+2022.10.06 14:23:28.393     Maximum reflections after last diffraction: 3
+2022.10.06 14:23:39.766   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 14:23:39.860   Beginning next round of queued diffractions
+
+2022.10.06 14:27:18.972   CPU ray tracing (25755648 active): 5% complete
+2022.10.06 14:27:20.081   CPU ray tracing (26017792 active): 11% complete
+2022.10.06 14:27:21.509   CPU ray tracing (26607616 active): 22% complete
+2022.10.06 14:27:22.439   Total Number of Rays shot: 28180480
+2022.10.06 14:27:22.439   Total Number of active rays shot: 25635444
+2022.10.06 14:27:22.439   Total Initial Rays shot: 663228
+2022.10.06 14:27:22.439   962753 unique paths found.
+
+2022.10.06 14:27:22.439   Calculating E-fields and generating output
+
+2022.10.06 14:27:22.916     ============ ATMOSPHERE ============
+2022.10.06 14:27:22.916     Frequency = 5.9e+09
+2022.10.06 14:27:22.916     Attenuation (db/km) = 0.00960705
+2022.10.06 14:27:23.963     Paths   Channels  Database   Output 
+2022.10.06 14:27:23.963     44.49% -  39.35% -  14.69% - 14.69% 
+2022.10.06 14:27:25.005     92.42%    80.76%    42.43% - 42.43% 
+2022.10.06 14:27:26.527    100.00% - 100.00%    69.60% - 69.60% 
+2022.10.06 14:27:26.528    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:27:58.928     Original interaction chains:        962753
+2022.10.06 14:27:58.928     Interaction chains eliminated:      902125
+2022.10.06 14:27:58.928     Physical paths generated:            60628
+2022.10.06 14:27:58.928     High power paths retained:           60628
+2022.10.06 14:27:58.928     Low power paths eliminated:              0
+
+
+2022.10.06 14:27:58.930 Starting X3D ray tracing for Tx set 2, point 51 (point 51 of 64 total)
+2022.10.06 14:27:59.315   Diffraction cone ray angle = 0.25
+2022.10.06 14:27:59.315   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:27:59.342   Ray tracing ranges: 
+2022.10.06 14:27:59.342     Minimum phi: 0
+2022.10.06 14:27:59.342     Maximum phi: 360
+2022.10.06 14:27:59.342     Minimum theta: 0
+2022.10.06 14:27:59.342     Maximum theta: 180
+2022.10.06 14:27:59.342   Model parameters: 
+2022.10.06 14:27:59.342     Reflections:         6
+2022.10.06 14:27:59.342     Transmissions:       0
+2022.10.06 14:27:59.342     Diffractions:        1
+2022.10.06 14:27:59.342     Ray spacing (degrees): 0.25
+
+2022.10.06 14:27:59.344   Advanced model parameters:
+2022.10.06 14:27:59.344     Maximum reflections before first diffraction: 3
+2022.10.06 14:27:59.344     Maximum reflections between two diffractions: 0
+2022.10.06 14:27:59.344     Maximum reflections after last diffraction: 3
+2022.10.06 14:28:12.801   CPU ray tracing (983040 active): 18% complete
+
+2022.10.06 14:28:12.850   Beginning next round of queued diffractions
+
+2022.10.06 14:32:32.927   CPU ray tracing (26673152 active): 5% complete
+2022.10.06 14:32:37.638   CPU ray tracing (27262976 active): 10% complete
+2022.10.06 14:32:38.810   CPU ray tracing (27590656 active): 21% complete
+2022.10.06 14:32:39.671   Total Number of Rays shot: 28966912
+2022.10.06 14:32:39.671   Total Number of active rays shot: 26885819
+2022.10.06 14:32:39.671   Total Initial Rays shot: 663228
+2022.10.06 14:32:39.671   946873 unique paths found.
+
+2022.10.06 14:32:39.671   Calculating E-fields and generating output
+
+2022.10.06 14:32:40.165     ============ ATMOSPHERE ============
+2022.10.06 14:32:40.165     Frequency = 5.9e+09
+2022.10.06 14:32:40.165     Attenuation (db/km) = 0.00960705
+2022.10.06 14:32:41.165     Paths   Channels  Database   Output 
+2022.10.06 14:32:41.165     34.71% -  28.61% -   5.59% -  5.59% 
+2022.10.06 14:32:42.185     66.03% -  58.32%    19.84% - 19.84% 
+2022.10.06 14:32:43.888    100.00% - 100.00%    34.42% - 34.42% 
+2022.10.06 14:32:44.910    100.00% - 100.00%    64.99% - 64.99% 
+2022.10.06 14:32:44.910    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:33:23.005     Original interaction chains:        946873
+2022.10.06 14:33:23.005     Interaction chains eliminated:      886007
+2022.10.06 14:33:23.005     Physical paths generated:            60866
+2022.10.06 14:33:23.005     High power paths retained:           60866
+2022.10.06 14:33:23.005     Low power paths eliminated:              0
+
+
+2022.10.06 14:33:23.007 Starting X3D ray tracing for Tx set 2, point 52 (point 52 of 64 total)
+2022.10.06 14:33:23.521   Diffraction cone ray angle = 0.25
+2022.10.06 14:33:23.521   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:33:23.555   Ray tracing ranges: 
+2022.10.06 14:33:23.555     Minimum phi: 0
+2022.10.06 14:33:23.555     Maximum phi: 360
+2022.10.06 14:33:23.555     Minimum theta: 0
+2022.10.06 14:33:23.555     Maximum theta: 180
+2022.10.06 14:33:23.555   Model parameters: 
+2022.10.06 14:33:23.555     Reflections:         6
+2022.10.06 14:33:23.555     Transmissions:       0
+2022.10.06 14:33:23.555     Diffractions:        1
+2022.10.06 14:33:23.555     Ray spacing (degrees): 0.25
+
+2022.10.06 14:33:23.558   Advanced model parameters:
+2022.10.06 14:33:23.559     Maximum reflections before first diffraction: 3
+2022.10.06 14:33:23.559     Maximum reflections between two diffractions: 0
+2022.10.06 14:33:23.559     Maximum reflections after last diffraction: 3
+2022.10.06 14:33:37.119   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 14:33:37.213   Beginning next round of queued diffractions
+
+2022.10.06 14:38:10.337   CPU ray tracing (28442624 active): 5% complete
+2022.10.06 14:38:13.573   CPU ray tracing (28901376 active): 10% complete
+2022.10.06 14:38:15.853   CPU ray tracing (29425664 active): 16% complete
+2022.10.06 14:38:16.906   CPU ray tracing (30146560 active): 55% complete
+2022.10.06 14:38:17.347   Total Number of Rays shot: 31195136
+2022.10.06 14:38:17.348   Total Number of active rays shot: 28635118
+2022.10.06 14:38:17.348   Total Initial Rays shot: 663228
+2022.10.06 14:38:17.348   976709 unique paths found.
+
+2022.10.06 14:38:17.348   Calculating E-fields and generating output
+
+2022.10.06 14:38:17.907     ============ ATMOSPHERE ============
+2022.10.06 14:38:17.907     Frequency = 5.9e+09
+2022.10.06 14:38:17.907     Attenuation (db/km) = 0.00960705
+2022.10.06 14:38:18.945     Paths   Channels  Database   Output 
+2022.10.06 14:38:18.945     30.33% -  27.90% -  13.98% - 13.98% 
+2022.10.06 14:38:19.950     64.07% -  56.86%    25.39% - 25.39% 
+2022.10.06 14:38:20.969     97.74% -  95.50%    44.75% - 44.75% 
+2022.10.06 14:38:22.303    100.00% - 100.00%    82.56% - 82.56% 
+2022.10.06 14:38:22.303    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:38:59.896     Original interaction chains:        976709
+2022.10.06 14:38:59.896     Interaction chains eliminated:      917101
+2022.10.06 14:38:59.896     Physical paths generated:            59608
+2022.10.06 14:38:59.896     High power paths retained:           59608
+2022.10.06 14:38:59.896     Low power paths eliminated:              0
+
+
+2022.10.06 14:38:59.898 Starting X3D ray tracing for Tx set 2, point 53 (point 53 of 64 total)
+2022.10.06 14:39:00.315   Diffraction cone ray angle = 0.25
+2022.10.06 14:39:00.315   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:39:00.342   Ray tracing ranges: 
+2022.10.06 14:39:00.342     Minimum phi: 0
+2022.10.06 14:39:00.342     Maximum phi: 360
+2022.10.06 14:39:00.342     Minimum theta: 0
+2022.10.06 14:39:00.342     Maximum theta: 180
+2022.10.06 14:39:00.342   Model parameters: 
+2022.10.06 14:39:00.342     Reflections:         6
+2022.10.06 14:39:00.342     Transmissions:       0
+2022.10.06 14:39:00.342     Diffractions:        1
+2022.10.06 14:39:00.342     Ray spacing (degrees): 0.25
+
+2022.10.06 14:39:00.345   Advanced model parameters:
+2022.10.06 14:39:00.345     Maximum reflections before first diffraction: 3
+2022.10.06 14:39:00.345     Maximum reflections between two diffractions: 0
+2022.10.06 14:39:00.345     Maximum reflections after last diffraction: 3
+2022.10.06 14:39:17.308   CPU ray tracing (983040 active): 12% complete
+
+2022.10.06 14:39:17.417   Beginning next round of queued diffractions
+
+2022.10.06 14:44:25.454   CPU ray tracing (28901376 active): 5% complete
+2022.10.06 14:44:27.409   CPU ray tracing (29294592 active): 10% complete
+2022.10.06 14:44:28.733   CPU ray tracing (29687808 active): 15% complete
+2022.10.06 14:44:29.754   CPU ray tracing (30474240 active): 45% complete
+2022.10.06 14:44:30.139   Total Number of Rays shot: 31391744
+2022.10.06 14:44:30.139   Total Number of active rays shot: 28991118
+2022.10.06 14:44:30.139   Total Initial Rays shot: 663228
+2022.10.06 14:44:30.139   1017338 unique paths found.
+
+2022.10.06 14:44:30.139   Calculating E-fields and generating output
+
+2022.10.06 14:44:30.653     ============ ATMOSPHERE ============
+2022.10.06 14:44:30.653     Frequency = 5.9e+09
+2022.10.06 14:44:30.653     Attenuation (db/km) = 0.00960705
+2022.10.06 14:44:31.656     Paths   Channels  Database   Output 
+2022.10.06 14:44:31.656     32.48% -  29.24% -  10.22% - 10.22% 
+2022.10.06 14:44:32.663     61.64% -  54.00%    22.04% - 22.04% 
+2022.10.06 14:44:33.679     97.24% -  89.25%    34.96% - 34.96% 
+2022.10.06 14:44:35.086    100.00% - 100.00%    54.00% - 54.00% 
+2022.10.06 14:44:35.086    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:45:13.267     Original interaction chains:       1017338
+2022.10.06 14:45:13.267     Interaction chains eliminated:      955196
+2022.10.06 14:45:13.267     Physical paths generated:            62142
+2022.10.06 14:45:13.267     High power paths retained:           62142
+2022.10.06 14:45:13.267     Low power paths eliminated:              0
+
+
+2022.10.06 14:45:13.270 Starting X3D ray tracing for Tx set 2, point 54 (point 54 of 64 total)
+2022.10.06 14:45:13.719   Diffraction cone ray angle = 0.25
+2022.10.06 14:45:13.719   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:45:13.748   Ray tracing ranges: 
+2022.10.06 14:45:13.748     Minimum phi: 0
+2022.10.06 14:45:13.748     Maximum phi: 360
+2022.10.06 14:45:13.748     Minimum theta: 0
+2022.10.06 14:45:13.748     Maximum theta: 180
+2022.10.06 14:45:13.748   Model parameters: 
+2022.10.06 14:45:13.748     Reflections:         6
+2022.10.06 14:45:13.748     Transmissions:       0
+2022.10.06 14:45:13.748     Diffractions:        1
+2022.10.06 14:45:13.748     Ray spacing (degrees): 0.25
+
+2022.10.06 14:45:13.751   Advanced model parameters:
+2022.10.06 14:45:13.751     Maximum reflections before first diffraction: 3
+2022.10.06 14:45:13.751     Maximum reflections between two diffractions: 0
+2022.10.06 14:45:13.751     Maximum reflections after last diffraction: 3
+2022.10.06 14:45:28.093   CPU ray tracing (983040 active): 19% complete
+
+2022.10.06 14:45:28.207   Beginning next round of queued diffractions
+
+2022.10.06 14:50:03.545   CPU ray tracing (28311552 active): 5% complete
+2022.10.06 14:50:06.355   CPU ray tracing (28835840 active): 10% complete
+2022.10.06 14:50:07.383   CPU ray tracing (29753344 active): 70% complete
+2022.10.06 14:50:07.602   Total Number of Rays shot: 30408704
+2022.10.06 14:50:07.602   Total Number of active rays shot: 28284595
+2022.10.06 14:50:07.602   Total Initial Rays shot: 663228
+2022.10.06 14:50:07.602   1043150 unique paths found.
+
+2022.10.06 14:50:07.602   Calculating E-fields and generating output
+
+2022.10.06 14:50:08.120     ============ ATMOSPHERE ============
+2022.10.06 14:50:08.120     Frequency = 5.9e+09
+2022.10.06 14:50:08.120     Attenuation (db/km) = 0.00960705
+2022.10.06 14:50:09.140     Paths   Channels  Database   Output 
+2022.10.06 14:50:09.140     44.22% -  36.47% -   5.66% -  5.66% 
+2022.10.06 14:50:10.190     85.22%    75.17%    36.47% - 36.47% 
+2022.10.06 14:50:11.315    100.00% - 100.00%    36.47% - 36.47% 
+2022.10.06 14:50:12.113    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:50:48.346     Original interaction chains:       1043150
+2022.10.06 14:50:48.346     Interaction chains eliminated:      979962
+2022.10.06 14:50:48.346     Physical paths generated:            63188
+2022.10.06 14:50:48.346     High power paths retained:           63188
+2022.10.06 14:50:48.346     Low power paths eliminated:              0
+
+
+2022.10.06 14:50:48.349 Starting X3D ray tracing for Tx set 2, point 55 (point 55 of 64 total)
+2022.10.06 14:50:48.803   Diffraction cone ray angle = 0.25
+2022.10.06 14:50:48.803   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:50:48.845   Ray tracing ranges: 
+2022.10.06 14:50:48.845     Minimum phi: 0
+2022.10.06 14:50:48.845     Maximum phi: 360
+2022.10.06 14:50:48.845     Minimum theta: 0
+2022.10.06 14:50:48.845     Maximum theta: 180
+2022.10.06 14:50:48.845   Model parameters: 
+2022.10.06 14:50:48.845     Reflections:         6
+2022.10.06 14:50:48.845     Transmissions:       0
+2022.10.06 14:50:48.845     Diffractions:        1
+2022.10.06 14:50:48.845     Ray spacing (degrees): 0.25
+
+2022.10.06 14:50:48.849   Advanced model parameters:
+2022.10.06 14:50:48.849     Maximum reflections before first diffraction: 3
+2022.10.06 14:50:48.849     Maximum reflections between two diffractions: 0
+2022.10.06 14:50:48.849     Maximum reflections after last diffraction: 3
+2022.10.06 14:51:01.181   CPU ray tracing (983040 active): 10% complete
+
+2022.10.06 14:51:01.305   Beginning next round of queued diffractions
+
+2022.10.06 14:54:52.771   CPU ray tracing (26476544 active): 5% complete
+2022.10.06 14:54:54.644   CPU ray tracing (26869760 active): 10% complete
+2022.10.06 14:54:55.678   CPU ray tracing (27590656 active): 55% complete
+2022.10.06 14:54:55.982   Total Number of Rays shot: 28508160
+2022.10.06 14:54:55.982   Total Number of active rays shot: 26237580
+2022.10.06 14:54:55.982   Total Initial Rays shot: 663228
+2022.10.06 14:54:55.982   1032218 unique paths found.
+
+2022.10.06 14:54:55.983   Calculating E-fields and generating output
+
+2022.10.06 14:54:56.486     ============ ATMOSPHERE ============
+2022.10.06 14:54:56.486     Frequency = 5.9e+09
+2022.10.06 14:54:56.486     Attenuation (db/km) = 0.00960705
+2022.10.06 14:54:57.534     Paths   Channels  Database   Output 
+2022.10.06 14:54:57.534     41.58% -  39.59% -  19.33% - 19.33% 
+2022.10.06 14:54:58.556     79.90% -  69.40%    34.44% - 34.44% 
+2022.10.06 14:54:59.569    100.00% - 100.00%    34.44% - 34.44% 
+2022.10.06 14:55:00.449    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:55:35.662     Original interaction chains:       1032218
+2022.10.06 14:55:35.662     Interaction chains eliminated:      965892
+2022.10.06 14:55:35.662     Physical paths generated:            66326
+2022.10.06 14:55:35.662     High power paths retained:           66326
+2022.10.06 14:55:35.662     Low power paths eliminated:              0
+
+
+2022.10.06 14:55:35.665 Starting X3D ray tracing for Tx set 2, point 56 (point 56 of 64 total)
+2022.10.06 14:55:36.081   Diffraction cone ray angle = 0.25
+2022.10.06 14:55:36.081   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:55:36.108   Ray tracing ranges: 
+2022.10.06 14:55:36.108     Minimum phi: 0
+2022.10.06 14:55:36.108     Maximum phi: 360
+2022.10.06 14:55:36.108     Minimum theta: 0
+2022.10.06 14:55:36.108     Maximum theta: 180
+2022.10.06 14:55:36.108   Model parameters: 
+2022.10.06 14:55:36.108     Reflections:         6
+2022.10.06 14:55:36.109     Transmissions:       0
+2022.10.06 14:55:36.109     Diffractions:        1
+2022.10.06 14:55:36.109     Ray spacing (degrees): 0.25
+
+2022.10.06 14:55:36.111   Advanced model parameters:
+2022.10.06 14:55:36.111     Maximum reflections before first diffraction: 3
+2022.10.06 14:55:36.111     Maximum reflections between two diffractions: 0
+2022.10.06 14:55:36.111     Maximum reflections after last diffraction: 3
+2022.10.06 14:55:46.516   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 14:55:46.623   Beginning next round of queued diffractions
+
+2022.10.06 14:59:00.487   CPU ray tracing (23592960 active): 5% complete
+2022.10.06 14:59:02.152   CPU ray tracing (23986176 active): 10% complete
+2022.10.06 14:59:03.285   CPU ray tracing (24707072 active): 31% complete
+2022.10.06 14:59:03.853   Total Number of Rays shot: 25886720
+2022.10.06 14:59:03.853   Total Number of active rays shot: 23373723
+2022.10.06 14:59:03.853   Total Initial Rays shot: 663228
+2022.10.06 14:59:03.853   1007735 unique paths found.
+
+2022.10.06 14:59:03.853   Calculating E-fields and generating output
+
+2022.10.06 14:59:04.332     ============ ATMOSPHERE ============
+2022.10.06 14:59:04.332     Frequency = 5.9e+09
+2022.10.06 14:59:04.332     Attenuation (db/km) = 0.00960705
+2022.10.06 14:59:05.370     Paths   Channels  Database   Output 
+2022.10.06 14:59:05.370     49.06% -  38.30% -  16.43% - 16.43% 
+2022.10.06 14:59:06.387     98.04% -  88.03%    30.56% - 30.56% 
+2022.10.06 14:59:08.283    100.00% - 100.00%    63.15% - 63.15% 
+2022.10.06 14:59:08.283    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 14:59:44.795     Original interaction chains:       1007735
+2022.10.06 14:59:44.795     Interaction chains eliminated:      939490
+2022.10.06 14:59:44.795     Physical paths generated:            68245
+2022.10.06 14:59:44.795     High power paths retained:           68245
+2022.10.06 14:59:44.795     Low power paths eliminated:              0
+
+
+2022.10.06 14:59:44.797 Starting X3D ray tracing for Tx set 2, point 57 (point 57 of 64 total)
+2022.10.06 14:59:45.227   Diffraction cone ray angle = 0.25
+2022.10.06 14:59:45.227   Using CPU ray tracer (16 CPU threads)
+2022.10.06 14:59:45.254   Ray tracing ranges: 
+2022.10.06 14:59:45.254     Minimum phi: 0
+2022.10.06 14:59:45.254     Maximum phi: 360
+2022.10.06 14:59:45.254     Minimum theta: 0
+2022.10.06 14:59:45.254     Maximum theta: 180
+2022.10.06 14:59:45.254   Model parameters: 
+2022.10.06 14:59:45.254     Reflections:         6
+2022.10.06 14:59:45.254     Transmissions:       0
+2022.10.06 14:59:45.254     Diffractions:        1
+2022.10.06 14:59:45.254     Ray spacing (degrees): 0.25
+
+2022.10.06 14:59:45.257   Advanced model parameters:
+2022.10.06 14:59:45.257     Maximum reflections before first diffraction: 3
+2022.10.06 14:59:45.257     Maximum reflections between two diffractions: 0
+2022.10.06 14:59:45.257     Maximum reflections after last diffraction: 3
+2022.10.06 14:59:55.532   CPU ray tracing (917504 active): 7% complete
+
+2022.10.06 14:59:55.656   Beginning next round of queued diffractions
+
+2022.10.06 15:03:08.318   CPU ray tracing (22216704 active): 5% complete
+2022.10.06 15:03:09.760   CPU ray tracing (22740992 active): 15% complete
+2022.10.06 15:03:10.828   CPU ray tracing (23658496 active): 55% complete
+2022.10.06 15:03:11.086   Total Number of Rays shot: 24444928
+2022.10.06 15:03:11.086   Total Number of active rays shot: 21893697
+2022.10.06 15:03:11.086   Total Initial Rays shot: 663228
+2022.10.06 15:03:11.086   955515 unique paths found.
+
+2022.10.06 15:03:11.086   Calculating E-fields and generating output
+
+2022.10.06 15:03:11.565     ============ ATMOSPHERE ============
+2022.10.06 15:03:11.565     Frequency = 5.9e+09
+2022.10.06 15:03:11.565     Attenuation (db/km) = 0.00960705
+2022.10.06 15:03:12.591     Paths   Channels  Database   Output 
+2022.10.06 15:03:12.591     44.84% -  42.87% -  15.72% - 15.72% 
+2022.10.06 15:03:13.598     93.10% -  74.70%    30.56% - 30.56% 
+2022.10.06 15:03:15.413    100.00% - 100.00%    61.18% - 61.18% 
+2022.10.06 15:03:15.413    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:03:52.760     Original interaction chains:        955515
+2022.10.06 15:03:52.760     Interaction chains eliminated:      888248
+2022.10.06 15:03:52.760     Physical paths generated:            67267
+2022.10.06 15:03:52.760     High power paths retained:           67267
+2022.10.06 15:03:52.760     Low power paths eliminated:              0
+
+
+2022.10.06 15:03:52.763 Starting X3D ray tracing for Tx set 2, point 58 (point 58 of 64 total)
+2022.10.06 15:03:53.165   Diffraction cone ray angle = 0.25
+2022.10.06 15:03:53.166   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:03:53.215   Ray tracing ranges: 
+2022.10.06 15:03:53.215     Minimum phi: 0
+2022.10.06 15:03:53.216     Maximum phi: 360
+2022.10.06 15:03:53.216     Minimum theta: 0
+2022.10.06 15:03:53.216     Maximum theta: 180
+2022.10.06 15:03:53.216   Model parameters: 
+2022.10.06 15:03:53.216     Reflections:         6
+2022.10.06 15:03:53.216     Transmissions:       0
+2022.10.06 15:03:53.216     Diffractions:        1
+2022.10.06 15:03:53.216     Ray spacing (degrees): 0.25
+
+2022.10.06 15:03:53.218   Advanced model parameters:
+2022.10.06 15:03:53.218     Maximum reflections before first diffraction: 3
+2022.10.06 15:03:53.218     Maximum reflections between two diffractions: 0
+2022.10.06 15:03:53.218     Maximum reflections after last diffraction: 3
+2022.10.06 15:04:02.825   CPU ray tracing (983040 active): 10% complete
+
+2022.10.06 15:04:02.933   Beginning next round of queued diffractions
+
+2022.10.06 15:07:05.110   CPU ray tracing (23461888 active): 5% complete
+2022.10.06 15:07:07.414   CPU ray tracing (23986176 active): 10% complete
+2022.10.06 15:07:08.436   CPU ray tracing (25034752 active): 82% complete
+2022.10.06 15:07:08.591   Total Number of Rays shot: 25559040
+2022.10.06 15:07:08.591   Total Number of active rays shot: 23261210
+2022.10.06 15:07:08.591   Total Initial Rays shot: 663228
+2022.10.06 15:07:08.591   907148 unique paths found.
+
+2022.10.06 15:07:08.591   Calculating E-fields and generating output
+
+2022.10.06 15:07:09.045     ============ ATMOSPHERE ============
+2022.10.06 15:07:09.045     Frequency = 5.9e+09
+2022.10.06 15:07:09.045     Attenuation (db/km) = 0.00960705
+2022.10.06 15:07:10.052     Paths   Channels  Database   Output 
+2022.10.06 15:07:10.052     54.34% -  47.31% -  15.08% - 15.08% 
+2022.10.06 15:07:12.095    100.00% - 100.00%    34.52% - 34.52% 
+2022.10.06 15:07:12.637    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:07:52.837     Original interaction chains:        907148
+2022.10.06 15:07:52.837     Interaction chains eliminated:      843850
+2022.10.06 15:07:52.838     Physical paths generated:            63298
+2022.10.06 15:07:52.838     High power paths retained:           63298
+2022.10.06 15:07:52.838     Low power paths eliminated:              0
+
+
+2022.10.06 15:07:52.840 Starting X3D ray tracing for Tx set 2, point 59 (point 59 of 64 total)
+2022.10.06 15:07:53.250   Diffraction cone ray angle = 0.25
+2022.10.06 15:07:53.250   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:07:53.283   Ray tracing ranges: 
+2022.10.06 15:07:53.283     Minimum phi: 0
+2022.10.06 15:07:53.283     Maximum phi: 360
+2022.10.06 15:07:53.283     Minimum theta: 0
+2022.10.06 15:07:53.283     Maximum theta: 180
+2022.10.06 15:07:53.283   Model parameters: 
+2022.10.06 15:07:53.283     Reflections:         6
+2022.10.06 15:07:53.283     Transmissions:       0
+2022.10.06 15:07:53.283     Diffractions:        1
+2022.10.06 15:07:53.283     Ray spacing (degrees): 0.25
+
+2022.10.06 15:07:53.286   Advanced model parameters:
+2022.10.06 15:07:53.286     Maximum reflections before first diffraction: 3
+2022.10.06 15:07:53.286     Maximum reflections between two diffractions: 0
+2022.10.06 15:07:53.286     Maximum reflections after last diffraction: 3
+2022.10.06 15:08:05.937   CPU ray tracing (983040 active): 7% complete
+
+2022.10.06 15:08:06.032   Beginning next round of queued diffractions
+
+2022.10.06 15:12:13.479   CPU ray tracing (25362432 active): 5% complete
+2022.10.06 15:12:15.035   CPU ray tracing (25690112 active): 10% complete
+2022.10.06 15:12:16.327   CPU ray tracing (26214400 active): 21% complete
+2022.10.06 15:12:17.346   Total Number of Rays shot: 27656192
+2022.10.06 15:12:17.346   Total Number of active rays shot: 25256717
+2022.10.06 15:12:17.346   Total Initial Rays shot: 663228
+2022.10.06 15:12:17.346   948588 unique paths found.
+
+2022.10.06 15:12:17.346   Calculating E-fields and generating output
+
+2022.10.06 15:12:17.834     ============ ATMOSPHERE ============
+2022.10.06 15:12:17.834     Frequency = 5.9e+09
+2022.10.06 15:12:17.834     Attenuation (db/km) = 0.00960705
+2022.10.06 15:12:18.903     Paths   Channels  Database   Output 
+2022.10.06 15:12:18.903     48.67% -  44.45% -  14.28% - 14.28% 
+2022.10.06 15:12:19.908     97.24% -  89.13%    31.86% - 31.86% 
+2022.10.06 15:12:21.016    100.00% - 100.00%    31.86% - 31.86% 
+2022.10.06 15:12:21.646    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:13:04.578     Original interaction chains:        948588
+2022.10.06 15:13:04.578     Interaction chains eliminated:      885157
+2022.10.06 15:13:04.578     Physical paths generated:            63431
+2022.10.06 15:13:04.578     High power paths retained:           63431
+2022.10.06 15:13:04.578     Low power paths eliminated:              0
+
+
+2022.10.06 15:13:04.580 Starting X3D ray tracing for Tx set 2, point 60 (point 60 of 64 total)
+2022.10.06 15:13:05.076   Diffraction cone ray angle = 0.25
+2022.10.06 15:13:05.076   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:13:05.104   Ray tracing ranges: 
+2022.10.06 15:13:05.104     Minimum phi: 0
+2022.10.06 15:13:05.104     Maximum phi: 360
+2022.10.06 15:13:05.104     Minimum theta: 0
+2022.10.06 15:13:05.104     Maximum theta: 180
+2022.10.06 15:13:05.104   Model parameters: 
+2022.10.06 15:13:05.104     Reflections:         6
+2022.10.06 15:13:05.104     Transmissions:       0
+2022.10.06 15:13:05.104     Diffractions:        1
+2022.10.06 15:13:05.104     Ray spacing (degrees): 0.25
+
+2022.10.06 15:13:05.106   Advanced model parameters:
+2022.10.06 15:13:05.107     Maximum reflections before first diffraction: 3
+2022.10.06 15:13:05.107     Maximum reflections between two diffractions: 0
+2022.10.06 15:13:05.107     Maximum reflections after last diffraction: 3
+2022.10.06 15:13:19.357   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 15:13:19.508   Beginning next round of queued diffractions
+
+2022.10.06 15:17:26.297   CPU ray tracing (25886720 active): 5% complete
+2022.10.06 15:17:27.716   CPU ray tracing (26148864 active): 10% complete
+2022.10.06 15:17:29.204   CPU ray tracing (26607616 active): 16% complete
+2022.10.06 15:17:30.214   CPU ray tracing (27262976 active): 36% complete
+2022.10.06 15:17:30.613   Total Number of Rays shot: 28180480
+2022.10.06 15:17:30.613   Total Number of active rays shot: 25691633
+2022.10.06 15:17:30.613   Total Initial Rays shot: 663228
+2022.10.06 15:17:30.613   920577 unique paths found.
+
+2022.10.06 15:17:30.613   Calculating E-fields and generating output
+
+2022.10.06 15:17:31.157     ============ ATMOSPHERE ============
+2022.10.06 15:17:31.157     Frequency = 5.9e+09
+2022.10.06 15:17:31.157     Attenuation (db/km) = 0.00960705
+2022.10.06 15:17:32.205     Paths   Channels  Database   Output 
+2022.10.06 15:17:32.205     39.37% -  33.12% -  17.96% - 17.96% 
+2022.10.06 15:17:33.232     78.72% -  71.60%    33.12% - 33.12% 
+2022.10.06 15:17:34.729    100.00% - 100.00%    33.12% - 33.12% 
+2022.10.06 15:17:35.480    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:18:17.725     Original interaction chains:        920577
+2022.10.06 15:18:17.725     Interaction chains eliminated:      859250
+2022.10.06 15:18:17.725     Physical paths generated:            61327
+2022.10.06 15:18:17.725     High power paths retained:           61327
+2022.10.06 15:18:17.725     Low power paths eliminated:              0
+
+
+2022.10.06 15:18:17.727 Starting X3D ray tracing for Tx set 2, point 61 (point 61 of 64 total)
+2022.10.06 15:18:18.143   Diffraction cone ray angle = 0.25
+2022.10.06 15:18:18.143   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:18:18.170   Ray tracing ranges: 
+2022.10.06 15:18:18.170     Minimum phi: 0
+2022.10.06 15:18:18.170     Maximum phi: 360
+2022.10.06 15:18:18.170     Minimum theta: 0
+2022.10.06 15:18:18.170     Maximum theta: 180
+2022.10.06 15:18:18.170   Model parameters: 
+2022.10.06 15:18:18.170     Reflections:         6
+2022.10.06 15:18:18.170     Transmissions:       0
+2022.10.06 15:18:18.170     Diffractions:        1
+2022.10.06 15:18:18.170     Ray spacing (degrees): 0.25
+
+2022.10.06 15:18:18.173   Advanced model parameters:
+2022.10.06 15:18:18.173     Maximum reflections before first diffraction: 3
+2022.10.06 15:18:18.173     Maximum reflections between two diffractions: 0
+2022.10.06 15:18:18.173     Maximum reflections after last diffraction: 3
+2022.10.06 15:18:31.866   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 15:18:32.016   Beginning next round of queued diffractions
+
+2022.10.06 15:22:58.878   CPU ray tracing (25886720 active): 5% complete
+2022.10.06 15:23:01.721   CPU ray tracing (26411008 active): 10% complete
+2022.10.06 15:23:03.044   CPU ray tracing (26935296 active): 20% complete
+2022.10.06 15:23:03.847   Total Number of Rays shot: 28246016
+2022.10.06 15:23:03.847   Total Number of active rays shot: 25860342
+2022.10.06 15:23:03.847   Total Initial Rays shot: 663228
+2022.10.06 15:23:03.847   962016 unique paths found.
+
+2022.10.06 15:23:03.847   Calculating E-fields and generating output
+
+2022.10.06 15:23:04.330     ============ ATMOSPHERE ============
+2022.10.06 15:23:04.330     Frequency = 5.9e+09
+2022.10.06 15:23:04.330     Attenuation (db/km) = 0.00960705
+2022.10.06 15:23:05.359     Paths   Channels  Database   Output 
+2022.10.06 15:23:05.359     47.91% -  39.74% -  14.30% - 14.30% 
+2022.10.06 15:23:06.369     95.83%    83.88%    25.43% - 25.43% 
+2022.10.06 15:23:07.976    100.00% - 100.00%    48.95% - 48.95% 
+2022.10.06 15:23:07.976    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:23:48.009     Original interaction chains:        962016
+2022.10.06 15:23:48.009     Interaction chains eliminated:      898259
+2022.10.06 15:23:48.010     Physical paths generated:            63757
+2022.10.06 15:23:48.010     High power paths retained:           63757
+2022.10.06 15:23:48.010     Low power paths eliminated:              0
+
+
+2022.10.06 15:23:48.012 Starting X3D ray tracing for Tx set 2, point 62 (point 62 of 64 total)
+2022.10.06 15:23:48.411   Diffraction cone ray angle = 0.25
+2022.10.06 15:23:48.411   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:23:48.438   Ray tracing ranges: 
+2022.10.06 15:23:48.438     Minimum phi: 0
+2022.10.06 15:23:48.438     Maximum phi: 360
+2022.10.06 15:23:48.438     Minimum theta: 0
+2022.10.06 15:23:48.438     Maximum theta: 180
+2022.10.06 15:23:48.438   Model parameters: 
+2022.10.06 15:23:48.438     Reflections:         6
+2022.10.06 15:23:48.438     Transmissions:       0
+2022.10.06 15:23:48.438     Diffractions:        1
+2022.10.06 15:23:48.438     Ray spacing (degrees): 0.25
+
+2022.10.06 15:23:48.440   Advanced model parameters:
+2022.10.06 15:23:48.440     Maximum reflections before first diffraction: 3
+2022.10.06 15:23:48.440     Maximum reflections between two diffractions: 0
+2022.10.06 15:23:48.440     Maximum reflections after last diffraction: 3
+2022.10.06 15:23:58.868   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 15:23:59.002   Beginning next round of queued diffractions
+
+2022.10.06 15:27:15.902   CPU ray tracing (24838144 active): 5% complete
+2022.10.06 15:27:20.730   CPU ray tracing (25493504 active): 11% complete
+2022.10.06 15:27:21.862   CPU ray tracing (25952256 active): 21% complete
+2022.10.06 15:27:22.877   CPU ray tracing (26738688 active): 65% complete
+2022.10.06 15:27:23.040   Total Number of Rays shot: 27131904
+2022.10.06 15:27:23.040   Total Number of active rays shot: 24845416
+2022.10.06 15:27:23.040   Total Initial Rays shot: 663228
+2022.10.06 15:27:23.040   972157 unique paths found.
+
+2022.10.06 15:27:23.040   Calculating E-fields and generating output
+
+2022.10.06 15:27:23.596     ============ ATMOSPHERE ============
+2022.10.06 15:27:23.596     Frequency = 5.9e+09
+2022.10.06 15:27:23.596     Attenuation (db/km) = 0.00960705
+2022.10.06 15:27:24.621     Paths   Channels  Database   Output 
+2022.10.06 15:27:24.621     33.89% -  27.12% -   5.85% -  5.85% 
+2022.10.06 15:27:25.784     61.04% -  53.51%    16.74% - 16.74% 
+2022.10.06 15:27:26.816     84.77% -  75.78%    29.90% - 29.90% 
+2022.10.06 15:27:28.759    100.00% - 100.00%    59.81% - 59.81% 
+2022.10.06 15:27:28.760    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:28:15.015     Original interaction chains:        972157
+2022.10.06 15:28:15.015     Interaction chains eliminated:      908049
+2022.10.06 15:28:15.015     Physical paths generated:            64108
+2022.10.06 15:28:15.015     High power paths retained:           64108
+2022.10.06 15:28:15.015     Low power paths eliminated:              0
+
+
+2022.10.06 15:28:15.017 Starting X3D ray tracing for Tx set 2, point 63 (point 63 of 64 total)
+2022.10.06 15:28:15.453   Diffraction cone ray angle = 0.25
+2022.10.06 15:28:15.453   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:28:15.480   Ray tracing ranges: 
+2022.10.06 15:28:15.480     Minimum phi: 0
+2022.10.06 15:28:15.480     Maximum phi: 360
+2022.10.06 15:28:15.480     Minimum theta: 0
+2022.10.06 15:28:15.480     Maximum theta: 180
+2022.10.06 15:28:15.480   Model parameters: 
+2022.10.06 15:28:15.480     Reflections:         6
+2022.10.06 15:28:15.480     Transmissions:       0
+2022.10.06 15:28:15.480     Diffractions:        1
+2022.10.06 15:28:15.480     Ray spacing (degrees): 0.25
+
+2022.10.06 15:28:15.482   Advanced model parameters:
+2022.10.06 15:28:15.482     Maximum reflections before first diffraction: 3
+2022.10.06 15:28:15.482     Maximum reflections between two diffractions: 0
+2022.10.06 15:28:15.482     Maximum reflections after last diffraction: 3
+2022.10.06 15:28:29.422   CPU ray tracing (983040 active): 9% complete
+
+2022.10.06 15:28:29.554   Beginning next round of queued diffractions
+
+2022.10.06 15:33:00.672   CPU ray tracing (22544384 active): 5% complete
+2022.10.06 15:33:09.223   CPU ray tracing (23724032 active): 10% complete
+2022.10.06 15:33:10.392   CPU ray tracing (24117248 active): 15% complete
+2022.10.06 15:33:11.302   Total Number of Rays shot: 25165824
+2022.10.06 15:33:11.302   Total Number of active rays shot: 22955907
+2022.10.06 15:33:11.302   Total Initial Rays shot: 663228
+2022.10.06 15:33:11.302   968738 unique paths found.
+
+2022.10.06 15:33:11.302   Calculating E-fields and generating output
+
+2022.10.06 15:33:11.843     ============ ATMOSPHERE ============
+2022.10.06 15:33:11.843     Frequency = 5.9e+09
+2022.10.06 15:33:11.843     Attenuation (db/km) = 0.00960705
+2022.10.06 15:33:12.894     Paths   Channels  Database   Output 
+2022.10.06 15:33:12.895     40.82% -  29.46% -   6.17% -  6.17% 
+2022.10.06 15:33:13.925     81.64% -  74.34%    16.94% - 16.94% 
+2022.10.06 15:33:15.881    100.00% - 100.00%    35.08% - 35.08% 
+2022.10.06 15:33:16.431    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:34:01.165     Original interaction chains:        968738
+2022.10.06 15:34:01.165     Interaction chains eliminated:      902834
+2022.10.06 15:34:01.165     Physical paths generated:            65904
+2022.10.06 15:34:01.165     High power paths retained:           65904
+2022.10.06 15:34:01.165     Low power paths eliminated:              0
+
+
+2022.10.06 15:34:01.167 Starting X3D ray tracing for Tx set 2, point 64 (point 64 of 64 total)
+2022.10.06 15:34:01.607   Diffraction cone ray angle = 0.25
+2022.10.06 15:34:01.607   Using CPU ray tracer (16 CPU threads)
+2022.10.06 15:34:01.633   Ray tracing ranges: 
+2022.10.06 15:34:01.634     Minimum phi: 0
+2022.10.06 15:34:01.634     Maximum phi: 360
+2022.10.06 15:34:01.634     Minimum theta: 0
+2022.10.06 15:34:01.634     Maximum theta: 180
+2022.10.06 15:34:01.634   Model parameters: 
+2022.10.06 15:34:01.634     Reflections:         6
+2022.10.06 15:34:01.634     Transmissions:       0
+2022.10.06 15:34:01.634     Diffractions:        1
+2022.10.06 15:34:01.634     Ray spacing (degrees): 0.25
+
+2022.10.06 15:34:01.636   Advanced model parameters:
+2022.10.06 15:34:01.636     Maximum reflections before first diffraction: 3
+2022.10.06 15:34:01.636     Maximum reflections between two diffractions: 0
+2022.10.06 15:34:01.636     Maximum reflections after last diffraction: 3
+2022.10.06 15:34:13.836   CPU ray tracing (983040 active): 8% complete
+
+2022.10.06 15:34:13.922   Beginning next round of queued diffractions
+
+2022.10.06 15:38:15.176   CPU ray tracing (21364736 active): 5% complete
+2022.10.06 15:38:19.424   CPU ray tracing (22085632 active): 10% complete
+2022.10.06 15:38:20.438   CPU ray tracing (22347776 active): 16% complete
+2022.10.06 15:38:21.482   Total Number of Rays shot: 23855104
+2022.10.06 15:38:21.482   Total Number of active rays shot: 21291271
+2022.10.06 15:38:21.482   Total Initial Rays shot: 663228
+2022.10.06 15:38:21.482   1004189 unique paths found.
+
+2022.10.06 15:38:21.482   Calculating E-fields and generating output
+
+2022.10.06 15:38:22.069     ============ ATMOSPHERE ============
+2022.10.06 15:38:22.069     Frequency = 5.9e+09
+2022.10.06 15:38:22.069     Attenuation (db/km) = 0.00960705
+2022.10.06 15:38:23.106     Paths   Channels  Database   Output 
+2022.10.06 15:38:23.106     36.12% -  31.34% -  14.35% - 14.35% 
+2022.10.06 15:38:24.126     72.21% -  61.20%    26.14% - 26.14% 
+2022.10.06 15:38:25.470    100.00% - 100.00%    26.14% - 26.14% 
+2022.10.06 15:38:26.890    100.00% - 100.00%    49.85% - 49.85% 
+2022.10.06 15:38:26.890    100.00% - 100.00% - 100.00% -100.00% 
+2022.10.06 15:39:14.316     Original interaction chains:       1004189
+2022.10.06 15:39:14.316     Interaction chains eliminated:      934524
+2022.10.06 15:39:14.316     Physical paths generated:            69665
+2022.10.06 15:39:14.316     High power paths retained:           69665
+2022.10.06 15:39:14.316     Low power paths eliminated:              0
+
+2022.10.06 15:39:14.411 Output file location: C:\Users\Administrator\Desktop\Project_WQ\P4\A210/
+2022.10.06 15:39:14.411 Output prefix: T4
+
+2022.10.06 15:39:14.912 Thu Oct 6 15:39:14 2022
+
+2022.10.06 15:39:14.913 Writing P2M output files
+2022.10.06 15:40:21.331 Finished writing P2M output files
+
+2022.10.06 15:40:21.331 Geometry Processing Time: : 00:00:01.853
+2022.10.06 15:40:21.331 TxRx Set Generation Time: : 00:00:00.013
+2022.10.06 15:40:21.331 Path Discovery Time: : 04:42:04.238
+2022.10.06 15:40:21.331 Path Generation Time: : 00:28:30.549
+2022.10.06 15:40:21.331 Writing P2M Output Time: : 00:01:06.418
+
+2022.10.06 15:40:21.331 Total Runtime: : 05:12:15.770

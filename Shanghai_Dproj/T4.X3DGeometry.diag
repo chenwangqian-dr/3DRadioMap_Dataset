@@ -1,0 +1,34 @@
+
+
+wibatch version 3.3.5.3 - r68292
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2022.09.10 17:02:46.683 Hostname: wiselab-4
+2022.09.10 17:02:46.684 Set working directory: C:/Users/Administrator/Desktop/Project_WQ/P4
+2022.09.10 17:02:46.687 Sat Sep 10 17:02:46 2022
+
+2022.09.10 17:02:46.687 Creating geolocated X3D geometry cache (16 threads): ./T4.X3DGeometry.cache
+2022.09.10 17:02:46.707 Loaded geometry: ./Shai1(2)(2).city
+2022.09.10 17:02:46.717 Loaded geometry: ./Shai2(2)(2).city
+2022.09.10 17:02:46.718 Loaded geometry: ./newTerrain.ter
+2022.09.10 17:02:46.725   Lowering structures to terrain
+2022.09.10 17:02:46.726     Done lowering structures to terrain
+2022.09.10 17:02:46.758   Creating candidate facets for edge creation
+2022.09.10 17:02:46.787     Done creating candidate facets for edge creation
+2022.09.10 17:02:46.789   Creating scene edges
+2022.09.10 17:02:46.804     Done creating scene edges
+2022.09.10 17:02:46.812   Finishing scene edges
+2022.09.10 17:02:46.818     Done finishing scene edges
+2022.09.10 17:02:46.839 Writing 1762 triangles to cache file
+2022.09.10 17:02:46.843 Writing edgeset (1261 edges) to cache
+2022.09.10 17:02:46.849 Writing property list (1 properties) to cache
+2022.09.10 17:02:46.849   Property: 0, name=po_object_type, 1762 entries
+2022.09.10 17:02:46.852 Successfully generated geometry cache; exiting.
+
+2022.09.10 17:02:46.853 Sat Sep 10 17:02:46 2022
+
+
+
+2022.09.10 17:02:46.853 Total Runtime: : 00:00:00.165

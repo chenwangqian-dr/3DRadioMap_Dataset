@@ -1,0 +1,92 @@
+<!DOCTYPE InSite>
+<InSite version="3.3.5.3" revision="68292" shared="false" location="branches" host="JW7-59" date="Fri Oct 16 2020">
+  <remcom::rxapi::CreateX3DGeometryCache>
+    <CPUThreads>
+      <remcom::rxapi::Integer Value="16"/>
+    </CPUThreads>
+    <CacheFilename>
+      <remcom::rxapi::FileDescription>
+        <Filename>
+          <remcom::rxapi::String Value="./T4.X3DGeometry.cache"/>
+        </Filename>
+        <FilenameChecksum>
+          <remcom::rxapi::String/>
+        </FilenameChecksum>
+      </remcom::rxapi::FileDescription>
+    </CacheFilename>
+    <GeometryList>
+      <remcom::rxapi::GeometryList>
+        <Geometry>
+          <remcom::rxapi::City>
+            <GeometrySource>
+              <remcom::rxapi::WirelessInSiteGeometry>
+                <Filename>
+                  <remcom::rxapi::FileDescription>
+                    <Filename>
+                      <remcom::rxapi::String Value="./Shai1(2)(2).city"/>
+                    </Filename>
+                    <FilenameChecksum>
+                      <remcom::rxapi::String/>
+                    </FilenameChecksum>
+                  </remcom::rxapi::FileDescription>
+                </Filename>
+              </remcom::rxapi::WirelessInSiteGeometry>
+            </GeometrySource>
+          </remcom::rxapi::City>
+        </Geometry>
+        <Geometry>
+          <remcom::rxapi::City>
+            <GeometrySource>
+              <remcom::rxapi::WirelessInSiteGeometry>
+                <Filename>
+                  <remcom::rxapi::FileDescription>
+                    <Filename>
+                      <remcom::rxapi::String Value="./Shai2(2)(2).city"/>
+                    </Filename>
+                    <FilenameChecksum>
+                      <remcom::rxapi::String/>
+                    </FilenameChecksum>
+                  </remcom::rxapi::FileDescription>
+                </Filename>
+              </remcom::rxapi::WirelessInSiteGeometry>
+            </GeometrySource>
+          </remcom::rxapi::City>
+        </Geometry>
+        <Geometry>
+          <remcom::rxapi::Terrain>
+            <GeometrySource>
+              <remcom::rxapi::WirelessInSiteGeometry>
+                <Filename>
+                  <remcom::rxapi::FileDescription>
+                    <Filename>
+                      <remcom::rxapi::String Value="./newTerrain.ter"/>
+                    </Filename>
+                    <FilenameChecksum>
+                      <remcom::rxapi::String/>
+                    </FilenameChecksum>
+                  </remcom::rxapi::FileDescription>
+                </Filename>
+              </remcom::rxapi::WirelessInSiteGeometry>
+            </GeometrySource>
+          </remcom::rxapi::Terrain>
+        </Geometry>
+      </remcom::rxapi::GeometryList>
+    </GeometryList>
+    <IncludeTerrainEdges>
+      <remcom::rxapi::Boolean Value="false"/>
+    </IncludeTerrainEdges>
+    <Origin>
+      <remcom::rxapi::GeographicPoint>
+        <Altitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Altitude>
+        <Latitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Latitude>
+        <Longitude>
+          <remcom::rxapi::Double Value="0"/>
+        </Longitude>
+      </remcom::rxapi::GeographicPoint>
+    </Origin>
+  </remcom::rxapi::CreateX3DGeometryCache>
+</InSite>

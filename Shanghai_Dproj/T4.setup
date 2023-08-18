@@ -1,0 +1,1809 @@
+Format type:keyword version: 1.1.0
+begin_<project> Untitled Project
+project_id 29193
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableFeatureNumber 4
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 26
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+filename ./T4.X3DGeometry.cache
+valid true
+end_<cache>
+end_<caches>
+begin_<studyarea> AG
+StudyAreaNumber 6
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> AH
+StudyAreaNumber 7
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A70
+StudyAreaNumber 8
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A400
+StudyAreaNumber 9
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A90
+StudyAreaNumber 10
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A100
+StudyAreaNumber 11
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A601
+StudyAreaNumber 13
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A602
+StudyAreaNumber 14
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A603
+StudyAreaNumber 15
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A230
+StudyAreaNumber 16
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A260
+StudyAreaNumber 17
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A120
+StudyAreaNumber 18
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A130
+StudyAreaNumber 20
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A150
+StudyAreaNumber 21
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A160
+StudyAreaNumber 22
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A180
+StudyAreaNumber 23
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A190
+StudyAreaNumber 24
+inactive
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<studyarea> A210
+StudyAreaNumber 25
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 16
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+plane_wave_phase_reference automatic
+-44.371 0 24
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss no
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.75
+zmax 230.25
+nVertices 4
+-500.249969482422 -500.25 0
+411.507934570313 -500.25 0
+411.507934570313 500.25 0
+-500.249969482422 500.25 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 1
+city
+active
+filename ./Shai1(2)(2).city
+end_<feature>
+begin_<feature> 
+feature 2
+city
+active
+filename ./Shai2(2)(2).city
+end_<feature>
+begin_<feature> 
+feature 3
+terrain
+active
+filename ./newTerrain.ter
+end_<feature>
+begin_<txrx_sets> 
+filename ./T4.txrx
+FirstAvailableTxRxNumber 3
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 0
+begin_<antenna> Isotropic
+antenna 0
+type isotropic
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+end_<antenna>
+begin_<Waveform> Sinusoid
+Sinusoid
+waveform 0
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 5900000000.000
+phase 0.000
+bandwidth 10000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF no
+ComplexImpulseResponse no
+DelaySpread no
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power no
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+TerrainProfile no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+end_<Scales>
+end_<project>
