@@ -40,7 +40,7 @@ This dataset has a variety of applications, including:
 
 **Network Planning and Optimization**: Radio maps are employed to model the propagation of radio waves through different environments. By understanding areas with weak signal coverage or interference, engineers can optimize the placement of base stations, repeaters, and access points to enhance coverage, capacity, and quality of service.
 
-**UAV Relay Placement**： Analyzing the channel information allows for identifying optimal paths and relay points for UAV mobility. This is crucial for optimizing communication efficiency and reducing energy consumption, especially in dynamic and complex environments.
+**UAV Relay Placement**：Analyzing the channel information allows for identifying optimal paths and relay points for UAV mobility. This is crucial for optimizing communication efficiency and reducing energy consumption, especially in dynamic and complex environments.
 
 
 ## Reference
