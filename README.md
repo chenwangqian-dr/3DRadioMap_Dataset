@@ -22,7 +22,7 @@ The city map of an urban area of Nanjing Road in Shanghai and the corresponding 
 
 For a typical fixed TX-RX position pair, a RT result is presented to demonstrate multiple reflections and diffractions. The RT result shows the signal paths between the TX and RX, including several reflections off walls and diffractions around corners.
 
-<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/Multipath.jpg" width="400px" height="300">
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/Multipath.jpg" width="700px" height="400">
 
 ## Several slices of the generated radio map.
 
