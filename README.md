@@ -18,9 +18,9 @@ The city map of an urban area of Nanjing Road in Shanghai and the corresponding 
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/CityMap.jpg" width="350px" height="350"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/3DMap.jpg" width="350px" height="350">
 
-## An example of the RT result
+## A visual example of the RT result
 
-For a typical fixed TX-RX position pair, a RT result is presented to demonstrate multiple reflections and diffractions. The RT result illustrates the complex signal propagation paths between the TX and RX, including several reflections off walls and diffractions around corners.
+For a typical fixed TX-RX position pair, a visual RT result is presented to demonstrate multiple reflections and diffractions. The RT result illustrates the complex signal propagation paths between the TX and RX, including several reflections off walls and diffractions around corners.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/Multipath.jpg" width="700px" height="400">
 
