@@ -16,6 +16,8 @@ This dataset is generated using a commercial ray tracing (RT) software, _Remcom 
 
 The city map of an urban area of Nanjing Road in Shanghai and the corresponding 3D terrain of the city map in the Simulation.
 
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/CityMap.jpg" width="500px">
+
 ![The terrain map of an urban area of Nanjing Road in Shanghai.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/CityMap.jpg)
 ![The 3D terrain of the city map.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/3DMap.jpg)
 
