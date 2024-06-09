@@ -10,23 +10,23 @@ This dataset is generated using a commercial ray tracing (RT) software, _Remcom 
 
 **radiomap_processed**: The processed channel path loss data is saved in MAT format, following the same filename conventions as the original data. The storage format is (RX_coordinates, TX_coordinates, Distance, Path loss, null).
 
-**radiomap_shanghai100tx_2.5GHz.mat; radiomap_shanghai115tx_28GHz.mat**：This two datasets are simulated at 2.5GHz and 28GHz, respectively.
+**radiomap_shanghai100tx_2.5GHz.mat; radiomap_shanghai115tx_28GHz.mat**: This two datasets are simulated at 2.5GHz and 28GHz, respectively.
 
 ## City Map and 3D terrain
 
-The city map of an urban area of Nanjing Road in Shanghai and the corresponding 3D terrain of the city map in the Simulation.
+The city map of an urban area of Nanjing Road in Shanghai and the corresponding 3D terrain of the city map in the simulation.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/CityMap.jpg" width="350px" height="350"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/3DMap.jpg" width="350px" height="350">
 
-## An example of RT result
+## An example of the RT result
 
 For a typical fixed TX-RX position pair, a RT result is presented to demonstrate multiple reflections and diffractions. The RT result shows the signal paths between the TX and RX, including several reflections off walls and diffractions around corners.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/Multipath.jpg" width="700px" height="400">
 
-## Several slices of the generated radio map.
+## Several slices of the generated radio maps.
 
-2D slices of the path loss radio maps.
+2D slices of the simulated path loss radio maps.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
 
