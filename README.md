@@ -28,7 +28,7 @@ For a typical fixed TX-RX position pair, a RT result is presented to demonstrate
 
 A 2D slice of the path loss radio map for a fixed TX position.
 
-![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png) ![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png)
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
 
 ## Reference
 
