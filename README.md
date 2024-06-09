@@ -1,7 +1,7 @@
 # 3DRadioMap_Dataset
 ## A 3D air-to-ground radio map dataset
 
-This dataset is generated using a commercial ray tracing (RT) software, _Remcom Wireless Insite_ (WI), with a maximum of 6 reflections and 3 diffractions. Simulation environment is based on an urban area of Nanjing Road in Shanghai, China. The region of interest is a square area of side 650 meters and the aerial transmitters (TXs) are randomly distributed with altitudes ranging from 50 to 200 meters. The heights of the ground receivers (RXs) are fixed at 2 meters. The waveform is chosen as sinusoidal signal at 5.9 GHz with 10MHz bandwidth and there is 3 dB noise to the receivers.
+This dataset is generated using a commercial ray tracing (RT) software, _Remcom Wireless Insite_ (WI), with a maximum of 6 reflections and 3 diffractions. Simulation environment is based on an urban area of Nanjing Road in Shanghai, China. The region of interest is a square area of side 650 meters and the aerial transmitters (TXs) are randomly distributed with altitudes ranging from 50 to 200 meters. The heights of the ground receivers (RXs) are fixed at 2 meters. An isotropic antenna is utilized in the simulation. The waveform is chosen as sinusoidal signal at 5.9 GHz with 10MHz bandwidth and there is 3 dB noise to the receivers.
 
 ## Document：
 **Shanghai_Dproj**: The simulation project of WI.
@@ -14,13 +14,13 @@ This dataset is generated using a commercial ray tracing (RT) software, _Remcom 
 
 ## City Map and 3D terrain
 
-The city map of an urban area of Nanjing Road in Shanghai and the corresponding 3D terrain of the city map in the simulation.
+The city map of an urban area of Nanjing Road in Shanghai and the corresponding 3D terrain of the city map in simulation.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/CityMap.jpg" width="350px" height="350"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/3DMap.jpg" width="350px" height="350">
 
 ## An example of the RT result
 
-For a typical fixed TX-RX position pair, a RT result is presented to demonstrate multiple reflections and diffractions. The RT result shows the signal paths between the TX and RX, including several reflections off walls and diffractions around corners.
+For a typical fixed TX-RX position pair, a RT result is presented to demonstrate multiple reflections and diffractions. The RT result illustrates the complex signal propagation paths between the TX and RX, including several reflections off walls and diffractions around corners.
 
 <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/Multipath.jpg" width="700px" height="400">
 
