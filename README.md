@@ -34,11 +34,13 @@ For a typical fixed TX-RX position pair, a visual RT result is presented to demo
 
 This dataset has a variety of applications, including:
 
-**Radio map construction**: This dataset contains abundant spatial communication link information which can be used to evaluate the performances of radio map construction algorithms.
+**Radio Map Construction**: This dataset contains abundant spatial communication links which can be used to evaluate the performances of radio map construction algorithms.
 
 **Positioning and Navigation**: This dataset provide detailed signal strength patterns from various access points. It can help in triangulating the position of devices or users, offering turn-by-turn navigation similar to GPS.
 
 **Network Planning and Optimization**: Radio maps are employed to model the propagation of radio waves through different environments. By understanding areas with weak signal coverage or interference, engineers can optimize the placement of base stations, repeaters, and access points to enhance coverage, capacity, and quality of service.
+
+**UAV Relay Placement**： Analyzing the channel information allows for identifying optimal paths and relay points for UAV mobility. This is crucial for optimizing communication efficiency and reducing energy consumption, especially in dynamic and complex environments.
 
 
 ## Reference
