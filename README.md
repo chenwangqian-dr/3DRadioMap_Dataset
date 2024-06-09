@@ -29,14 +29,15 @@ For a typical fixed TX-RX position pair, a RT result is presented to demonstrate
 
 A 2D slice of the path loss radio map for a fixed TX position.
 
-![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png)
-![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png)
+![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png) ![The path loss map for a fixed TX position.](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png)
 
 ## Reference
 
 For the 3D air-to-ground radio map dataset, please cite the following papers：
 
 W. Chen, and J. Chen, “Diffraction and Scattering Aware Radio Map and Environment Reconstruction using Geometry Model-Assisted Deep Learning”, arXiv:2403.00229, 2024.
+
 W. Chen, and J. Chen, "Blockage-aware Radio Map Construction via Exploiting the Diffraction and Obstruction Structure", in Proc. IEEE Glob. Commun. Conf. (GLOBECOM), 2023, pp. 1920-1925.
+
 W. Liu and J. Chen, “UAV-aided radio map construction exploiting environment semantics”, IEEE Trans. on Wireless Commun., vol. 22, no. 9, pp. 6341–6355, 2023.
 
