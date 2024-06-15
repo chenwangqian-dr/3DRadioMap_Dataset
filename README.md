@@ -32,7 +32,7 @@ For a typical fixed TX-RX position pair, a visual RT result is presented to demo
 
 2D slices of the aerial path loss radio maps for a fixed RX.
 
-<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap4.png" width="400px" height="300"> <img src="[https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap5.png)" width="400px" height="300">
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap4.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap5.png" width="400px" height="300">
 
 ## Application of the dataset
 
