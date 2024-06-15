@@ -28,7 +28,7 @@ For a typical fixed TX-RX position pair, a visual RT result is presented to demo
 
 2D slices of the ground path loss radio maps. (by radiomap_processed.A50.mat)
 
-<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap6.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
 
 2D slices of the aerial path loss radio maps. (by radiomap_shanghai115tx_28GHz.mat)
 
