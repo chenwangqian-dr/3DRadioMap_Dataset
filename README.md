@@ -1,7 +1,7 @@
 # 3DRadioMap_Dataset
 ## A 3D air-to-ground radio map dataset
 
-This dataset is generated using a commercial ray tracing (RT) software, _Remcom Wireless Insite_ (WI), with a maximum of 6 reflections and 3 diffractions. Simulation environment is based on an urban area of Nanjing Road in Shanghai, China. The region of interest is a square area of side 650 meters and the aerial transmitters (TXs) are randomly distributed with altitudes ranging from 50 to 200 meters. The heights of the ground receivers (RXs) are fixed at 2 meters. An isotropic antenna is utilized in the simulation. The waveform is chosen as sinusoidal signal at 5.9 GHz with 10MHz bandwidth and there is 3 dB noise to the receivers.
+This dataset is generated using a commercial ray tracing (RT) software, _Remcom Wireless Insite_ (WI), with a maximum of 6 reflections and 3 diffractions. Simulation environment is based on an urban area of Nanjing Road in Shanghai, China. The region of interest is a square area of side 650 meters and the aerial transmitters (TXs) are uniformly distributed with altitudes ranging from 50 to 200 meters. The heights of the ground receivers (RXs) are fixed at 2 meters. An isotropic antenna is utilized in the simulation. The waveform is chosen as sinusoidal signal at 5.9 GHz with 10MHz bandwidth and there is 3 dB noise to the receivers.
 
 ## Document：
 **Shanghai_Dproj**: The simulation project of WI.
@@ -26,9 +26,13 @@ For a typical fixed TX-RX position pair, a visual RT result is presented to demo
 
 ## Several slices of the generated radio maps.
 
-2D slices of the simulated path loss radio maps.
+2D slices of the ground path loss radio maps for a fixed TX.
 
-<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap1.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap6.png" width="400px" height="300"> <img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png" width="400px" height="300">
+
+2D slices of the aerial path loss radio maps for a fixed RX.
+
+<img src="https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap4.png" width="400px" height="300"> <img src="[https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap2.png](https://github.com/chenwangqian-dr/3DRadioMap_Dataset/blob/main/figures/RadioMap5.png)" width="400px" height="300">
 
 ## Application of the dataset
 
